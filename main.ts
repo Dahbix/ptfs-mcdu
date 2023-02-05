@@ -1271,20 +1271,20 @@ game.setDialogFrame(img`
     `)
 game.setDialogCursor(img`
     f f f f f f f f f f f f f f f f 
-    f 5 5 f f f f f f f f f f f f f 
-    f 5 f 5 5 f f f f f f f f f f f 
-    f 5 f f f 5 5 f f f f f f f f f 
-    f 5 f f f f f 5 5 f f f f f f f 
-    f 5 f f f f f f f 5 5 f f f f f 
-    f 5 f f f f f f f f f 5 5 f f f 
-    f 5 f f f f f f f f f f f 5 f f 
-    f 5 f f f f f f f f f f f 5 f f 
-    f 5 f f f f f f f f f 5 5 f f f 
-    f 5 f f f f f f f 5 5 f f f f f 
-    f 5 f f f f f 5 5 f f f f f f f 
-    f 5 f f f 5 5 f f f f f f f f f 
-    f 5 f 5 5 f f f f f f f f f f f 
-    f 5 5 f f f f f f f f f f f f f 
+    f f f f f f f f f f f f f f f f 
+    f f f f f f f f f f f f f f f f 
+    f f f f f f f f f f f f f f f f 
+    f f f f f f 7 f f f f f f f f f 
+    f f f f f f 7 7 f f f f f f f f 
+    f f f f f f 7 f 7 f f f f f f f 
+    f f f f f f 7 f f 7 f f f f f f 
+    f f f f f f 7 f f 7 f f f f f f 
+    f f f f f f 7 f 7 f f f f f f f 
+    f f f f f f 7 7 f f f f f f f f 
+    f f f f f f 7 f f f f f f f f f 
+    f f f f f f f f f f f f f f f f 
+    f f f f f f f f f f f f f f f f 
+    f f f f f f f f f f f f f f f f 
     f f f f f f f f f f f f f f f f 
     `)
 menu1 = [
