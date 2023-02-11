@@ -1,48 +1,3 @@
-/**
- * 01
- * 
- * 19
- * 
- * 11
- * 
- * 29
- * 
- * 13
- * 
- * 31
- * 
- * 20
- * 
- * 02
- * 
- * 07
- * 
- * 25
- * 
- * 06
- * 
- * 24
- * 
- * 17
- * 
- * 35
- * 
- * 10
- * 
- * 28
- * 
- * 08
- * 
- * 26
- * 
- * 09
- * 
- * 27
- * 
- * 15
- * 
- * 33
- */
 controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
     blockMenu.setControlsEnabled(true)
     scene.setBackgroundImage(img`
@@ -713,6 +668,51 @@ controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
         canresettimer = false
     }
 })
+/**
+ * 01
+ * 
+ * 19
+ * 
+ * 11
+ * 
+ * 29
+ * 
+ * 13
+ * 
+ * 31
+ * 
+ * 20
+ * 
+ * 02
+ * 
+ * 07
+ * 
+ * 25
+ * 
+ * 06
+ * 
+ * 24
+ * 
+ * 17
+ * 
+ * 35
+ * 
+ * 10
+ * 
+ * 28
+ * 
+ * 08
+ * 
+ * 26
+ * 
+ * 09
+ * 
+ * 27
+ * 
+ * 15
+ * 
+ * 33
+ */
 blockMenu.onMenuOptionSelected(function (option, index) {
     if (!(ACooldown)) {
         if (option == "Current Aircraft") {
@@ -1227,8 +1227,10 @@ blockMenu.onMenuOptionSelected(function (option, index) {
             heading = game.askForNumber("Set Heading", 3)
         } else if (option == "Change Departure") {
             start = game.askForString("Set Departure Airport", 4)
+            RWstuff(false)
         } else if (option == "Change Arrival") {
             end = game.askForString("Set Arrival Airport", 4)
+            RWstuff(false)
         } else if (option == "Change Settings") {
             blockMenu.showMenu(changeSettings, MenuStyle.List, MenuLocation.FullScreen)
         } else if (option == "Back ") {
