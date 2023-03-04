@@ -723,7 +723,7 @@ blockMenu.onMenuOptionSelected(function (option, index) {
             "Airliners",
             "Cargo",
             "Helicopters",
-            "Light Aircraft",
+            "Light Aircraft ",
             "Modern Military",
             "Old Military",
             "Miscellaneous",
@@ -734,7 +734,7 @@ blockMenu.onMenuOptionSelected(function (option, index) {
             "Airliners",
             "Cargo",
             "Helicopters",
-            "Light Aircraft",
+            "Light Aircraft ",
             "Modern Military",
             "Old Military",
             "Miscellaneous",
@@ -770,7 +770,7 @@ blockMenu.onMenuOptionSelected(function (option, index) {
             ], MenuStyle.List, MenuLocation.FullScreen)
         } else if (option == "Helicopters") {
             game.splash("MCDU not available")
-        } else if (option == "Light Aircraft") {
+        } else if (option == "Light Aircraft ") {
             blockMenu.showMenu([
             "Cessna",
             "De Havilland",
@@ -995,6 +995,7 @@ blockMenu.onMenuOptionSelected(function (option, index) {
                 canresettimer = true
             })
         } else if (option == "Set Flight Path") {
+            blockMenu.setSelectedOption("NaN(None)")
             start = game.askForString("Set Departure Airport", 4)
             end = game.askForString("Set Arrival Airport", 4)
             heading = game.askForNumber("Set Heading", 3)
@@ -1085,6 +1086,8 @@ blockMenu.onMenuOptionSelected(function (option, index) {
             "ITKO to ILAR (rev)",
             "IRFD to IPPH",
             "IPPH to IRFD (rev)",
+            "ITKO to IPPH",
+            "IPPH to ITKO (rev)",
             "Back "
             ], MenuStyle.List, MenuLocation.FullScreen)
         } else if (option == "Light Aircraft") {
@@ -1097,10 +1100,7 @@ blockMenu.onMenuOptionSelected(function (option, index) {
             "IHEN to IJAF (rev)",
             "IHEN to IMLR ",
             "IMLR to IHEN (rev)",
-            "IMLR to IBTH",
-            "IBTH to IMLR (rev)",
-            "IBTH to IDCS",
-            "IDCS to IBTH (rev)",
+            "More",
             "Back "
             ], MenuStyle.List, MenuLocation.FullScreen)
         } else if (option == "IDCS to ILKL") {
@@ -1235,6 +1235,26 @@ blockMenu.onMenuOptionSelected(function (option, index) {
             blockMenu.showMenu(changeSettings, MenuStyle.List, MenuLocation.FullScreen)
         } else if (option == "Back ") {
             blockMenu.showMenu(flightpathmenu, MenuStyle.List, MenuLocation.FullScreen)
+        } else if (option == "More") {
+            blockMenu.showMenu([
+            "IMLR to IBTH",
+            "IBTH to IMLR (rev)",
+            "IBTH to IDCS",
+            "IDCS to IBTH (rev)",
+            "Back "
+            ], MenuStyle.List, MenuLocation.FullScreen)
+        } else if (option == "ITKO to IPPH") {
+            RWstuff(true)
+            start = "ITKO"
+            end = "IPPH"
+            heading = 0
+            crsalt = game.askForNumber("Set Cruise Altitude", 5)
+        } else if (option == "IPPH to ITKO (rev)") {
+            RWstuff(true)
+            start = "IPPH"
+            end = "ITKO"
+            heading = 0
+            crsalt = game.askForNumber("Set Cruise Altitude", 5)
         } else {
         	
         }
