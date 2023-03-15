@@ -132,6 +132,7 @@ function RWstuff (extra: boolean) {
     if (extra) {
         game.splash("Flight Path Set")
     }
+    blockMenu.showMenu(flightpathmenu, MenuStyle.List, MenuLocation.FullScreen)
 }
 function runways () {
     if (start == "IBTH") {
@@ -232,7 +233,7 @@ function ShowInfo () {
     txt4.setText(currentPlane)
     if (currentPlane == "A220") {
         txt1.setText("470kts")
-        txt2.setText("104kts")
+        txt2.setText("115kts")
         txt3.setText("48%")
     } else if (currentPlane == "A320") {
         txt1.setText("447kts")
@@ -240,23 +241,23 @@ function ShowInfo () {
         txt3.setText("50%")
     } else if (currentPlane == "A330") {
         txt1.setText("475kts")
-        txt2.setText("118kts")
+        txt2.setText("120kts")
         txt3.setText("50%")
     } else if (currentPlane == "A340") {
         txt1.setText("470kts")
-        txt2.setText("114kts")
+        txt2.setText("115kts")
         txt3.setText("50%")
     } else if (currentPlane == "A350") {
         txt1.setText("487kts")
-        txt2.setText("118kts")
+        txt2.setText("120kts")
         txt3.setText("50%")
     } else if (currentPlane == "737") {
         txt1.setText("454kts")
-        txt2.setText("111kts")
+        txt2.setText("112kts")
         txt3.setText("50%")
     } else if (currentPlane == "747") {
         txt1.setText("495kts")
-        txt2.setText("120kts")
+        txt2.setText("122kts")
         txt3.setText("50%")
     } else if (currentPlane == "757") {
         txt1.setText("458kts")
@@ -264,7 +265,7 @@ function ShowInfo () {
         txt3.setText("50%")
     } else if (currentPlane == "767") {
         txt1.setText("458kts")
-        txt2.setText("113kts")
+        txt2.setText("112kts")
         txt3.setText("50%")
     } else if (currentPlane == "777") {
         txt1.setText("518kts")
@@ -272,23 +273,23 @@ function ShowInfo () {
         txt3.setText("50%")
     } else if (currentPlane == "787") {
         txt1.setText("487kts")
-        txt2.setText("117kts")
+        txt2.setText("120kts")
         txt3.setText("50%")
     } else if (currentPlane == "CRJ700") {
         txt1.setText("472kts")
-        txt2.setText("105kts")
+        txt2.setText("108kts")
         txt3.setText("50%")
     } else if (currentPlane == "Q400") {
         txt1.setText("360kts")
-        txt2.setText("93kts")
+        txt2.setText("89kts")
         txt3.setText("50%")
     } else if (currentPlane == "Concorde") {
         txt1.setText("1165kts")
-        txt2.setText("160kts")
+        txt2.setText("126kts")
         txt3.setText("30%")
     } else if (currentPlane == "MD11") {
         txt1.setText("473kts")
-        txt2.setText("114kts")
+        txt2.setText("116kts")
         txt3.setText("50%")
     } else if (currentPlane == "MD90") {
         txt1.setText("437kts")
@@ -296,24 +297,24 @@ function ShowInfo () {
         txt3.setText("50%")
     } else if (currentPlane == "172") {
         txt1.setText("163kts")
-        txt2.setText("54kts")
+        txt2.setText("53kts")
         txt3.setText("58%")
     } else if (currentPlane == "182") {
         txt1.setText("145kts")
-        txt2.setText("43kts")
-        txt3.setText("56%")
+        txt2.setText("50kts")
+        txt3.setText("60%")
     } else if (currentPlane == "Caravan") {
         txt1.setText("186kts")
-        txt2.setText("53kts")
-        txt3.setText("55%")
+        txt2.setText("58kts")
+        txt3.setText("58%")
     } else if (currentPlane == "Caravan Skd") {
         txt1.setText("186kts")
-        txt2.setText("53kts")
-        txt3.setText("55%")
+        txt2.setText("58kts")
+        txt3.setText("58%")
     } else if (currentPlane == "Twin Otter") {
         txt1.setText("159kts")
-        txt2.setText("51kts")
-        txt3.setText("59%")
+        txt2.setText("53kts")
+        txt3.setText("60%")
     } else if (currentPlane == "300") {
         txt1.setText("185kts")
         txt2.setText("53kts")
@@ -328,23 +329,23 @@ function ShowInfo () {
         txt3.setText("66%")
     } else if (currentPlane == "Airbus Beluga") {
         txt1.setText("420kts")
-        txt2.setText("102kts")
+        txt2.setText("100kts")
         txt3.setText("50%")
     } else if (currentPlane == "Boeing 747") {
         txt1.setText("495kts")
-        txt2.setText("122kts")
+        txt2.setText("121kts")
         txt3.setText("50%")
     } else if (currentPlane == "Boeing 757") {
         txt1.setText("458kts")
-        txt2.setText("110kts")
+        txt2.setText("113kts")
         txt3.setText("50%")
     } else if (currentPlane == "Boeing 767") {
         txt1.setText("458kts")
-        txt2.setText("112kts")
+        txt2.setText("109kts")
         txt3.setText("50%")
     } else if (currentPlane == "Boeing 777") {
         txt1.setText("518kts")
-        txt2.setText("127kts")
+        txt2.setText("126kts")
         txt3.setText("50%")
     } else if (currentPlane == "Boeing DreamLifter") {
         txt1.setText("305kts")
@@ -356,27 +357,27 @@ function ShowInfo () {
         txt3.setText("50%")
     } else if (currentPlane == "A-10 Warthog") {
         txt1.setText("348kts")
-        txt2.setText("91kts")
+        txt2.setText("89kts")
         txt3.setText("50%")
     } else if (currentPlane == "B2 Bomber") {
         txt1.setText("869kts")
-        txt2.setText("133kts")
+        txt2.setText("131kts")
         txt3.setText("45%")
     } else if (currentPlane == "Eurofighter Typhoon") {
         txt1.setText("1347kts")
-        txt2.setText("149kts")
+        txt2.setText("152kts")
         txt3.setText("30%")
     } else if (currentPlane == "F/A-18 Super Hornet") {
         txt1.setText("1040kts")
-        txt2.setText("104kts")
+        txt2.setText("102kts")
         txt3.setText("32%")
     } else if (currentPlane == "F-14 Tomcat") {
         txt1.setText("1340kts")
-        txt2.setText("124kts")
+        txt2.setText("119kts")
         txt3.setText("30%")
     } else if (currentPlane == "F-15 Strike Eagle") {
         txt1.setText("1700kts")
-        txt2.setText("135kts")
+        txt2.setText("137kts")
         txt3.setText("29%")
     } else if (currentPlane == "F-35B") {
         txt1.setText("No Data")
@@ -384,11 +385,11 @@ function ShowInfo () {
         txt3.setText("No Data")
     } else if (currentPlane == "Hawk T1") {
         txt1.setText("539kts")
-        txt2.setText("96kts")
+        txt2.setText("95kts")
         txt3.setText("43%")
     } else if (currentPlane == "Sukhoi Su-27") {
         txt1.setText("1349kts")
-        txt2.setText("99kts")
+        txt2.setText("100kts")
         txt3.setText("27%")
     } else if (currentPlane == "Paratrike") {
         txt1.setText("55kts")
@@ -668,51 +669,6 @@ controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
         canresettimer = false
     }
 })
-/**
- * 01
- * 
- * 19
- * 
- * 11
- * 
- * 29
- * 
- * 13
- * 
- * 31
- * 
- * 20
- * 
- * 02
- * 
- * 07
- * 
- * 25
- * 
- * 06
- * 
- * 24
- * 
- * 17
- * 
- * 35
- * 
- * 10
- * 
- * 28
- * 
- * 08
- * 
- * 26
- * 
- * 09
- * 
- * 27
- * 
- * 15
- * 
- * 33
- */
 blockMenu.onMenuOptionSelected(function (option, index) {
     if (!(ACooldown)) {
         if (option == "Current Aircraft") {
@@ -1192,7 +1148,7 @@ blockMenu.onMenuOptionSelected(function (option, index) {
                 choosingrw = 0
                 blockMenu.showMenu(flightpathmenu, MenuStyle.List, MenuLocation.FullScreen)
             }
-        } else if (option == "01" || (option == "19" || (option == "24" || (option == "17" || (option == "35" || (option == "10" || (option == "28" || (option == "08" || (option == "26" || (option == "09" || (option == "27" || (option == "15" || option == "33")))))))))))) {
+        } else if (option == "01" || (option == "19" || (option == "24" || (option == "17" || (option == "35" || (option == "10" || (option == "28" || (option == "08" || (option == "26" || (option == "09" || (option == "27" || (option == "15" || (option == "?" || option == "33"))))))))))))) {
             if (choosingrw == 0) {
                 chosenDeparture_RW = option
                 choosingrw += 1
@@ -1260,6 +1216,51 @@ blockMenu.onMenuOptionSelected(function (option, index) {
         }
     }
 })
+/**
+ * 01
+ * 
+ * 19
+ * 
+ * 11
+ * 
+ * 29
+ * 
+ * 13
+ * 
+ * 31
+ * 
+ * 20
+ * 
+ * 02
+ * 
+ * 07
+ * 
+ * 25
+ * 
+ * 06
+ * 
+ * 24
+ * 
+ * 17
+ * 
+ * 35
+ * 
+ * 10
+ * 
+ * 28
+ * 
+ * 08
+ * 
+ * 26
+ * 
+ * 09
+ * 
+ * 27
+ * 
+ * 15
+ * 
+ * 33
+ */
 let choosingrw = 0
 let crsalt = 0
 let heading = 0
@@ -1271,8 +1272,6 @@ let ARWS_Arrival: string[] = []
 let end = ""
 let ARWS_Departure: string[] = []
 let start = ""
-let chosenDeparture_RW = ""
-let chosenArrival_RW = ""
 let canresettimer = false
 let inviewmode = false
 let mobile_mode = false
@@ -1302,6 +1301,8 @@ let RWS_IRFD: string[] = []
 let flightpathmenu: string[] = []
 let changeSettings: string[] = []
 let menu1: string[] = []
+let chosenDeparture_RW = ""
+let chosenArrival_RW = ""
 game.setDialogTextColor(1)
 game.setDialogFrame(img`
     f f f f f f f f f f f f f f f 
@@ -1338,6 +1339,8 @@ game.setDialogCursor(img`
     f f f f f f f f f f f f f f f f 
     f f f f f f f f f f f f f f f f 
     `)
+chosenArrival_RW = "?"
+chosenDeparture_RW = "?"
 menu1 = [
 "MCDU",
 "Select Aircraft",
@@ -1367,35 +1370,35 @@ RWS_IRFD = [
 "36R",
 "18L",
 "18R",
-"MCDU Menu"
+"?"
 ]
-RWS_IMLR = ["11", "29", "MCDU Menu"]
-RWS_IGAR = ["01", "19", "MCDU Menu"]
+RWS_IMLR = ["11", "29", "?"]
+RWS_IGAR = ["01", "19", "?"]
 RWS_ITKO = [
 "13",
 "31",
 "02",
 "20",
-"MCDU Menu"
+"?"
 ]
-RWS_IDCS = ["07", "25", "MCDU Menu"]
-RWS_ILAR = ["06", "24", "MCDU Menu"]
-RWS_IHEN = ["17", "35", "MCDU Menu"]
-RWS_IPAP = ["17", "35", "MCDU Menu"]
-RWS_IZOL = ["10", "28", "MCDU Menu"]
-RWS_IJAF = ["25", "07", "MCDU Menu"]
-RWS_ISCM = ["13", "31", "MCDU Menu"]
-RWS_ISAU = ["08", "26", "MCDU Menu"]
-RWS_IBTH = ["09", "27", "MCDU Menu"]
-RWS_IGRV = ["06", "24", "MCDU Menu"]
+RWS_IDCS = ["07", "25", "?"]
+RWS_ILAR = ["06", "24", "?"]
+RWS_IHEN = ["17", "35", "?"]
+RWS_IPAP = ["17", "35", "?"]
+RWS_IZOL = ["10", "28", "?"]
+RWS_IJAF = ["25", "07", "?"]
+RWS_ISCM = ["13", "31", "?"]
+RWS_ISAU = ["08", "26", "?"]
+RWS_IBTH = ["09", "27", "?"]
+RWS_IGRV = ["06", "24", "?"]
 RWS_IPPH = [
 "15",
 "33",
 "11",
 "29",
-"MCDU Menu"
+"?"
 ]
-RWS_ILKL = ["09", "27", "MCDU Menu"]
+RWS_ILKL = ["09", "27", "?"]
 blockMenu.setColors(7, 15)
 if (blockSettings.readNumber("qstrt") == 1) {
     scene.setBackgroundImage(img`
@@ -1541,21 +1544,12 @@ if (blockSettings.readNumber("qstrt") == 1) {
     blockSettings.writeNumber("qstrt", 0)
     scene.setBackgroundImage(img`
         ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+        f1fff1fff1ff11ff1f1ff1ff11ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+        f1ff1f1f1f1f1f1f1f11f1f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+        f1ff1f1f111f1f1f1f1f11f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+        f1ff1f1f1f1f1f1f1f1ff1f1f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+        f11ff1ff1f1f11ff1f1ff1ff11f1f1f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
         ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-        ff1fffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-        ff1fffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-        ff1fffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-        ff1fffffffffffffffffffffffff1ff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-        ff1fffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-        ff1ffffffff111ffff111ffff1111fffff1fffffff111fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-        ff1fffffff1fff1ff1fff1ff1fff1ff1ff1111fff1fff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-        ff1fffffff1fff1ff1fff1ff1fff1ff1ff1fff1ff1fff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-        ff1fffffff1fff1ff1fff1ff1fff1ff1ff1fff1ff1fff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-        ff111111fff111ffff1111fff111fff1ff1fff1fff1111ff1f1f1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-        fffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-        fffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-        fffffffffffffffffffffffffffffffffffffffff1fff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-        ffffffffffffffffffffffffffffffffffffffffff111fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
         ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
         ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
         ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
@@ -1657,10 +1651,22 @@ if (blockSettings.readNumber("qstrt") == 1) {
         ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
         ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
         ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+        ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff11111fffffff
+        fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffff1ffffff
+        ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffff1fffff
+        ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffff1fffff
+        ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffff111ffff
+        ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffff1fffff
+        ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffff
+        fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffff
+        ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff11111fffffff
         ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
         ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
         ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
         `)
+    timer.after(1000, function () {
+        scene.setBackgroundImage(assets.image`myImage0`)
+    })
     timer.after(3000, function () {
         scene.setBackgroundImage(img`
             ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
@@ -1786,128 +1792,7 @@ if (blockSettings.readNumber("qstrt") == 1) {
             `)
     })
     timer.after(6000, function () {
-        scene.setBackgroundImage(img`
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ff11fff11ff111f111ff1fff1ff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ff1f1f1f1f1ffff1ff1f1fff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ff1f1f1f1f1ffff1ff1f1fff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ff1ff1ff1f1ffff1ff1f1fff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ff1fffff1f1ffff1ff1f1fff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ff1fffff1ff111f111fff111fff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ff999ffffffffffffff9ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ff9ff9fffffffffffff9ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ff9ff9ff9ffffffffff9ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ff999ff9f9ff99fff999f9ff9fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ff9ff9f999f9ff9f9ff9f9ff9fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ff9ff9f9fff9ff9f9ff9f9ff9fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ff9ff9ff99ff999ff99fff999fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffff9fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffff9fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            fffffffffffffffffffff9ff9fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffff99ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            fff11fffffff1fffff1111f1ffffffffffff1fffff1ffffff1fffffff11ffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ff1ff1ffffff1fffff1ffff1ffffffffffff1fffff1ffffff1ffffff1ff1fffffffffffffffffff1fffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ff1fffff1ff111ffff1ffff1ffffffffffff1ffff111fffff1ffffff1fffffffffffffffffffff111fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            fff11ff1f1ff1fffff111ff1ffff1fff11ff1fffff1ffffff1fffff111ff11ffffffffffff11fff1ff1ff11fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            fffff1f111ff1fffff1ffff1fffffff1ff1f111fff1ffffff1f111ff1ff1ff1ff1f11f1ff1ff1ff1ffff1ff1f111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ff1ff1f1ffff1fffff1ffff1ff1f1ff1ff1f1ff1ff1ffffff1f1ff1f1ff1ff1f1ff1f1f1f1ff1ff1ff1f1ff1f1ff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            fff11fff11ff1fffff1fffff11ff1fff111f1ff1ff1ffffff1f1ff1f1fff11ff1ff1fff1ff111ff1ff1ff11ff1ff1ff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffff1fffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffff1fffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            fffffffffffffffffffffffffffffff1ff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffff11ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ff77ff7ffffffffffffffffffff77fffffff7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ff7f7f7ffffffffffff7ffffff7fffff7fff7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ff7f7f7ff77fffffff7f7ffffff7fff7f7f777ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ff7f7f7f7ff7f777ff777fffffff7ff777ff7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ff7f7f7f7ff7f7ff7f7fffffffff7ff7ffff7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ff7ff77ff77ff7ff7ff77fffff77ffff77ff7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            `)
+        scene.setBackgroundImage(assets.image`loadin screen`)
     })
     timer.after(9000, function () {
         if (blockSettings.exists("savedplane")) {
@@ -2060,7 +1945,6 @@ if (blockSettings.exists("mode")) {
 } else {
     mobile_mode = false
 }
-RWstuff(false)
 game.onUpdate(function () {
     if (counterrunning) {
         seconds = info.getTimeElapsed()
