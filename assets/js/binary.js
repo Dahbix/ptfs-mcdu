@@ -1,5 +1,5 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.29/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"1.5.1","target":"arcade","targetVersion":"1.12.29","repo":"dahbix/ptfs-mcdu"}
-// total=2562526 new=22.75% cached=72.96% other=4.29%
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.29/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"1.5.2","target":"arcade","targetVersion":"1.12.29","repo":"dahbix/ptfs-mcdu"}
+// total=2563834 new=22.79% cached=72.92% other=4.29%
 (function (ectx) {
 'use strict';
 const runtime = ectx.runtime;
@@ -609,7 +609,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P195588(s) {
+function _main___P245026(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1400,150 +1400,150 @@ switch (step) {
     s.tmp_0 = controller_Button_onEvent__P168740_mk(s);
     s.tmp_0.arg0 = globals.A___168657;
     s.tmp_0.arg1 = 2049;
-    s.tmp_0.arg2 = inline__P174199;
+    s.tmp_0.arg2 = inline__P242695;
     s.callLocIdx = 165; s.pc = 95; return s.tmp_0;
   case 95:
     r0 = s.retval;
     s.tmp_0 = controller_Button_onEvent__P168740_mk(s);
     s.tmp_0.arg0 = globals.right___168661;
     s.tmp_0.arg1 = 2049;
-    s.tmp_0.arg2 = inline__P174234;
+    s.tmp_0.arg2 = inline__P242737;
     s.callLocIdx = 167; s.pc = 96; return s.tmp_0;
   case 96:
     r0 = s.retval;
     s.tmp_0 = controller_Button_onEvent__P168740_mk(s);
     s.tmp_0.arg0 = globals.menu___168663;
     s.tmp_0.arg1 = 2049;
-    s.tmp_0.arg2 = inline__P174668;
-    s.callLocIdx = 313; s.pc = 97; return s.tmp_0;
+    s.tmp_0.arg2 = inline__P243187;
+    s.callLocIdx = 316; s.pc = 97; return s.tmp_0;
   case 97:
     r0 = s.retval;
     s.tmp_0 = controller_Button_onEvent__P168740_mk(s);
     s.tmp_0.arg0 = globals.B___168658;
     s.tmp_0.arg1 = 2049;
-    s.tmp_0.arg2 = inline__P174681;
-    s.callLocIdx = 320; s.pc = 98; return s.tmp_0;
+    s.tmp_0.arg2 = inline__P243200;
+    s.callLocIdx = 323; s.pc = 98; return s.tmp_0;
   case 98:
     r0 = s.retval;
     s.tmp_0 = controller_Button_onEvent__P168740_mk(s);
     s.tmp_0.arg0 = globals.left___168659;
     s.tmp_0.arg1 = 2049;
-    s.tmp_0.arg2 = inline__P174711;
-    s.callLocIdx = 322; s.pc = 99; return s.tmp_0;
+    s.tmp_0.arg2 = inline__P243231;
+    s.callLocIdx = 325; s.pc = 99; return s.tmp_0;
   case 99:
     r0 = s.retval;
     s.tmp_0 = blockMenu_onMenuOptionSelected__P170915_mk(s);
-    s.tmp_0.arg0 = inline__P174714;
-    s.callLocIdx = 490; s.pc = 100; return s.tmp_0;
+    s.tmp_0.arg0 = inline__P243234;
+    s.callLocIdx = 493; s.pc = 100; return s.tmp_0;
   case 100:
     r0 = s.retval;
-    globals.random___170974 = (0);
-    globals.volume___170975 = (0);
-    globals.choosingrw___170976 = (0);
-    globals.callsign___170977 = (0);
-    globals.crsalt___170978 = (0);
-    globals.heading___170979 = (0);
-    globals.textSprite___170980 = (null);
-    globals.txt5___170981 = (null);
-    globals.timerhasbeenreset___170982 = (false);
-    globals.canresettimer___170983 = (false);
-    globals.seconds___170984 = (0);
-    globals.counterrunning___170985 = (false);
-    globals.inviewmode___170986 = (false);
-    globals.ACooldown___170987 = (false);
-    globals.txt4___170988 = (null);
-    globals.txt3___170989 = (null);
-    globals.Landing_Throttle___170990 = (0);
-    globals.txt2___170991 = (null);
-    globals.txt1___170992 = (null);
-    globals.canexiterror___170993 = (false);
-    globals.chooseemrcy___170994 = (0);
+    globals.random___244192 = (0);
+    globals.volume___244056 = (0);
+    globals.choosingrw___243843 = (0);
+    globals.callsign___243540 = (0);
+    globals.crsalt___243521 = (0);
+    globals.heading___243508 = (0);
+    globals.textSprite___242764 = (null);
+    globals.txt5___242758 = (null);
+    globals.timerhasbeenreset___242730 = (false);
+    globals.canresettimer___242721 = (false);
+    globals.seconds___242718 = (0);
+    globals.counterrunning___242711 = (false);
+    globals.inviewmode___242706 = (false);
+    globals.ACooldown___242700 = (false);
+    globals.txt4___242427 = (null);
+    globals.txt3___242423 = (null);
+    globals.Landing_Throttle___242416 = (0);
+    globals.txt2___242406 = (null);
+    globals.txt1___242402 = (null);
+    globals.canexiterror___242391 = (false);
+    globals.chooseemrcy___242385 = (0);
     r0 = pxsim_Array__mk();
-    globals.ARWS_Arrival___170995 = (r0);
+    globals.ARWS_Arrival___242319 = (r0);
     r0 = pxsim_String_.mkEmpty();
-    globals.end___170996 = (r0);
+    globals.end___242317 = (r0);
     r0 = pxsim_Array__mk();
-    globals.ARWS_Departure___170997 = (r0);
+    globals.ARWS_Departure___242237 = (r0);
     r0 = pxsim_String_.mkEmpty();
-    globals.start___170998 = (r0);
-    globals.Chance___170999 = (0);
-    globals.summingFail___171000 = (false);
-    globals.MCDUfail___171001 = (false);
-    globals.mobile_mode___171002 = (false);
+    globals.start___242235 = (r0);
+    globals.Chance___244019 = (0);
+    globals.summingFail___243171 = (false);
+    globals.MCDUfail___244036 = (false);
+    globals.mobile_mode___242697 = (false);
     r0 = pxsim_String_.mkEmpty();
-    globals.currentPlane___171003 = (r0);
-    globals.usesavedplane___171004 = (false);
+    globals.currentPlane___242774 = (r0);
+    globals.usesavedplane___244196 = (false);
     r0 = pxsim_Array__mk();
-    globals.RWS_ILKL___171005 = (r0);
+    globals.RWS_ILKL___242274 = (r0);
     r0 = pxsim_Array__mk();
-    globals.RWS_IPPH___171006 = (r0);
+    globals.RWS_IPPH___242289 = (r0);
     r0 = pxsim_Array__mk();
-    globals.RWS_IGRV___171007 = (r0);
+    globals.RWS_IGRV___242254 = (r0);
     r0 = pxsim_Array__mk();
-    globals.RWS_IBTH___171008 = (r0);
+    globals.RWS_IBTH___242239 = (r0);
     r0 = pxsim_Array__mk();
-    globals.RWS_ISAU___171009 = (r0);
+    globals.RWS_ISAU___242299 = (r0);
     r0 = pxsim_Array__mk();
-    globals.RWS_ISCM___171010 = (r0);
+    globals.RWS_ISCM___242304 = (r0);
     r0 = pxsim_Array__mk();
-    globals.RWS_IJAF___171011 = (r0);
+    globals.RWS_IJAF___242264 = (r0);
     r0 = pxsim_Array__mk();
-    globals.RWS_IZOL___171012 = (r0);
+    globals.RWS_IZOL___242314 = (r0);
     r0 = pxsim_Array__mk();
-    globals.RWS_IPAP___171013 = (r0);
+    globals.RWS_IPAP___242284 = (r0);
     r0 = pxsim_Array__mk();
-    globals.RWS_IHEN___171014 = (r0);
+    globals.RWS_IHEN___242259 = (r0);
     r0 = pxsim_Array__mk();
-    globals.RWS_ILAR___171015 = (r0);
+    globals.RWS_ILAR___242269 = (r0);
     r0 = pxsim_Array__mk();
-    globals.RWS_IDCS___171016 = (r0);
+    globals.RWS_IDCS___242244 = (r0);
     r0 = pxsim_Array__mk();
-    globals.RWS_ITKO___171017 = (r0);
+    globals.RWS_ITKO___242309 = (r0);
     r0 = pxsim_Array__mk();
-    globals.RWS_IGAR___171018 = (r0);
+    globals.RWS_IGAR___242249 = (r0);
     r0 = pxsim_Array__mk();
-    globals.RWS_IMLR___171019 = (r0);
+    globals.RWS_IMLR___242279 = (r0);
     r0 = pxsim_Array__mk();
-    globals.RWS_IRFD___171020 = (r0);
+    globals.RWS_IRFD___242294 = (r0);
     r0 = pxsim_Array__mk();
-    globals.emrgcySettings___171021 = (r0);
+    globals.emrgcySettings___244002 = (r0);
     r0 = pxsim_Array__mk();
-    globals.flightpathmenu___171022 = (r0);
+    globals.flightpathmenu___242229 = (r0);
     r0 = pxsim_Array__mk();
-    globals.changeSettings___171023 = (r0);
+    globals.changeSettings___243967 = (r0);
     r0 = pxsim_Array__mk();
-    globals.menu1___171024 = (r0);
+    globals.menu1___243210 = (r0);
     r0 = pxsim_Array__mk();
-    globals.active_fails___171025 = (r0);
+    globals.active_fails___242432 = (r0);
     r0 = pxsim_String_.mkEmpty();
-    globals.chosenDeparture_RW___171026 = (r0);
+    globals.chosenDeparture_RW___242223 = (r0);
     r0 = pxsim_String_.mkEmpty();
-    globals.chosenArrival_RW___171027 = (r0);
-    globals.emergencies___171028 = (false);
-    globals.emrgcyACTIVE___171029 = (false);
-    globals.emrgcyACTIVE___171029 = (true);
-    globals.emergencies___171028 = (true);
+    globals.chosenArrival_RW___242221 = (r0);
+    globals.emergencies___244008 = (false);
+    globals.emrgcyACTIVE___242388 = (false);
+    globals.emrgcyACTIVE___242388 = (true);
+    globals.emergencies___244008 = (true);
     s.tmp_0 = game_setDialogTextColor__P169506_mk(s);
     s.tmp_0.arg0 = 1;
-    s.callLocIdx = 491; s.pc = 101; return s.tmp_0;
+    s.callLocIdx = 494; s.pc = 101; return s.tmp_0;
   case 101:
     r0 = s.retval;
     s.tmp_0 = game_setDialogFrame__P169504_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex175688);
+    r0 = pxsim.image.ofBuffer(_hex244223);
     s.tmp_0.arg0 = r0;
-    s.callLocIdx = 492; s.pc = 102; return s.tmp_0;
+    s.callLocIdx = 495; s.pc = 102; return s.tmp_0;
   case 102:
     r0 = s.retval;
     s.tmp_0 = game_setDialogCursor__P169505_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex175691);
+    r0 = pxsim.image.ofBuffer(_hex244226);
     s.tmp_0.arg0 = r0;
-    s.callLocIdx = 493; s.pc = 103; return s.tmp_0;
+    s.callLocIdx = 496; s.pc = 103; return s.tmp_0;
   case 103:
     r0 = s.retval;
-    globals.chosenArrival_RW___171027 = ("?");
-    globals.chosenDeparture_RW___171026 = ("?");
+    globals.chosenArrival_RW___242221 = ("?");
+    globals.chosenDeparture_RW___242223 = ("?");
     r0 = pxsim_Array__mk();
-    globals.active_fails___171025 = (r0);
+    globals.active_fails___242432 = (r0);
     r0 = pxsim_Array__mk();
     s.tmp_0 = r0;
     r0 = pxsim_Array__push(s.tmp_0, "MCDU");
@@ -1552,7 +1552,7 @@ switch (step) {
     r0 = pxsim_Array__push(s.tmp_0, "Save Current Aircraft");
     r0 = pxsim_Array__push(s.tmp_0, "View Active Fail");
     r0 = pxsim_Array__push(s.tmp_0, "Options");
-    globals.menu1___171024 = (s.tmp_0);
+    globals.menu1___243210 = (s.tmp_0);
     r0 = pxsim_Array__mk();
     s.tmp_0 = r0;
     r0 = pxsim_Array__push(s.tmp_0, "Change Departure");
@@ -1562,7 +1562,7 @@ switch (step) {
     r0 = pxsim_Array__push(s.tmp_0, "Choose Runways");
     r0 = pxsim_Array__push(s.tmp_0, "Choose Callsign");
     r0 = pxsim_Array__push(s.tmp_0, "Back ");
-    globals.changeSettings___171023 = (s.tmp_0);
+    globals.changeSettings___243967 = (s.tmp_0);
     r0 = pxsim_Array__mk();
     s.tmp_0 = r0;
     r0 = pxsim_Array__push(s.tmp_0, "View Flight Path");
@@ -1573,7 +1573,7 @@ switch (step) {
     r0 = pxsim_Array__push(s.tmp_0, "Choose Callsign");
     r0 = pxsim_Array__push(s.tmp_0, "Change Settings");
     r0 = pxsim_Array__push(s.tmp_0, "MCDU Menu");
-    globals.flightpathmenu___171022 = (s.tmp_0);
+    globals.flightpathmenu___242229 = (s.tmp_0);
     r0 = pxsim_Array__mk();
     s.tmp_0 = r0;
     r0 = pxsim_Array__push(s.tmp_0, "Emergencies ON/OFF");
@@ -1582,7 +1582,7 @@ switch (step) {
     r0 = pxsim_Array__push(s.tmp_0, "Summing Failures ON/OFF");
     r0 = pxsim_Array__push(s.tmp_0, "Alarm Volume");
     r0 = pxsim_Array__push(s.tmp_0, "MCDU Menu");
-    globals.emrgcySettings___171021 = (s.tmp_0);
+    globals.emrgcySettings___244002 = (s.tmp_0);
     r0 = pxsim_Array__mk();
     s.tmp_0 = r0;
     r0 = pxsim_Array__push(s.tmp_0, "36L");
@@ -1590,19 +1590,19 @@ switch (step) {
     r0 = pxsim_Array__push(s.tmp_0, "18L");
     r0 = pxsim_Array__push(s.tmp_0, "18R");
     r0 = pxsim_Array__push(s.tmp_0, "?");
-    globals.RWS_IRFD___171020 = (s.tmp_0);
+    globals.RWS_IRFD___242294 = (s.tmp_0);
     r0 = pxsim_Array__mk();
     s.tmp_0 = r0;
     r0 = pxsim_Array__push(s.tmp_0, "11");
     r0 = pxsim_Array__push(s.tmp_0, "29");
     r0 = pxsim_Array__push(s.tmp_0, "?");
-    globals.RWS_IMLR___171019 = (s.tmp_0);
+    globals.RWS_IMLR___242279 = (s.tmp_0);
     r0 = pxsim_Array__mk();
     s.tmp_0 = r0;
     r0 = pxsim_Array__push(s.tmp_0, "01");
     r0 = pxsim_Array__push(s.tmp_0, "19");
     r0 = pxsim_Array__push(s.tmp_0, "?");
-    globals.RWS_IGAR___171018 = (s.tmp_0);
+    globals.RWS_IGAR___242249 = (s.tmp_0);
     r0 = pxsim_Array__mk();
     s.tmp_0 = r0;
     r0 = pxsim_Array__push(s.tmp_0, "13");
@@ -1610,67 +1610,67 @@ switch (step) {
     r0 = pxsim_Array__push(s.tmp_0, "02");
     r0 = pxsim_Array__push(s.tmp_0, "20");
     r0 = pxsim_Array__push(s.tmp_0, "?");
-    globals.RWS_ITKO___171017 = (s.tmp_0);
+    globals.RWS_ITKO___242309 = (s.tmp_0);
     r0 = pxsim_Array__mk();
     s.tmp_0 = r0;
     r0 = pxsim_Array__push(s.tmp_0, "07");
     r0 = pxsim_Array__push(s.tmp_0, "25");
     r0 = pxsim_Array__push(s.tmp_0, "?");
-    globals.RWS_IDCS___171016 = (s.tmp_0);
+    globals.RWS_IDCS___242244 = (s.tmp_0);
     r0 = pxsim_Array__mk();
     s.tmp_0 = r0;
     r0 = pxsim_Array__push(s.tmp_0, "06");
     r0 = pxsim_Array__push(s.tmp_0, "24");
     r0 = pxsim_Array__push(s.tmp_0, "?");
-    globals.RWS_ILAR___171015 = (s.tmp_0);
+    globals.RWS_ILAR___242269 = (s.tmp_0);
     r0 = pxsim_Array__mk();
     s.tmp_0 = r0;
     r0 = pxsim_Array__push(s.tmp_0, "17");
     r0 = pxsim_Array__push(s.tmp_0, "35");
     r0 = pxsim_Array__push(s.tmp_0, "?");
-    globals.RWS_IHEN___171014 = (s.tmp_0);
+    globals.RWS_IHEN___242259 = (s.tmp_0);
     r0 = pxsim_Array__mk();
     s.tmp_0 = r0;
     r0 = pxsim_Array__push(s.tmp_0, "17");
     r0 = pxsim_Array__push(s.tmp_0, "35");
     r0 = pxsim_Array__push(s.tmp_0, "?");
-    globals.RWS_IPAP___171013 = (s.tmp_0);
+    globals.RWS_IPAP___242284 = (s.tmp_0);
     r0 = pxsim_Array__mk();
     s.tmp_0 = r0;
     r0 = pxsim_Array__push(s.tmp_0, "10");
     r0 = pxsim_Array__push(s.tmp_0, "28");
     r0 = pxsim_Array__push(s.tmp_0, "?");
-    globals.RWS_IZOL___171012 = (s.tmp_0);
+    globals.RWS_IZOL___242314 = (s.tmp_0);
     r0 = pxsim_Array__mk();
     s.tmp_0 = r0;
     r0 = pxsim_Array__push(s.tmp_0, "25");
     r0 = pxsim_Array__push(s.tmp_0, "07");
     r0 = pxsim_Array__push(s.tmp_0, "?");
-    globals.RWS_IJAF___171011 = (s.tmp_0);
+    globals.RWS_IJAF___242264 = (s.tmp_0);
     r0 = pxsim_Array__mk();
     s.tmp_0 = r0;
     r0 = pxsim_Array__push(s.tmp_0, "13");
     r0 = pxsim_Array__push(s.tmp_0, "31");
     r0 = pxsim_Array__push(s.tmp_0, "?");
-    globals.RWS_ISCM___171010 = (s.tmp_0);
+    globals.RWS_ISCM___242304 = (s.tmp_0);
     r0 = pxsim_Array__mk();
     s.tmp_0 = r0;
     r0 = pxsim_Array__push(s.tmp_0, "08");
     r0 = pxsim_Array__push(s.tmp_0, "26");
     r0 = pxsim_Array__push(s.tmp_0, "?");
-    globals.RWS_ISAU___171009 = (s.tmp_0);
+    globals.RWS_ISAU___242299 = (s.tmp_0);
     r0 = pxsim_Array__mk();
     s.tmp_0 = r0;
     r0 = pxsim_Array__push(s.tmp_0, "09");
     r0 = pxsim_Array__push(s.tmp_0, "27");
     r0 = pxsim_Array__push(s.tmp_0, "?");
-    globals.RWS_IBTH___171008 = (s.tmp_0);
+    globals.RWS_IBTH___242239 = (s.tmp_0);
     r0 = pxsim_Array__mk();
     s.tmp_0 = r0;
     r0 = pxsim_Array__push(s.tmp_0, "06");
     r0 = pxsim_Array__push(s.tmp_0, "24");
     r0 = pxsim_Array__push(s.tmp_0, "?");
-    globals.RWS_IGRV___171007 = (s.tmp_0);
+    globals.RWS_IGRV___242254 = (s.tmp_0);
     r0 = pxsim_Array__mk();
     s.tmp_0 = r0;
     r0 = pxsim_Array__push(s.tmp_0, "15");
@@ -1678,22 +1678,22 @@ switch (step) {
     r0 = pxsim_Array__push(s.tmp_0, "11");
     r0 = pxsim_Array__push(s.tmp_0, "29");
     r0 = pxsim_Array__push(s.tmp_0, "?");
-    globals.RWS_IPPH___171006 = (s.tmp_0);
+    globals.RWS_IPPH___242289 = (s.tmp_0);
     r0 = pxsim_Array__mk();
     s.tmp_0 = r0;
     r0 = pxsim_Array__push(s.tmp_0, "09");
     r0 = pxsim_Array__push(s.tmp_0, "27");
     r0 = pxsim_Array__push(s.tmp_0, "?");
-    globals.RWS_ILKL___171005 = (s.tmp_0);
+    globals.RWS_ILKL___242274 = (s.tmp_0);
     s.tmp_0 = blockMenu_setColors__P170911_mk(s);
     s.tmp_0.arg0 = 7;
     s.tmp_0.arg1 = 15;
-    s.callLocIdx = 494; s.pc = 104; return s.tmp_0;
+    s.callLocIdx = 497; s.pc = 104; return s.tmp_0;
   case 104:
     r0 = s.retval;
     s.tmp_2 = blockSettings_readNumber__P170959_mk(s);
     s.tmp_2.arg0 = "qstrt";
-    s.callLocIdx = 495; s.pc = 105; return s.tmp_2;
+    s.callLocIdx = 498; s.pc = 105; return s.tmp_2;
   case 105:
     r0 = s.retval;
     s.tmp_1 = r0;
@@ -1703,7 +1703,7 @@ switch (step) {
     if (!r0) { step = 5; continue; }
     s.tmp_4 = blockSettings_exists__P170965_mk(s);
     s.tmp_4.arg0 = "savedplane";
-    s.callLocIdx = 496; s.pc = 106; return s.tmp_4;
+    s.callLocIdx = 499; s.pc = 106; return s.tmp_4;
   case 106:
     r0 = s.retval;
     s.tmp_3 = r0;
@@ -1713,7 +1713,7 @@ switch (step) {
     s.tmp_5.arg0 = "Saved Plane Found!";
     s.tmp_10 = blockSettings_readString__P170961_mk(s);
     s.tmp_10.arg0 = "savedplane";
-    s.callLocIdx = 497; s.pc = 108; return s.tmp_10;
+    s.callLocIdx = 500; s.pc = 108; return s.tmp_10;
   case 108:
     r0 = s.retval;
     s.tmp_9 = r0;
@@ -1739,82 +1739,82 @@ switch (step) {
     s.tmp_6 = r0;
     r0 = pxsim_String__concat(s.tmp_6, "?");
     s.tmp_5.arg1 = r0;
-    s.callLocIdx = 498; s.pc = 107; return s.tmp_5;
+    s.callLocIdx = 501; s.pc = 107; return s.tmp_5;
   case 107:
     r0 = s.retval;
-    globals.usesavedplane___171004 = (r0);
-    r0 = pxsim_numops_toBoolDecr(globals.usesavedplane___171004);
+    globals.usesavedplane___244196 = (r0);
+    r0 = pxsim_numops_toBoolDecr(globals.usesavedplane___244196);
     if (!r0) { step = 1; continue; }
     s.tmp_0 = blockSettings_readString__P170961_mk(s);
     s.tmp_0.arg0 = "savedplane";
-    s.callLocIdx = 499; s.pc = 111; return s.tmp_0;
+    s.callLocIdx = 502; s.pc = 111; return s.tmp_0;
   case 111:
     r0 = s.retval;
-    globals.currentPlane___171003 = (r0);
+    globals.currentPlane___242774 = (r0);
   case 1:
   case 2:
   case 3:
   case 4:
-    s.tmp_0 = create_txt_sprites__P170971_mk(s);
-    s.callLocIdx = 500; s.pc = 112; return s.tmp_0;
+    s.tmp_0 = create_txt_sprites__P242740_mk(s);
+    s.callLocIdx = 503; s.pc = 112; return s.tmp_0;
   case 112:
     r0 = s.retval;
     s.tmp_0 = scene_setBackgroundImage__P169428_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex175760);
+    r0 = pxsim.image.ofBuffer(_hex244295);
     s.tmp_0.arg0 = r0;
-    s.callLocIdx = 501; s.pc = 113; return s.tmp_0;
+    s.callLocIdx = 504; s.pc = 113; return s.tmp_0;
   case 113:
     r0 = s.retval;
     s.tmp_0 = blockMenu_showMenu__P170909_mk(s);
-    s.tmp_0.arg0 = globals.menu1___171024;
+    s.tmp_0.arg0 = globals.menu1___243210;
     s.tmp_0.arg1 = 1;
     s.tmp_0.arg2 = 0;
-    s.callLocIdx = 502; s.pc = 114; return s.tmp_0;
+    s.callLocIdx = 505; s.pc = 114; return s.tmp_0;
   case 114:
     r0 = s.retval;
-    globals.emrgcyACTIVE___171029 = (false);
+    globals.emrgcyACTIVE___242388 = (false);
     { step = 6; continue; }
   case 5:
     s.tmp_0 = blockSettings_writeNumber__P170958_mk(s);
     s.tmp_0.arg0 = "qstrt";
     s.tmp_0.arg1 = 0;
-    s.callLocIdx = 503; s.pc = 115; return s.tmp_0;
+    s.callLocIdx = 506; s.pc = 115; return s.tmp_0;
   case 115:
     r0 = s.retval;
     s.tmp_0 = scene_setBackgroundImage__P169428_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex175769);
+    r0 = pxsim.image.ofBuffer(_hex244304);
     s.tmp_0.arg0 = r0;
-    s.callLocIdx = 504; s.pc = 116; return s.tmp_0;
+    s.callLocIdx = 507; s.pc = 116; return s.tmp_0;
   case 116:
     r0 = s.retval;
     s.tmp_0 = timer_after__P170875_mk(s);
     s.tmp_0.arg0 = 1000;
-    s.tmp_0.arg1 = inline__P175771;
-    s.callLocIdx = 507; s.pc = 117; return s.tmp_0;
+    s.tmp_0.arg1 = inline__P244306;
+    s.callLocIdx = 510; s.pc = 117; return s.tmp_0;
   case 117:
     r0 = s.retval;
     s.tmp_0 = timer_after__P170875_mk(s);
     s.tmp_0.arg0 = 3000;
-    s.tmp_0.arg1 = inline__P175776;
-    s.callLocIdx = 509; s.pc = 118; return s.tmp_0;
+    s.tmp_0.arg1 = inline__P244311;
+    s.callLocIdx = 512; s.pc = 118; return s.tmp_0;
   case 118:
     r0 = s.retval;
     s.tmp_0 = timer_after__P170875_mk(s);
     s.tmp_0.arg0 = 6000;
-    s.tmp_0.arg1 = inline__P175781;
-    s.callLocIdx = 512; s.pc = 119; return s.tmp_0;
+    s.tmp_0.arg1 = inline__P244316;
+    s.callLocIdx = 515; s.pc = 119; return s.tmp_0;
   case 119:
     r0 = s.retval;
     s.tmp_0 = timer_after__P170875_mk(s);
     s.tmp_0.arg0 = 9000;
-    s.tmp_0.arg1 = inline__P175786;
-    s.callLocIdx = 520; s.pc = 120; return s.tmp_0;
+    s.tmp_0.arg1 = inline__P244321;
+    s.callLocIdx = 523; s.pc = 120; return s.tmp_0;
   case 120:
     r0 = s.retval;
   case 6:
     s.tmp_1 = blockSettings_exists__P170965_mk(s);
     s.tmp_1.arg0 = "mode";
-    s.callLocIdx = 521; s.pc = 121; return s.tmp_1;
+    s.callLocIdx = 524; s.pc = 121; return s.tmp_1;
   case 121:
     r0 = s.retval;
     s.tmp_0 = r0;
@@ -1822,7 +1822,7 @@ switch (step) {
     if (!r0) { step = 11; continue; }
     s.tmp_4 = blockSettings_readString__P170961_mk(s);
     s.tmp_4.arg0 = "mode";
-    s.callLocIdx = 522; s.pc = 122; return s.tmp_4;
+    s.callLocIdx = 525; s.pc = 122; return s.tmp_4;
   case 122:
     r0 = s.retval;
     s.tmp_3 = r0;
@@ -1830,12 +1830,12 @@ switch (step) {
     s.tmp_2 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_2);
     if (!r0) { step = 7; continue; }
-    globals.mobile_mode___171002 = (false);
+    globals.mobile_mode___242697 = (false);
     { step = 10; continue; }
   case 7:
     s.tmp_2 = blockSettings_readString__P170961_mk(s);
     s.tmp_2.arg0 = "mode";
-    s.callLocIdx = 523; s.pc = 123; return s.tmp_2;
+    s.callLocIdx = 526; s.pc = 123; return s.tmp_2;
   case 123:
     r0 = s.retval;
     s.tmp_1 = r0;
@@ -1843,17 +1843,17 @@ switch (step) {
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 8; continue; }
-    globals.mobile_mode___171002 = (true);
+    globals.mobile_mode___242697 = (true);
   case 8:
   case 9:
   case 10:
     { step = 12; continue; }
   case 11:
-    globals.mobile_mode___171002 = (false);
+    globals.mobile_mode___242697 = (false);
   case 12:
     s.tmp_1 = blockSettings_exists__P170965_mk(s);
     s.tmp_1.arg0 = "emergencies";
-    s.callLocIdx = 524; s.pc = 124; return s.tmp_1;
+    s.callLocIdx = 527; s.pc = 124; return s.tmp_1;
   case 124:
     r0 = s.retval;
     s.tmp_0 = r0;
@@ -1861,7 +1861,7 @@ switch (step) {
     if (!r0) { step = 17; continue; }
     s.tmp_4 = blockSettings_readString__P170961_mk(s);
     s.tmp_4.arg0 = "emergencies";
-    s.callLocIdx = 525; s.pc = 125; return s.tmp_4;
+    s.callLocIdx = 528; s.pc = 125; return s.tmp_4;
   case 125:
     r0 = s.retval;
     s.tmp_3 = r0;
@@ -1869,12 +1869,12 @@ switch (step) {
     s.tmp_2 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_2);
     if (!r0) { step = 13; continue; }
-    globals.emergencies___171028 = (false);
+    globals.emergencies___244008 = (false);
     { step = 16; continue; }
   case 13:
     s.tmp_2 = blockSettings_readString__P170961_mk(s);
     s.tmp_2.arg0 = "emergencies";
-    s.callLocIdx = 526; s.pc = 126; return s.tmp_2;
+    s.callLocIdx = 529; s.pc = 126; return s.tmp_2;
   case 126:
     r0 = s.retval;
     s.tmp_1 = r0;
@@ -1882,17 +1882,17 @@ switch (step) {
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 14; continue; }
-    globals.emergencies___171028 = (true);
+    globals.emergencies___244008 = (true);
   case 14:
   case 15:
   case 16:
     { step = 18; continue; }
   case 17:
-    globals.emergencies___171028 = (false);
+    globals.emergencies___244008 = (false);
   case 18:
     s.tmp_1 = blockSettings_exists__P170965_mk(s);
     s.tmp_1.arg0 = "emergencies";
-    s.callLocIdx = 527; s.pc = 127; return s.tmp_1;
+    s.callLocIdx = 530; s.pc = 127; return s.tmp_1;
   case 127:
     r0 = s.retval;
     s.tmp_0 = r0;
@@ -1900,7 +1900,7 @@ switch (step) {
     if (!r0) { step = 23; continue; }
     s.tmp_4 = blockSettings_readString__P170961_mk(s);
     s.tmp_4.arg0 = "emergencies";
-    s.callLocIdx = 528; s.pc = 128; return s.tmp_4;
+    s.callLocIdx = 531; s.pc = 128; return s.tmp_4;
   case 128:
     r0 = s.retval;
     s.tmp_3 = r0;
@@ -1908,12 +1908,12 @@ switch (step) {
     s.tmp_2 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_2);
     if (!r0) { step = 19; continue; }
-    globals.emergencies___171028 = (false);
+    globals.emergencies___244008 = (false);
     { step = 22; continue; }
   case 19:
     s.tmp_2 = blockSettings_readString__P170961_mk(s);
     s.tmp_2.arg0 = "emergencies";
-    s.callLocIdx = 529; s.pc = 129; return s.tmp_2;
+    s.callLocIdx = 532; s.pc = 129; return s.tmp_2;
   case 129:
     r0 = s.retval;
     s.tmp_1 = r0;
@@ -1921,17 +1921,17 @@ switch (step) {
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 20; continue; }
-    globals.emergencies___171028 = (true);
+    globals.emergencies___244008 = (true);
   case 20:
   case 21:
   case 22:
     { step = 24; continue; }
   case 23:
-    globals.emergencies___171028 = (false);
+    globals.emergencies___244008 = (false);
   case 24:
     s.tmp_1 = blockSettings_exists__P170965_mk(s);
     s.tmp_1.arg0 = "MCDUfail";
-    s.callLocIdx = 530; s.pc = 130; return s.tmp_1;
+    s.callLocIdx = 533; s.pc = 130; return s.tmp_1;
   case 130:
     r0 = s.retval;
     s.tmp_0 = r0;
@@ -1939,7 +1939,7 @@ switch (step) {
     if (!r0) { step = 29; continue; }
     s.tmp_4 = blockSettings_readString__P170961_mk(s);
     s.tmp_4.arg0 = "MCDUfail";
-    s.callLocIdx = 531; s.pc = 131; return s.tmp_4;
+    s.callLocIdx = 534; s.pc = 131; return s.tmp_4;
   case 131:
     r0 = s.retval;
     s.tmp_3 = r0;
@@ -1947,12 +1947,12 @@ switch (step) {
     s.tmp_2 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_2);
     if (!r0) { step = 25; continue; }
-    globals.MCDUfail___171001 = (false);
+    globals.MCDUfail___244036 = (false);
     { step = 28; continue; }
   case 25:
     s.tmp_2 = blockSettings_readString__P170961_mk(s);
     s.tmp_2.arg0 = "MCDUfail";
-    s.callLocIdx = 532; s.pc = 132; return s.tmp_2;
+    s.callLocIdx = 535; s.pc = 132; return s.tmp_2;
   case 132:
     r0 = s.retval;
     s.tmp_1 = r0;
@@ -1960,17 +1960,17 @@ switch (step) {
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 26; continue; }
-    globals.MCDUfail___171001 = (true);
+    globals.MCDUfail___244036 = (true);
   case 26:
   case 27:
   case 28:
     { step = 30; continue; }
   case 29:
-    globals.MCDUfail___171001 = (true);
+    globals.MCDUfail___244036 = (true);
   case 30:
     s.tmp_1 = blockSettings_exists__P170965_mk(s);
     s.tmp_1.arg0 = "summingfail";
-    s.callLocIdx = 533; s.pc = 133; return s.tmp_1;
+    s.callLocIdx = 536; s.pc = 133; return s.tmp_1;
   case 133:
     r0 = s.retval;
     s.tmp_0 = r0;
@@ -1978,7 +1978,7 @@ switch (step) {
     if (!r0) { step = 35; continue; }
     s.tmp_4 = blockSettings_readString__P170961_mk(s);
     s.tmp_4.arg0 = "summingfail";
-    s.callLocIdx = 534; s.pc = 134; return s.tmp_4;
+    s.callLocIdx = 537; s.pc = 134; return s.tmp_4;
   case 134:
     r0 = s.retval;
     s.tmp_3 = r0;
@@ -1986,12 +1986,12 @@ switch (step) {
     s.tmp_2 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_2);
     if (!r0) { step = 31; continue; }
-    globals.summingFail___171000 = (false);
+    globals.summingFail___243171 = (false);
     { step = 34; continue; }
   case 31:
     s.tmp_2 = blockSettings_readString__P170961_mk(s);
     s.tmp_2.arg0 = "summingfail";
-    s.callLocIdx = 535; s.pc = 135; return s.tmp_2;
+    s.callLocIdx = 538; s.pc = 135; return s.tmp_2;
   case 135:
     r0 = s.retval;
     s.tmp_1 = r0;
@@ -1999,17 +1999,17 @@ switch (step) {
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 32; continue; }
-    globals.summingFail___171000 = (true);
+    globals.summingFail___243171 = (true);
   case 32:
   case 33:
   case 34:
     { step = 36; continue; }
   case 35:
-    globals.summingFail___171000 = (false);
+    globals.summingFail___243171 = (false);
   case 36:
     s.tmp_1 = blockSettings_exists__P170965_mk(s);
     s.tmp_1.arg0 = "chance";
-    s.callLocIdx = 536; s.pc = 136; return s.tmp_1;
+    s.callLocIdx = 539; s.pc = 136; return s.tmp_1;
   case 136:
     r0 = s.retval;
     s.tmp_0 = r0;
@@ -2017,17 +2017,17 @@ switch (step) {
     if (!r0) { step = 37; continue; }
     s.tmp_2 = blockSettings_readNumber__P170959_mk(s);
     s.tmp_2.arg0 = "chance";
-    s.callLocIdx = 537; s.pc = 137; return s.tmp_2;
+    s.callLocIdx = 540; s.pc = 137; return s.tmp_2;
   case 137:
     r0 = s.retval;
-    globals.Chance___170999 = (r0);
+    globals.Chance___244019 = (r0);
     { step = 38; continue; }
   case 37:
-    globals.Chance___170999 = (500);
+    globals.Chance___244019 = (500);
   case 38:
     s.tmp_1 = blockSettings_exists__P170965_mk(s);
     s.tmp_1.arg0 = "vol";
-    s.callLocIdx = 538; s.pc = 138; return s.tmp_1;
+    s.callLocIdx = 541; s.pc = 138; return s.tmp_1;
   case 138:
     r0 = s.retval;
     s.tmp_0 = r0;
@@ -2036,43 +2036,43 @@ switch (step) {
     s.tmp_2 = music_setVolume__P168164_mk(s);
     s.tmp_3 = blockSettings_readNumber__P170959_mk(s);
     s.tmp_3.arg0 = "vol";
-    s.callLocIdx = 539; s.pc = 140; return s.tmp_3;
+    s.callLocIdx = 542; s.pc = 140; return s.tmp_3;
   case 140:
     r0 = s.retval;
     s.tmp_2.arg0 = r0;
-    s.callLocIdx = 540; s.pc = 139; return s.tmp_2;
+    s.callLocIdx = 543; s.pc = 139; return s.tmp_2;
   case 139:
     r0 = s.retval;
     { step = 40; continue; }
   case 39:
     s.tmp_0 = music_setVolume__P168164_mk(s);
     s.tmp_0.arg0 = 70;
-    s.callLocIdx = 541; s.pc = 141; return s.tmp_0;
+    s.callLocIdx = 544; s.pc = 141; return s.tmp_0;
   case 141:
     r0 = s.retval;
   case 40:
     s.tmp_0 = game_onUpdate__P169566_mk(s);
-    s.tmp_0.arg0 = inline__P175881;
-    s.callLocIdx = 545; s.pc = 142; return s.tmp_0;
+    s.tmp_0.arg0 = inline__P244416;
+    s.callLocIdx = 548; s.pc = 142; return s.tmp_0;
   case 142:
     r0 = s.retval;
     s.tmp_0 = game_onUpdateInterval__P169567_mk(s);
     s.tmp_0.arg0 = 5000;
-    s.tmp_0.arg1 = inline__P175899;
-    s.callLocIdx = 559; s.pc = 143; return s.tmp_0;
+    s.tmp_0.arg1 = inline__P244434;
+    s.callLocIdx = 562; s.pc = 143; return s.tmp_0;
   case 143:
     r0 = s.retval;
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-_main___P195588.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/Timers/main.ts","functionName":"<main>","argumentNames":[]}
-_main___P195588.continuations = [ 109,110 ]
+_main___P245026.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/Timers/main.ts","functionName":"<main>","argumentNames":[]}
+_main___P245026.continuations = [ 109,110 ]
 
-function _main___P195588_mk(s) {
+function _main___P245026_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P195588, depth: s.depth + 1,
+        parent: s, fn: _main___P245026, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -2107,10 +2107,10 @@ const _hex171911 = pxsim.BufferMethods.createBufferFromHex("87042000200000000000
 const _hex171913 = pxsim.BufferMethods.createBufferFromHex("87042000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004004000000000000000000000000000054450000000000000000000000440b00bbbb00b0440000000000000040550b00000000b0550400000000000040b5000044bb00005b04000000000000b00b0044ddddbb00b00b0000000000000000405d55d5dd0b00000000000000000000d4555555ddbd0000000000000000000054555555d5bd0000000000000000b44055555555d5dd0b4b000000000040b54055555555d5dd0b5b040000000040b54055555555d5dd0b5b040000000000b44055115555d5dd0b4b000000000000000054115555d5bd00000000000000000000d4555555ddbd00000000000000000000405d55d5dd0b0000000000000000b00b0044ddddbb00b00b00000000000040b5000044bb00005b0400000000000040550b00000000b0550400000000000000440b00bbbb00b0440000000000000000000000544500000000000000000000000000004004000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
 const _hex171915 = pxsim.BufferMethods.createBufferFromHex("870420002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbb00000000000000000000000000b055bb00bbbbbb000000000000000000b0b5bdbcbbbbddcb0000000000000000b0dbcb5b5555bbdd0c00000000000000b0cbdcbdbb5b55dbcd0000000000000000c0dddb11d15bb5bd0c00000000000000bbbd111111b155bb0c00000000000000db1b111111115bb5cb00000000000000db1bb11d1199b9d5cb00000000000000db1b11bb9199b955cb000000000000005b1b11b19b99995bcb000000000000005b1d1111bb99995ccb00000000000000b0b511bbbb99995ccb00000000000000b0d51d919999d95b0b00000000000000005bdb919999c9d50b0000000000000000b0d51b99d9bcb5000000000000000000005bd5bbbc550b00000000000000000000b05b5555bd000000000000000000000000b0bbbb00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
 const _hex173710 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex175688 = pxsim.BufferMethods.createBufferFromHex("87040f000f000000ffffffffffffff0f7f7777777777770f7fffffffffff7f0f7fffffffffff7f0f7fffffffffff7f0f7fffffffffff7f0f7fffffffffff7f0f7fffffffffff7f0f7fffffffffff7f0f7fffffffffff7f0f7fffffffffff7f0f7fffffffffff7f0f7fffffffffff7f0f7f7777777777770fffffffffffffff0f")
-const _hex175691 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000707777770700000007000700000000000700070000000000070007000000000070777777070000000000000000000000000000000000000077777777070000007000007000000000000700070000000000707000000000000000070000")
-const _hex175760 = pxsim.BufferMethods.createBufferFromHex("8704a00078000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex175769 = pxsim.BufferMethods.createBufferFromHex("8704a00078000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1f1111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff11f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff11f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1f1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1f1111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff11f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1f1111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1f1111fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1f1111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff11f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fff11ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1111f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1111fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff")
+const _hex244223 = pxsim.BufferMethods.createBufferFromHex("87040f000f000000ffffffffffffff0f7f7777777777770f7fffffffffff7f0f7fffffffffff7f0f7fffffffffff7f0f7fffffffffff7f0f7fffffffffff7f0f7fffffffffff7f0f7fffffffffff7f0f7fffffffffff7f0f7fffffffffff7f0f7fffffffffff7f0f7fffffffffff7f0f7f7777777777770fffffffffffffff0f")
+const _hex244226 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000707777770700000007000700000000000700070000000000070007000000000070777777070000000000000000000000000000000000000077777777070000007000007000000000000700070000000000707000000000000000070000")
+const _hex244295 = pxsim.BufferMethods.createBufferFromHex("8704a00078000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex244304 = pxsim.BufferMethods.createBufferFromHex("8704a00078000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1f1111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff11f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff11f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1f1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1f1111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff11f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1f1111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1f1111fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1f1111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff11f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fff11ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1111f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1111fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff")
 
 
 
@@ -2930,7 +2930,7 @@ function myImages_inline__P173750_mk(s) {
 
 
 
-function inline__P174199(s) {
+function inline__P242695(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -2940,20 +2940,20 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    r0 = pxsim_numops_toBoolDecr(globals.mobile_mode___171002);
+    r0 = pxsim_numops_toBoolDecr(globals.mobile_mode___242697);
     if (!r0) { step = 1; continue; }
-    globals.ACooldown___170987 = (true);
+    globals.ACooldown___242700 = (true);
     s.tmp_0 = timer_after__P170875_mk(s);
     s.tmp_0.arg0 = 500;
-    s.tmp_0.arg1 = inline__P174205;
+    s.tmp_0.arg1 = inline__P242703;
     s.callLocIdx = 159; s.pc = 15; return s.tmp_0;
   case 15:
     r0 = s.retval;
   case 1:
   case 2:
-    r0 = pxsim_numops_toBoolDecr(globals.inviewmode___170986);
+    r0 = pxsim_numops_toBoolDecr(globals.inviewmode___242706);
     if (!r0) { step = 13; continue; }
-    r0 = pxsim_numops_toBoolDecr(globals.counterrunning___170985);
+    r0 = pxsim_numops_toBoolDecr(globals.counterrunning___242711);
     s.tmp_1 = r0;
     r0 = pxsim_Boolean__bang(s.tmp_1);
     s.tmp_0 = r0;
@@ -2970,11 +2970,11 @@ switch (step) {
     s.tmp_2 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_2);
     if (!r0) { step = 9; continue; }
-    r0 = (globals.seconds___170984 != 0);
+    r0 = (globals.seconds___242718 != 0);
     s.tmp_6 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_6);
     if (!r0) { step = 7; continue; }
-    r0 = pxsim_numops_toBoolDecr(globals.canresettimer___170983);
+    r0 = pxsim_numops_toBoolDecr(globals.canresettimer___242721);
     if (!r0) { step = 5; continue; }
     s.tmp_8 = game_ask__P169598_mk(s);
     s.tmp_8.arg0 = "Reset Timer?";
@@ -2995,8 +2995,8 @@ switch (step) {
     s.callLocIdx = 163; s.pc = 19; return s.tmp_0;
   case 19:
     r0 = s.retval;
-    globals.counterrunning___170985 = (false);
-    globals.timerhasbeenreset___170982 = (true);
+    globals.counterrunning___242711 = (false);
+    globals.timerhasbeenreset___242730 = (true);
     { step = 4; continue; }
   case 3:
     s.tmp_0 = game_showLongText__P169503_mk(s);
@@ -3020,12 +3020,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P174199.info = {"start":6764,"length":855,"line":179,"column":52,"endLine":204,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P242695.info = {"start":6764,"length":855,"line":179,"column":52,"endLine":204,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P174199_mk(s) {
+function inline__P242695_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P174199, depth: s.depth + 1,
+        parent: s, fn: inline__P242695, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -3043,7 +3043,7 @@ function inline__P174199_mk(s) {
 
 
 
-function inline__P174205(s) {
+function inline__P242703(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -3053,17 +3053,17 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    globals.ACooldown___170987 = (false);
+    globals.ACooldown___242700 = (false);
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-inline__P174205.info = {"start":6851,"length":53,"line":182,"column":25,"endLine":184,"endColumn":9,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P242703.info = {"start":6851,"length":53,"line":182,"column":25,"endLine":184,"endColumn":9,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P174205_mk(s) {
+function inline__P242703_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P174205, depth: s.depth + 1,
+        parent: s, fn: inline__P242703, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
 } }
 
@@ -3071,7 +3071,7 @@ function inline__P174205_mk(s) {
 
 
 
-function inline__P174234(s) {
+function inline__P242737(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -3081,7 +3081,7 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    s.tmp_0 = flpthmenu__P170973_mk(s);
+    s.tmp_0 = flpthmenu__P242739_mk(s);
     s.callLocIdx = 166; s.pc = 1; return s.tmp_0;
   case 1:
     r0 = s.retval;
@@ -3089,12 +3089,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P174234.info = {"start":7677,"length":31,"line":205,"column":56,"endLine":207,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P242737.info = {"start":7677,"length":31,"line":205,"column":56,"endLine":207,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P174234_mk(s) {
+function inline__P242737_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P174234, depth: s.depth + 1,
+        parent: s, fn: inline__P242737, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
 } }
@@ -3103,7 +3103,7 @@ function inline__P174234_mk(s) {
 
 
 
-function inline__P174668(s) {
+function inline__P243187(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -3113,28 +3113,28 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    r0 = pxsim_numops_toBoolDecr(globals.inviewmode___170986);
+    r0 = pxsim_numops_toBoolDecr(globals.inviewmode___242706);
     if (!r0) { step = 3; continue; }
-    r0 = pxsim_numops_toBoolDecr(globals.counterrunning___170985);
+    r0 = pxsim_numops_toBoolDecr(globals.counterrunning___242711);
     s.tmp_1 = r0;
     r0 = pxsim_Boolean__bang(s.tmp_1);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 1; continue; }
-    globals.timerhasbeenreset___170982 = (false);
+    globals.timerhasbeenreset___242730 = (false);
     s.tmp_0 = info_startCountup__P170952_mk(s);
     s.tmp_0.arg0 = false;
-    s.callLocIdx = 311; s.pc = 5; return s.tmp_0;
+    s.callLocIdx = 314; s.pc = 5; return s.tmp_0;
   case 5:
     r0 = s.retval;
-    globals.counterrunning___170985 = (true);
+    globals.counterrunning___242711 = (true);
     { step = 2; continue; }
   case 1:
     s.tmp_0 = info_pauseCountup__P170953_mk(s);
-    s.callLocIdx = 312; s.pc = 6; return s.tmp_0;
+    s.callLocIdx = 315; s.pc = 6; return s.tmp_0;
   case 6:
     r0 = s.retval;
-    globals.counterrunning___170985 = (false);
+    globals.counterrunning___242711 = (false);
   case 2:
   case 3:
   case 4:
@@ -3142,12 +3142,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P174668.info = {"start":58833,"length":279,"line":696,"column":55,"endLine":707,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P243187.info = {"start":58994,"length":279,"line":701,"column":55,"endLine":712,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P174668_mk(s) {
+function inline__P243187_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P174668, depth: s.depth + 1,
+        parent: s, fn: inline__P243187, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -3157,7 +3157,7 @@ function inline__P174668_mk(s) {
 
 
 
-function inline__P174681(s) {
+function inline__P243200(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -3167,7 +3167,7 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    r0 = pxsim_numops_toBoolDecr(globals.emrgcyACTIVE___171029);
+    r0 = pxsim_numops_toBoolDecr(globals.emrgcyACTIVE___242388);
     s.tmp_1 = r0;
     r0 = pxsim_Boolean__bang(s.tmp_1);
     s.tmp_0 = r0;
@@ -3175,53 +3175,53 @@ switch (step) {
     if (!r0) { step = 1; continue; }
     s.tmp_2 = blockMenu_setControlsEnabled__P170918_mk(s);
     s.tmp_2.arg0 = true;
-    s.callLocIdx = 314; s.pc = 7; return s.tmp_2;
+    s.callLocIdx = 317; s.pc = 7; return s.tmp_2;
   case 7:
     r0 = s.retval;
     s.tmp_0 = scene_setBackgroundImage__P169428_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex174688);
+    r0 = pxsim.image.ofBuffer(_hex243207);
     s.tmp_0.arg0 = r0;
-    s.callLocIdx = 315; s.pc = 8; return s.tmp_0;
+    s.callLocIdx = 318; s.pc = 8; return s.tmp_0;
   case 8:
     r0 = s.retval;
     s.tmp_0 = blockMenu_showMenu__P170909_mk(s);
-    s.tmp_0.arg0 = globals.menu1___171024;
+    s.tmp_0.arg0 = globals.menu1___243210;
     s.tmp_0.arg1 = 1;
     s.tmp_0.arg2 = 0;
-    s.callLocIdx = 316; s.pc = 9; return s.tmp_0;
+    s.callLocIdx = 319; s.pc = 9; return s.tmp_0;
   case 9:
     r0 = s.retval;
-    globals.inviewmode___170986 = (false);
-    globals.canresettimer___170983 = (false);
+    globals.inviewmode___242706 = (false);
+    globals.canresettimer___242721 = (false);
     { step = 6; continue; }
   case 1:
-    r0 = pxsim_numops_toBoolDecr(globals.canexiterror___170993);
+    r0 = pxsim_numops_toBoolDecr(globals.canexiterror___242391);
     if (!r0) { step = 4; continue; }
-    r0 = pxsim_numops_toBoolDecr(globals.summingFail___171000);
+    r0 = pxsim_numops_toBoolDecr(globals.summingFail___243171);
     if (!r0) { step = 2; continue; }
-    globals.emrgcyACTIVE___171029 = (false);
+    globals.emrgcyACTIVE___242388 = (false);
   case 2:
   case 3:
     s.tmp_0 = blockMenu_setControlsEnabled__P170918_mk(s);
     s.tmp_0.arg0 = true;
-    s.callLocIdx = 317; s.pc = 10; return s.tmp_0;
+    s.callLocIdx = 320; s.pc = 10; return s.tmp_0;
   case 10:
     r0 = s.retval;
     s.tmp_0 = scene_setBackgroundImage__P169428_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex174701);
+    r0 = pxsim.image.ofBuffer(_hex243221);
     s.tmp_0.arg0 = r0;
-    s.callLocIdx = 318; s.pc = 11; return s.tmp_0;
+    s.callLocIdx = 321; s.pc = 11; return s.tmp_0;
   case 11:
     r0 = s.retval;
     s.tmp_0 = blockMenu_showMenu__P170909_mk(s);
-    s.tmp_0.arg0 = globals.menu1___171024;
+    s.tmp_0.arg0 = globals.menu1___243210;
     s.tmp_0.arg1 = 1;
     s.tmp_0.arg2 = 0;
-    s.callLocIdx = 319; s.pc = 12; return s.tmp_0;
+    s.callLocIdx = 322; s.pc = 12; return s.tmp_0;
   case 12:
     r0 = s.retval;
-    globals.inviewmode___170986 = (false);
-    globals.canresettimer___170983 = (false);
+    globals.inviewmode___242706 = (false);
+    globals.canresettimer___242721 = (false);
   case 4:
   case 5:
   case 6:
@@ -3229,25 +3229,25 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P174681.info = {"start":59166,"length":42661,"line":708,"column":52,"endLine":969,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P243200.info = {"start":59327,"length":42661,"line":713,"column":52,"endLine":974,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P174681_mk(s) {
+function inline__P243200_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P174681, depth: s.depth + 1,
+        parent: s, fn: inline__P243200, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
   tmp_2: undefined,
 } }
 
-const _hex174688 = pxsim.BufferMethods.createBufferFromHex("8704a00078000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex174701 = pxsim.BufferMethods.createBufferFromHex("8704a00078000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex243207 = pxsim.BufferMethods.createBufferFromHex("8704a00078000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex243221 = pxsim.BufferMethods.createBufferFromHex("8704a00078000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
 
 
 
 
-function inline__P174711(s) {
+function inline__P243231(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -3257,20 +3257,20 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    s.tmp_0 = flpthmenu__P170973_mk(s);
-    s.callLocIdx = 321; s.pc = 1; return s.tmp_0;
+    s.tmp_0 = flpthmenu__P242739_mk(s);
+    s.callLocIdx = 324; s.pc = 1; return s.tmp_0;
   case 1:
     r0 = s.retval;
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-inline__P174711.info = {"start":101884,"length":31,"line":970,"column":55,"endLine":972,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P243231.info = {"start":102045,"length":31,"line":975,"column":55,"endLine":977,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P174711_mk(s) {
+function inline__P243231_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P174711, depth: s.depth + 1,
+        parent: s, fn: inline__P243231, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
 } }
@@ -3279,7 +3279,7 @@ function inline__P174711_mk(s) {
 
 
 
-function inline__P174714(s) {
+function inline__P243234(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -3294,31 +3294,31 @@ switch (step) {
       s.arg1 = (s.lambdaArgs[1]);
       s.lambdaArgs = null;
     }
-    r0 = pxsim_numops_toBoolDecr(globals.ACooldown___170987);
+    r0 = pxsim_numops_toBoolDecr(globals.ACooldown___242700);
     s.tmp_1 = r0;
     r0 = pxsim_Boolean__bang(s.tmp_1);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 345; continue; }
+    if (!r0) { step = 349; continue; }
     r0 = (s.arg0 == "Current Aircraft");
     s.tmp_2 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_2);
     if (!r0) { step = 1; continue; }
     s.tmp_3 = game_splash__P169508_mk(s);
-    s.tmp_3.arg0 = globals.currentPlane___171003;
+    s.tmp_3.arg0 = globals.currentPlane___242774;
     s.tmp_3.arg1 = undefined;
-    s.callLocIdx = 323; s.pc = 347; return s.tmp_3;
-  case 347:
+    s.callLocIdx = 326; s.pc = 351; return s.tmp_3;
+  case 351:
     r0 = s.retval;
-    { step = 344; continue; }
+    { step = 348; continue; }
   case 1:
     r0 = (s.arg0 == "Back");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 2; continue; }
     s.tmp_1 = blockMenu_closeMenu__P170910_mk(s);
-    s.callLocIdx = 324; s.pc = 348; return s.tmp_1;
-  case 348:
+    s.callLocIdx = 327; s.pc = 352; return s.tmp_1;
+  case 352:
     r0 = s.retval;
     r0 = pxsim_Array__mk();
     s.tmp_0 = r0;
@@ -3334,10 +3334,10 @@ switch (step) {
     s.tmp_1.arg0 = s.tmp_0;
     s.tmp_1.arg1 = 1;
     s.tmp_1.arg2 = 0;
-    s.callLocIdx = 325; s.pc = 349; return s.tmp_1;
-  case 349:
+    s.callLocIdx = 328; s.pc = 353; return s.tmp_1;
+  case 353:
     r0 = s.retval;
-    { step = 343; continue; }
+    { step = 347; continue; }
   case 2:
     r0 = (s.arg0 == "Select Aircraft");
     s.tmp_0 = r0;
@@ -3357,10 +3357,10 @@ switch (step) {
     s.tmp_2.arg0 = s.tmp_1;
     s.tmp_2.arg1 = 1;
     s.tmp_2.arg2 = 0;
-    s.callLocIdx = 326; s.pc = 350; return s.tmp_2;
-  case 350:
+    s.callLocIdx = 329; s.pc = 354; return s.tmp_2;
+  case 354:
     r0 = s.retval;
-    { step = 342; continue; }
+    { step = 346; continue; }
   case 3:
     r0 = (s.arg0 == "Quick Startup");
     s.tmp_0 = r0;
@@ -3368,8 +3368,8 @@ switch (step) {
     if (!r0) { step = 6; continue; }
     s.tmp_3 = blockSettings_readNumber__P170959_mk(s);
     s.tmp_3.arg0 = "qstrt";
-    s.callLocIdx = 327; s.pc = 351; return s.tmp_3;
-  case 351:
+    s.callLocIdx = 330; s.pc = 355; return s.tmp_3;
+  case 355:
     r0 = s.retval;
     s.tmp_2 = r0;
     r0 = (s.tmp_2 == 0);
@@ -3379,31 +3379,31 @@ switch (step) {
     s.tmp_4 = blockSettings_writeNumber__P170958_mk(s);
     s.tmp_4.arg0 = "qstrt";
     s.tmp_4.arg1 = 1;
-    s.callLocIdx = 328; s.pc = 352; return s.tmp_4;
-  case 352:
+    s.callLocIdx = 331; s.pc = 356; return s.tmp_4;
+  case 356:
     r0 = s.retval;
     s.tmp_0 = game_splash__P169508_mk(s);
     s.tmp_0.arg0 = "Quick Start Active";
     s.tmp_0.arg1 = undefined;
-    s.callLocIdx = 329; s.pc = 353; return s.tmp_0;
-  case 353:
+    s.callLocIdx = 332; s.pc = 357; return s.tmp_0;
+  case 357:
     r0 = s.retval;
     { step = 5; continue; }
   case 4:
     s.tmp_0 = blockSettings_writeNumber__P170958_mk(s);
     s.tmp_0.arg0 = "qstrt";
     s.tmp_0.arg1 = 0;
-    s.callLocIdx = 330; s.pc = 354; return s.tmp_0;
-  case 354:
+    s.callLocIdx = 333; s.pc = 358; return s.tmp_0;
+  case 358:
     r0 = s.retval;
     s.tmp_0 = game_splash__P169508_mk(s);
     s.tmp_0.arg0 = "Quick Start Off";
     s.tmp_0.arg1 = undefined;
-    s.callLocIdx = 331; s.pc = 355; return s.tmp_0;
-  case 355:
+    s.callLocIdx = 334; s.pc = 359; return s.tmp_0;
+  case 359:
     r0 = s.retval;
   case 5:
-    { step = 341; continue; }
+    { step = 345; continue; }
   case 6:
     r0 = (s.arg0 == "Airliners");
     s.tmp_0 = r0;
@@ -3421,10 +3421,10 @@ switch (step) {
     s.tmp_2.arg0 = s.tmp_1;
     s.tmp_2.arg1 = 1;
     s.tmp_2.arg2 = 0;
-    s.callLocIdx = 332; s.pc = 356; return s.tmp_2;
-  case 356:
+    s.callLocIdx = 335; s.pc = 360; return s.tmp_2;
+  case 360:
     r0 = s.retval;
-    { step = 340; continue; }
+    { step = 344; continue; }
   case 7:
     r0 = (s.arg0 == "Cargo");
     s.tmp_0 = r0;
@@ -3444,10 +3444,10 @@ switch (step) {
     s.tmp_2.arg0 = s.tmp_1;
     s.tmp_2.arg1 = 1;
     s.tmp_2.arg2 = 0;
-    s.callLocIdx = 333; s.pc = 357; return s.tmp_2;
-  case 357:
+    s.callLocIdx = 336; s.pc = 361; return s.tmp_2;
+  case 361:
     r0 = s.retval;
-    { step = 339; continue; }
+    { step = 343; continue; }
   case 8:
     r0 = (s.arg0 == "Helicopters");
     s.tmp_0 = r0;
@@ -3456,10 +3456,10 @@ switch (step) {
     s.tmp_1 = game_splash__P169508_mk(s);
     s.tmp_1.arg0 = "MCDU not available";
     s.tmp_1.arg1 = undefined;
-    s.callLocIdx = 334; s.pc = 358; return s.tmp_1;
-  case 358:
+    s.callLocIdx = 337; s.pc = 362; return s.tmp_1;
+  case 362:
     r0 = s.retval;
-    { step = 338; continue; }
+    { step = 342; continue; }
   case 9:
     r0 = (s.arg0 == "Light Aircraft ");
     s.tmp_0 = r0;
@@ -3477,10 +3477,10 @@ switch (step) {
     s.tmp_2.arg0 = s.tmp_1;
     s.tmp_2.arg1 = 1;
     s.tmp_2.arg2 = 0;
-    s.callLocIdx = 335; s.pc = 359; return s.tmp_2;
-  case 359:
+    s.callLocIdx = 338; s.pc = 363; return s.tmp_2;
+  case 363:
     r0 = s.retval;
-    { step = 337; continue; }
+    { step = 341; continue; }
   case 10:
     r0 = (s.arg0 == "Modern Military");
     s.tmp_0 = r0;
@@ -3502,10 +3502,10 @@ switch (step) {
     s.tmp_2.arg0 = s.tmp_1;
     s.tmp_2.arg1 = 1;
     s.tmp_2.arg2 = 0;
-    s.callLocIdx = 336; s.pc = 360; return s.tmp_2;
-  case 360:
+    s.callLocIdx = 339; s.pc = 364; return s.tmp_2;
+  case 364:
     r0 = s.retval;
-    { step = 336; continue; }
+    { step = 340; continue; }
   case 11:
     r0 = (s.arg0 == "Old Military");
     s.tmp_0 = r0;
@@ -3514,10 +3514,10 @@ switch (step) {
     s.tmp_1 = game_splash__P169508_mk(s);
     s.tmp_1.arg0 = "MCDU not available";
     s.tmp_1.arg1 = undefined;
-    s.callLocIdx = 337; s.pc = 361; return s.tmp_1;
-  case 361:
+    s.callLocIdx = 340; s.pc = 365; return s.tmp_1;
+  case 365:
     r0 = s.retval;
-    { step = 335; continue; }
+    { step = 339; continue; }
   case 12:
     r0 = (s.arg0 == "Miscellaneous");
     s.tmp_0 = r0;
@@ -3531,10 +3531,10 @@ switch (step) {
     s.tmp_2.arg0 = s.tmp_1;
     s.tmp_2.arg1 = 1;
     s.tmp_2.arg2 = 0;
-    s.callLocIdx = 338; s.pc = 362; return s.tmp_2;
-  case 362:
+    s.callLocIdx = 341; s.pc = 366; return s.tmp_2;
+  case 366:
     r0 = s.retval;
-    { step = 334; continue; }
+    { step = 338; continue; }
   case 13:
     r0 = (s.arg0 == "Airbus");
     s.tmp_0 = r0;
@@ -3547,15 +3547,16 @@ switch (step) {
     r0 = pxsim_Array__push(s.tmp_1, "A330");
     r0 = pxsim_Array__push(s.tmp_1, "A340");
     r0 = pxsim_Array__push(s.tmp_1, "A350");
+    r0 = pxsim_Array__push(s.tmp_1, "A380");
     r0 = pxsim_Array__push(s.tmp_1, "Back");
     s.tmp_2 = blockMenu_showMenu__P170909_mk(s);
     s.tmp_2.arg0 = s.tmp_1;
     s.tmp_2.arg1 = 1;
     s.tmp_2.arg2 = 0;
-    s.callLocIdx = 339; s.pc = 363; return s.tmp_2;
-  case 363:
+    s.callLocIdx = 342; s.pc = 367; return s.tmp_2;
+  case 367:
     r0 = s.retval;
-    { step = 333; continue; }
+    { step = 337; continue; }
   case 14:
     r0 = (s.arg0 == "Boeing");
     s.tmp_0 = r0;
@@ -3574,10 +3575,10 @@ switch (step) {
     s.tmp_2.arg0 = s.tmp_1;
     s.tmp_2.arg1 = 1;
     s.tmp_2.arg2 = 0;
-    s.callLocIdx = 340; s.pc = 364; return s.tmp_2;
-  case 364:
+    s.callLocIdx = 343; s.pc = 368; return s.tmp_2;
+  case 368:
     r0 = s.retval;
-    { step = 332; continue; }
+    { step = 336; continue; }
   case 15:
     r0 = (s.arg0 == "Bombardier");
     s.tmp_0 = r0;
@@ -3592,10 +3593,10 @@ switch (step) {
     s.tmp_2.arg0 = s.tmp_1;
     s.tmp_2.arg1 = 1;
     s.tmp_2.arg2 = 0;
-    s.callLocIdx = 341; s.pc = 365; return s.tmp_2;
-  case 365:
+    s.callLocIdx = 344; s.pc = 369; return s.tmp_2;
+  case 369:
     r0 = s.retval;
-    { step = 331; continue; }
+    { step = 335; continue; }
   case 16:
     r0 = (s.arg0 == "Aérospatiale-BAC");
     s.tmp_0 = r0;
@@ -3609,10 +3610,10 @@ switch (step) {
     s.tmp_2.arg0 = s.tmp_1;
     s.tmp_2.arg1 = 1;
     s.tmp_2.arg2 = 0;
-    s.callLocIdx = 342; s.pc = 366; return s.tmp_2;
-  case 366:
+    s.callLocIdx = 345; s.pc = 370; return s.tmp_2;
+  case 370:
     r0 = s.retval;
-    { step = 330; continue; }
+    { step = 334; continue; }
   case 17:
     r0 = (s.arg0 == "Douglas");
     s.tmp_0 = r0;
@@ -3627,10 +3628,10 @@ switch (step) {
     s.tmp_2.arg0 = s.tmp_1;
     s.tmp_2.arg1 = 1;
     s.tmp_2.arg2 = 0;
-    s.callLocIdx = 343; s.pc = 367; return s.tmp_2;
-  case 367:
+    s.callLocIdx = 346; s.pc = 371; return s.tmp_2;
+  case 371:
     r0 = s.retval;
-    { step = 329; continue; }
+    { step = 333; continue; }
   case 18:
     r0 = (s.arg0 == "A320");
     s.tmp_0 = r0;
@@ -3766,14 +3767,14 @@ switch (step) {
     s.tmp_23 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_23);
     if (!r0) { step = 43; continue; }
-    globals.currentPlane___171003 = (s.arg0);
+    globals.currentPlane___242774 = (s.arg0);
     s.tmp_0 = game_splash__P169508_mk(s);
     s.tmp_0.arg0 = "Aircraft Selected:";
-    s.tmp_0.arg1 = globals.currentPlane___171003;
-    s.callLocIdx = 344; s.pc = 368; return s.tmp_0;
-  case 368:
+    s.tmp_0.arg1 = globals.currentPlane___242774;
+    s.callLocIdx = 347; s.pc = 372; return s.tmp_0;
+  case 372:
     r0 = s.retval;
-    { step = 328; continue; }
+    { step = 332; continue; }
   case 43:
     r0 = (s.arg0 == "Cessna");
     s.tmp_0 = r0;
@@ -3790,10 +3791,10 @@ switch (step) {
     s.tmp_2.arg0 = s.tmp_1;
     s.tmp_2.arg1 = 1;
     s.tmp_2.arg2 = 0;
-    s.callLocIdx = 345; s.pc = 369; return s.tmp_2;
-  case 369:
+    s.callLocIdx = 348; s.pc = 373; return s.tmp_2;
+  case 373:
     r0 = s.retval;
-    { step = 327; continue; }
+    { step = 331; continue; }
   case 44:
     r0 = (s.arg0 == "De Havilland");
     s.tmp_0 = r0;
@@ -3807,10 +3808,10 @@ switch (step) {
     s.tmp_2.arg0 = s.tmp_1;
     s.tmp_2.arg1 = 1;
     s.tmp_2.arg2 = 0;
-    s.callLocIdx = 346; s.pc = 370; return s.tmp_2;
-  case 370:
+    s.callLocIdx = 349; s.pc = 374; return s.tmp_2;
+  case 374:
     r0 = s.retval;
-    { step = 326; continue; }
+    { step = 330; continue; }
   case 45:
     r0 = (s.arg0 == "Extra");
     s.tmp_0 = r0;
@@ -3824,10 +3825,10 @@ switch (step) {
     s.tmp_2.arg0 = s.tmp_1;
     s.tmp_2.arg1 = 1;
     s.tmp_2.arg2 = 0;
-    s.callLocIdx = 347; s.pc = 371; return s.tmp_2;
-  case 371:
+    s.callLocIdx = 350; s.pc = 375; return s.tmp_2;
+  case 375:
     r0 = s.retval;
-    { step = 325; continue; }
+    { step = 329; continue; }
   case 46:
     r0 = (s.arg0 == "Piper");
     s.tmp_0 = r0;
@@ -3842,10 +3843,10 @@ switch (step) {
     s.tmp_2.arg0 = s.tmp_1;
     s.tmp_2.arg1 = 1;
     s.tmp_2.arg2 = 0;
-    s.callLocIdx = 348; s.pc = 372; return s.tmp_2;
-  case 372:
+    s.callLocIdx = 351; s.pc = 376; return s.tmp_2;
+  case 376:
     r0 = s.retval;
-    { step = 324; continue; }
+    { step = 328; continue; }
   case 47:
     r0 = (s.arg0 == "MD11");
     s.tmp_0 = r0;
@@ -3981,53 +3982,53 @@ switch (step) {
     s.tmp_23 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_23);
     if (!r0) { step = 72; continue; }
-    globals.currentPlane___171003 = (s.arg0);
+    globals.currentPlane___242774 = (s.arg0);
     s.tmp_0 = game_splash__P169508_mk(s);
     s.tmp_0.arg0 = "Aircraft Selected:";
-    s.tmp_0.arg1 = globals.currentPlane___171003;
-    s.callLocIdx = 349; s.pc = 373; return s.tmp_0;
-  case 373:
+    s.tmp_0.arg1 = globals.currentPlane___242774;
+    s.callLocIdx = 352; s.pc = 377; return s.tmp_0;
+  case 377:
     r0 = s.retval;
-    { step = 323; continue; }
+    { step = 327; continue; }
   case 72:
     r0 = (s.arg0 == "DHC-6 Twin Otter");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 73; continue; }
-    globals.currentPlane___171003 = ("Twin Otter");
+    globals.currentPlane___242774 = ("Twin Otter");
     s.tmp_0 = game_splash__P169508_mk(s);
     s.tmp_0.arg0 = "Aircraft Selected:";
-    s.tmp_0.arg1 = globals.currentPlane___171003;
-    s.callLocIdx = 350; s.pc = 374; return s.tmp_0;
-  case 374:
+    s.tmp_0.arg1 = globals.currentPlane___242774;
+    s.callLocIdx = 353; s.pc = 378; return s.tmp_0;
+  case 378:
     r0 = s.retval;
-    { step = 322; continue; }
+    { step = 326; continue; }
   case 73:
     r0 = (s.arg0 == "Extra 300");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 74; continue; }
-    globals.currentPlane___171003 = ("300");
+    globals.currentPlane___242774 = ("300");
     s.tmp_0 = game_splash__P169508_mk(s);
     s.tmp_0.arg0 = "Aircraft Selected:";
-    s.tmp_0.arg1 = globals.currentPlane___171003;
-    s.callLocIdx = 351; s.pc = 375; return s.tmp_0;
-  case 375:
+    s.tmp_0.arg1 = globals.currentPlane___242774;
+    s.callLocIdx = 354; s.pc = 379; return s.tmp_0;
+  case 379:
     r0 = s.retval;
-    { step = 321; continue; }
+    { step = 325; continue; }
   case 74:
     r0 = (s.arg0 == "MCDU");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 75; continue; }
     s.tmp_1 = blockMenu_showMenu__P170909_mk(s);
-    s.tmp_1.arg0 = globals.flightpathmenu___171022;
+    s.tmp_1.arg0 = globals.flightpathmenu___242229;
     s.tmp_1.arg1 = 1;
     s.tmp_1.arg2 = 0;
-    s.callLocIdx = 352; s.pc = 376; return s.tmp_1;
-  case 376:
+    s.callLocIdx = 355; s.pc = 380; return s.tmp_1;
+  case 380:
     r0 = s.retval;
-    { step = 320; continue; }
+    { step = 324; continue; }
   case 75:
     r0 = (s.arg0 == "View Flight Path");
     s.tmp_0 = r0;
@@ -4035,136 +4036,98 @@ switch (step) {
     if (!r0) { step = 76; continue; }
     s.tmp_1 = blockMenu_setControlsEnabled__P170918_mk(s);
     s.tmp_1.arg0 = false;
-    s.callLocIdx = 353; s.pc = 377; return s.tmp_1;
-  case 377:
+    s.callLocIdx = 356; s.pc = 381; return s.tmp_1;
+  case 381:
     r0 = s.retval;
-    globals.inviewmode___170986 = (true);
+    globals.inviewmode___242706 = (true);
     s.tmp_0 = blockMenu_closeMenu__P170910_mk(s);
-    s.callLocIdx = 354; s.pc = 378; return s.tmp_0;
-  case 378:
+    s.callLocIdx = 357; s.pc = 382; return s.tmp_0;
+  case 382:
     r0 = s.retval;
     s.tmp_0 = scene_setBackgroundImage__P169428_mk(s);
     s.tmp_1 = helpers_getImageByName__P169879_mk(s);
     s.tmp_1.arg0 = "Flight Path MCDU";
-    s.callLocIdx = 355; s.pc = 380; return s.tmp_1;
-  case 380:
-    r0 = s.retval;
-    s.tmp_0.arg0 = r0;
-    s.callLocIdx = 356; s.pc = 379; return s.tmp_0;
-  case 379:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt1___170992;
-    r0 = pxsim_String_.mkEmpty();
-    s.tmp_5 = r0;
-    if ((globals.start___170998) && (globals.start___170998).vtable) {
-    setupResume(s, 382);
-    pxsim_String__stringConv(globals.start___170998);
-    checkResumeConsumed();
-    return;
-    } else { s.retval = (globals.start___170998) + ""; }
-  case 382:
-    r0 = s.retval;
-    s.tmp_6 = r0;
-    r0 = pxsim_String__concat(s.tmp_5, s.tmp_6);
-    s.tmp_4 = r0;
-    if ((s.tmp_4) && (s.tmp_4).vtable) {
-    setupResume(s, 383);
-    pxsim_String__stringConv(s.tmp_4);
-    checkResumeConsumed();
-    return;
-    } else { s.retval = (s.tmp_4) + ""; }
-  case 383:
-    r0 = s.retval;
-    s.tmp_3 = r0;
-    r0 = pxsim_String__concat(s.tmp_3, " RW ");
-    s.tmp_2 = r0;
-    if ((s.tmp_2) && (s.tmp_2).vtable) {
-    setupResume(s, 384);
-    pxsim_String__stringConv(s.tmp_2);
-    checkResumeConsumed();
-    return;
-    } else { s.retval = (s.tmp_2) + ""; }
+    s.callLocIdx = 358; s.pc = 384; return s.tmp_1;
   case 384:
     r0 = s.retval;
-    s.tmp_1 = r0;
-    if ((globals.chosenDeparture_RW___171026) && (globals.chosenDeparture_RW___171026).vtable) {
-    setupResume(s, 385);
-    pxsim_String__stringConv(globals.chosenDeparture_RW___171026);
-    checkResumeConsumed();
-    return;
-    } else { s.retval = (globals.chosenDeparture_RW___171026) + ""; }
-  case 385:
-    r0 = s.retval;
-    s.tmp_7 = r0;
-    r0 = pxsim_String__concat(s.tmp_1, s.tmp_7);
-    s.tmp_0.arg1 = r0;
-    s.callLocIdx = 357; s.pc = 381; return s.tmp_0;
-  case 381:
+    s.tmp_0.arg0 = r0;
+    s.callLocIdx = 359; s.pc = 383; return s.tmp_0;
+  case 383:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
+    s.tmp_0.arg0 = globals.txt1___242402;
     r0 = pxsim_String_.mkEmpty();
     s.tmp_5 = r0;
-    if ((globals.end___170996) && (globals.end___170996).vtable) {
-    setupResume(s, 387);
-    pxsim_String__stringConv(globals.end___170996);
+    if ((globals.start___242235) && (globals.start___242235).vtable) {
+    setupResume(s, 386);
+    pxsim_String__stringConv(globals.start___242235);
     checkResumeConsumed();
     return;
-    } else { s.retval = (globals.end___170996) + ""; }
-  case 387:
+    } else { s.retval = (globals.start___242235) + ""; }
+  case 386:
     r0 = s.retval;
     s.tmp_6 = r0;
     r0 = pxsim_String__concat(s.tmp_5, s.tmp_6);
     s.tmp_4 = r0;
     if ((s.tmp_4) && (s.tmp_4).vtable) {
-    setupResume(s, 388);
+    setupResume(s, 387);
     pxsim_String__stringConv(s.tmp_4);
     checkResumeConsumed();
     return;
     } else { s.retval = (s.tmp_4) + ""; }
-  case 388:
+  case 387:
     r0 = s.retval;
     s.tmp_3 = r0;
     r0 = pxsim_String__concat(s.tmp_3, " RW ");
     s.tmp_2 = r0;
     if ((s.tmp_2) && (s.tmp_2).vtable) {
-    setupResume(s, 389);
+    setupResume(s, 388);
     pxsim_String__stringConv(s.tmp_2);
     checkResumeConsumed();
     return;
     } else { s.retval = (s.tmp_2) + ""; }
-  case 389:
+  case 388:
     r0 = s.retval;
     s.tmp_1 = r0;
-    if ((globals.chosenArrival_RW___171027) && (globals.chosenArrival_RW___171027).vtable) {
-    setupResume(s, 390);
-    pxsim_String__stringConv(globals.chosenArrival_RW___171027);
+    if ((globals.chosenDeparture_RW___242223) && (globals.chosenDeparture_RW___242223).vtable) {
+    setupResume(s, 389);
+    pxsim_String__stringConv(globals.chosenDeparture_RW___242223);
     checkResumeConsumed();
     return;
-    } else { s.retval = (globals.chosenArrival_RW___171027) + ""; }
-  case 390:
+    } else { s.retval = (globals.chosenDeparture_RW___242223) + ""; }
+  case 389:
     r0 = s.retval;
     s.tmp_7 = r0;
     r0 = pxsim_String__concat(s.tmp_1, s.tmp_7);
     s.tmp_0.arg1 = r0;
-    s.callLocIdx = 358; s.pc = 386; return s.tmp_0;
-  case 386:
+    s.callLocIdx = 360; s.pc = 385; return s.tmp_0;
+  case 385:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
+    s.tmp_0.arg0 = globals.txt2___242406;
     r0 = pxsim_String_.mkEmpty();
-    s.tmp_3 = r0;
-    if ((globals.heading___170979) && (globals.heading___170979).vtable) {
-    setupResume(s, 392);
-    pxsim_String__stringConv(globals.heading___170979);
+    s.tmp_5 = r0;
+    if ((globals.end___242317) && (globals.end___242317).vtable) {
+    setupResume(s, 391);
+    pxsim_String__stringConv(globals.end___242317);
     checkResumeConsumed();
     return;
-    } else { s.retval = (globals.heading___170979) + ""; }
+    } else { s.retval = (globals.end___242317) + ""; }
+  case 391:
+    r0 = s.retval;
+    s.tmp_6 = r0;
+    r0 = pxsim_String__concat(s.tmp_5, s.tmp_6);
+    s.tmp_4 = r0;
+    if ((s.tmp_4) && (s.tmp_4).vtable) {
+    setupResume(s, 392);
+    pxsim_String__stringConv(s.tmp_4);
+    checkResumeConsumed();
+    return;
+    } else { s.retval = (s.tmp_4) + ""; }
   case 392:
     r0 = s.retval;
-    s.tmp_4 = r0;
-    r0 = pxsim_String__concat(s.tmp_3, s.tmp_4);
+    s.tmp_3 = r0;
+    r0 = pxsim_String__concat(s.tmp_3, " RW ");
     s.tmp_2 = r0;
     if ((s.tmp_2) && (s.tmp_2).vtable) {
     setupResume(s, 393);
@@ -4175,54 +4138,92 @@ switch (step) {
   case 393:
     r0 = s.retval;
     s.tmp_1 = r0;
-    r0 = pxsim_String__concat(s.tmp_1, "°");
-    s.tmp_0.arg1 = r0;
-    s.callLocIdx = 359; s.pc = 391; return s.tmp_0;
-  case 391:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt4___170988;
-    r0 = pxsim_String_.mkEmpty();
-    s.tmp_3 = r0;
-    if ((globals.crsalt___170978) && (globals.crsalt___170978).vtable) {
-    setupResume(s, 395);
-    pxsim_String__stringConv(globals.crsalt___170978);
+    if ((globals.chosenArrival_RW___242221) && (globals.chosenArrival_RW___242221).vtable) {
+    setupResume(s, 394);
+    pxsim_String__stringConv(globals.chosenArrival_RW___242221);
     checkResumeConsumed();
     return;
-    } else { s.retval = (globals.crsalt___170978) + ""; }
-  case 395:
+    } else { s.retval = (globals.chosenArrival_RW___242221) + ""; }
+  case 394:
+    r0 = s.retval;
+    s.tmp_7 = r0;
+    r0 = pxsim_String__concat(s.tmp_1, s.tmp_7);
+    s.tmp_0.arg1 = r0;
+    s.callLocIdx = 361; s.pc = 390; return s.tmp_0;
+  case 390:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    r0 = pxsim_String_.mkEmpty();
+    s.tmp_3 = r0;
+    if ((globals.heading___243508) && (globals.heading___243508).vtable) {
+    setupResume(s, 396);
+    pxsim_String__stringConv(globals.heading___243508);
+    checkResumeConsumed();
+    return;
+    } else { s.retval = (globals.heading___243508) + ""; }
+  case 396:
     r0 = s.retval;
     s.tmp_4 = r0;
     r0 = pxsim_String__concat(s.tmp_3, s.tmp_4);
     s.tmp_2 = r0;
     if ((s.tmp_2) && (s.tmp_2).vtable) {
-    setupResume(s, 396);
+    setupResume(s, 397);
     pxsim_String__stringConv(s.tmp_2);
     checkResumeConsumed();
     return;
     } else { s.retval = (s.tmp_2) + ""; }
-  case 396:
+  case 397:
+    r0 = s.retval;
+    s.tmp_1 = r0;
+    r0 = pxsim_String__concat(s.tmp_1, "°");
+    s.tmp_0.arg1 = r0;
+    s.callLocIdx = 362; s.pc = 395; return s.tmp_0;
+  case 395:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt4___242427;
+    r0 = pxsim_String_.mkEmpty();
+    s.tmp_3 = r0;
+    if ((globals.crsalt___243521) && (globals.crsalt___243521).vtable) {
+    setupResume(s, 399);
+    pxsim_String__stringConv(globals.crsalt___243521);
+    checkResumeConsumed();
+    return;
+    } else { s.retval = (globals.crsalt___243521) + ""; }
+  case 399:
+    r0 = s.retval;
+    s.tmp_4 = r0;
+    r0 = pxsim_String__concat(s.tmp_3, s.tmp_4);
+    s.tmp_2 = r0;
+    if ((s.tmp_2) && (s.tmp_2).vtable) {
+    setupResume(s, 400);
+    pxsim_String__stringConv(s.tmp_2);
+    checkResumeConsumed();
+    return;
+    } else { s.retval = (s.tmp_2) + ""; }
+  case 400:
     r0 = s.retval;
     s.tmp_1 = r0;
     r0 = pxsim_String__concat(s.tmp_1, "ft");
     s.tmp_0.arg1 = r0;
-    s.callLocIdx = 360; s.pc = 394; return s.tmp_0;
-  case 394:
+    s.callLocIdx = 363; s.pc = 398; return s.tmp_0;
+  case 398:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt5___170981;
+    s.tmp_0.arg0 = globals.txt5___242758;
     r0 = pxsim_String_.mkEmpty();
     s.tmp_0.arg1 = r0;
-    s.callLocIdx = 361; s.pc = 397; return s.tmp_0;
-  case 397:
+    s.callLocIdx = 364; s.pc = 401; return s.tmp_0;
+  case 401:
     r0 = s.retval;
     s.tmp_0 = timer_after__P170875_mk(s);
     s.tmp_0.arg0 = 500;
-    s.tmp_0.arg1 = inline__P175007;
-    s.callLocIdx = 362; s.pc = 398; return s.tmp_0;
-  case 398:
+    s.tmp_0.arg1 = inline__P243529;
+    s.callLocIdx = 365; s.pc = 402; return s.tmp_0;
+  case 402:
     r0 = s.retval;
-    { step = 319; continue; }
+    { step = 323; continue; }
   case 76:
     r0 = (s.arg0 == "View Plane Information");
     s.tmp_0 = r0;
@@ -4230,60 +4231,60 @@ switch (step) {
     if (!r0) { step = 79; continue; }
     s.tmp_1 = blockMenu_setControlsEnabled__P170918_mk(s);
     s.tmp_1.arg0 = false;
-    s.callLocIdx = 363; s.pc = 399; return s.tmp_1;
-  case 399:
+    s.callLocIdx = 366; s.pc = 403; return s.tmp_1;
+  case 403:
     r0 = s.retval;
-    globals.inviewmode___170986 = (true);
+    globals.inviewmode___242706 = (true);
     s.tmp_0 = scene_setBackgroundImage__P169428_mk(s);
     s.tmp_1 = helpers_getImageByName__P169879_mk(s);
     s.tmp_1.arg0 = "Flight Info MCDU";
-    s.callLocIdx = 364; s.pc = 401; return s.tmp_1;
-  case 401:
+    s.callLocIdx = 367; s.pc = 405; return s.tmp_1;
+  case 405:
     r0 = s.retval;
     s.tmp_0.arg0 = r0;
-    s.callLocIdx = 365; s.pc = 400; return s.tmp_0;
-  case 400:
+    s.callLocIdx = 368; s.pc = 404; return s.tmp_0;
+  case 404:
     r0 = s.retval;
-    s.tmp_0 = ShowInfo__P170972_mk(s);
-    s.callLocIdx = 366; s.pc = 402; return s.tmp_0;
-  case 402:
+    s.tmp_0 = ShowInfo__P242769_mk(s);
+    s.callLocIdx = 369; s.pc = 406; return s.tmp_0;
+  case 406:
     r0 = s.retval;
-    r0 = pxsim_numops_toBoolDecr(globals.callsign___170977);
+    r0 = pxsim_numops_toBoolDecr(globals.callsign___243540);
     if (!r0) { step = 77; continue; }
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt5___170981;
+    s.tmp_0.arg0 = globals.txt5___242758;
     r0 = pxsim_String_.mkEmpty();
     s.tmp_1 = r0;
-    if ((globals.callsign___170977) && (globals.callsign___170977).vtable) {
-    setupResume(s, 404);
-    pxsim_String__stringConv(globals.callsign___170977);
+    if ((globals.callsign___243540) && (globals.callsign___243540).vtable) {
+    setupResume(s, 408);
+    pxsim_String__stringConv(globals.callsign___243540);
     checkResumeConsumed();
     return;
-    } else { s.retval = (globals.callsign___170977) + ""; }
-  case 404:
+    } else { s.retval = (globals.callsign___243540) + ""; }
+  case 408:
     r0 = s.retval;
     s.tmp_2 = r0;
     r0 = pxsim_String__concat(s.tmp_1, s.tmp_2);
     s.tmp_0.arg1 = r0;
-    s.callLocIdx = 367; s.pc = 403; return s.tmp_0;
-  case 403:
+    s.callLocIdx = 370; s.pc = 407; return s.tmp_0;
+  case 407:
     r0 = s.retval;
     { step = 78; continue; }
   case 77:
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt5___170981;
+    s.tmp_0.arg0 = globals.txt5___242758;
     s.tmp_0.arg1 = "0000";
-    s.callLocIdx = 368; s.pc = 405; return s.tmp_0;
-  case 405:
+    s.callLocIdx = 371; s.pc = 409; return s.tmp_0;
+  case 409:
     r0 = s.retval;
   case 78:
     s.tmp_0 = timer_after__P170875_mk(s);
     s.tmp_0.arg0 = 500;
-    s.tmp_0.arg1 = inline__P175029;
-    s.callLocIdx = 369; s.pc = 406; return s.tmp_0;
-  case 406:
+    s.tmp_0.arg1 = inline__P243552;
+    s.callLocIdx = 372; s.pc = 410; return s.tmp_0;
+  case 410:
     r0 = s.retval;
-    { step = 318; continue; }
+    { step = 322; continue; }
   case 79:
     r0 = (s.arg0 == "Set Flight Path");
     s.tmp_0 = r0;
@@ -4291,43 +4292,43 @@ switch (step) {
     if (!r0) { step = 80; continue; }
     s.tmp_1 = blockMenu_setSelectedOption__P170917_mk(s);
     s.tmp_1.arg0 = "NaN(None)";
-    s.callLocIdx = 370; s.pc = 407; return s.tmp_1;
-  case 407:
+    s.callLocIdx = 373; s.pc = 411; return s.tmp_1;
+  case 411:
     r0 = s.retval;
     s.tmp_0 = game_askForString__P169580_mk(s);
     s.tmp_0.arg0 = "Set Departure Airport";
     s.tmp_0.arg1 = 4;
-    s.callLocIdx = 371; s.pc = 408; return s.tmp_0;
-  case 408:
+    s.callLocIdx = 374; s.pc = 412; return s.tmp_0;
+  case 412:
     r0 = s.retval;
-    globals.start___170998 = (r0);
+    globals.start___242235 = (r0);
     s.tmp_0 = game_askForString__P169580_mk(s);
     s.tmp_0.arg0 = "Set Arrival Airport";
     s.tmp_0.arg1 = 4;
-    s.callLocIdx = 372; s.pc = 409; return s.tmp_0;
-  case 409:
+    s.callLocIdx = 375; s.pc = 413; return s.tmp_0;
+  case 413:
     r0 = s.retval;
-    globals.end___170996 = (r0);
+    globals.end___242317 = (r0);
     s.tmp_0 = game_askForNumber__P169589_mk(s);
     s.tmp_0.arg0 = "Set Heading";
     s.tmp_0.arg1 = 3;
-    s.callLocIdx = 373; s.pc = 410; return s.tmp_0;
-  case 410:
+    s.callLocIdx = 376; s.pc = 414; return s.tmp_0;
+  case 414:
     r0 = s.retval;
-    globals.heading___170979 = (r0);
+    globals.heading___243508 = (r0);
     s.tmp_0 = game_askForNumber__P169589_mk(s);
     s.tmp_0.arg0 = "Set Cruise Altitude";
     s.tmp_0.arg1 = 5;
-    s.callLocIdx = 374; s.pc = 411; return s.tmp_0;
-  case 411:
+    s.callLocIdx = 377; s.pc = 415; return s.tmp_0;
+  case 415:
     r0 = s.retval;
-    globals.crsalt___170978 = (r0);
-    s.tmp_0 = RWstuff__P170968_mk(s);
+    globals.crsalt___243521 = (r0);
+    s.tmp_0 = RWstuff__P242218_mk(s);
     s.tmp_0.arg0 = false;
-    s.callLocIdx = 375; s.pc = 412; return s.tmp_0;
-  case 412:
+    s.callLocIdx = 378; s.pc = 416; return s.tmp_0;
+  case 416:
     r0 = s.retval;
-    { step = 317; continue; }
+    { step = 321; continue; }
   case 80:
     r0 = (s.arg0 == "Preset Flight Paths");
     s.tmp_0 = r0;
@@ -4342,238 +4343,238 @@ switch (step) {
     s.tmp_2.arg0 = s.tmp_1;
     s.tmp_2.arg1 = 1;
     s.tmp_2.arg2 = 0;
-    s.callLocIdx = 376; s.pc = 413; return s.tmp_2;
-  case 413:
+    s.callLocIdx = 379; s.pc = 417; return s.tmp_2;
+  case 417:
     r0 = s.retval;
-    { step = 316; continue; }
+    { step = 320; continue; }
   case 81:
     r0 = (s.arg0 == "IRFD to ITKO");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 86; continue; }
-    s.tmp_1 = RWstuff__P170968_mk(s);
+    s.tmp_1 = RWstuff__P242218_mk(s);
     s.tmp_1.arg0 = true;
-    s.callLocIdx = 377; s.pc = 414; return s.tmp_1;
-  case 414:
+    s.callLocIdx = 380; s.pc = 418; return s.tmp_1;
+  case 418:
     r0 = s.retval;
-    globals.start___170998 = ("IRFD");
-    globals.end___170996 = ("ITKO");
-    globals.heading___170979 = (2);
-    r0 = (globals.currentPlane___171003 == "A330");
+    globals.start___242235 = ("IRFD");
+    globals.end___242317 = ("ITKO");
+    globals.heading___243508 = (2);
+    r0 = (globals.currentPlane___242774 == "A330");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBool(s.tmp_0);
     if (!r0) { step = 82; continue; }
     r0 = s.tmp_0;
     { step = 83; continue; }
   case 82:
-    r0 = (globals.currentPlane___171003 == "757");
+    r0 = (globals.currentPlane___242774 == "757");
   case 83:
     // jmp value (already in r0)
     s.tmp_1 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_1);
     if (!r0) { step = 84; continue; }
-    globals.crsalt___170978 = (7500);
+    globals.crsalt___243521 = (7500);
     { step = 85; continue; }
   case 84:
     s.tmp_0 = game_askForNumber__P169589_mk(s);
     s.tmp_0.arg0 = "Set Cruise Altitude";
     s.tmp_0.arg1 = 5;
-    s.callLocIdx = 378; s.pc = 415; return s.tmp_0;
-  case 415:
+    s.callLocIdx = 381; s.pc = 419; return s.tmp_0;
+  case 419:
     r0 = s.retval;
-    globals.crsalt___170978 = (r0);
+    globals.crsalt___243521 = (r0);
   case 85:
-    { step = 315; continue; }
+    { step = 319; continue; }
   case 86:
     r0 = (s.arg0 == "ITKO to IRFD (rev)");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 91; continue; }
-    s.tmp_1 = RWstuff__P170968_mk(s);
+    s.tmp_1 = RWstuff__P242218_mk(s);
     s.tmp_1.arg0 = true;
-    s.callLocIdx = 379; s.pc = 416; return s.tmp_1;
-  case 416:
+    s.callLocIdx = 382; s.pc = 420; return s.tmp_1;
+  case 420:
     r0 = s.retval;
-    globals.start___170998 = ("ITKO");
-    globals.end___170996 = ("IRFD");
-    globals.heading___170979 = (182);
-    r0 = (globals.currentPlane___171003 == "A330");
+    globals.start___242235 = ("ITKO");
+    globals.end___242317 = ("IRFD");
+    globals.heading___243508 = (182);
+    r0 = (globals.currentPlane___242774 == "A330");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBool(s.tmp_0);
     if (!r0) { step = 87; continue; }
     r0 = s.tmp_0;
     { step = 88; continue; }
   case 87:
-    r0 = (globals.currentPlane___171003 == "757");
+    r0 = (globals.currentPlane___242774 == "757");
   case 88:
     // jmp value (already in r0)
     s.tmp_1 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_1);
     if (!r0) { step = 89; continue; }
-    globals.crsalt___170978 = (7500);
+    globals.crsalt___243521 = (7500);
     { step = 90; continue; }
   case 89:
     s.tmp_0 = game_askForNumber__P169589_mk(s);
     s.tmp_0.arg0 = "Set Cruise Altitude";
     s.tmp_0.arg1 = 5;
-    s.callLocIdx = 380; s.pc = 417; return s.tmp_0;
-  case 417:
+    s.callLocIdx = 383; s.pc = 421; return s.tmp_0;
+  case 421:
     r0 = s.retval;
-    globals.crsalt___170978 = (r0);
+    globals.crsalt___243521 = (r0);
   case 90:
-    { step = 314; continue; }
+    { step = 318; continue; }
   case 91:
     r0 = (s.arg0 == "ILAR to ITKO");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 96; continue; }
-    s.tmp_1 = RWstuff__P170968_mk(s);
+    s.tmp_1 = RWstuff__P242218_mk(s);
     s.tmp_1.arg0 = true;
-    s.callLocIdx = 381; s.pc = 418; return s.tmp_1;
-  case 418:
+    s.callLocIdx = 384; s.pc = 422; return s.tmp_1;
+  case 422:
     r0 = s.retval;
-    globals.start___170998 = ("ILAR");
-    globals.end___170996 = ("ITKO");
-    globals.heading___170979 = (340);
-    r0 = (globals.currentPlane___171003 == "A330");
+    globals.start___242235 = ("ILAR");
+    globals.end___242317 = ("ITKO");
+    globals.heading___243508 = (340);
+    r0 = (globals.currentPlane___242774 == "A330");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBool(s.tmp_0);
     if (!r0) { step = 92; continue; }
     r0 = s.tmp_0;
     { step = 93; continue; }
   case 92:
-    r0 = (globals.currentPlane___171003 == "757");
+    r0 = (globals.currentPlane___242774 == "757");
   case 93:
     // jmp value (already in r0)
     s.tmp_1 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_1);
     if (!r0) { step = 94; continue; }
-    globals.crsalt___170978 = (10000);
+    globals.crsalt___243521 = (10000);
     { step = 95; continue; }
   case 94:
     s.tmp_0 = game_askForNumber__P169589_mk(s);
     s.tmp_0.arg0 = "Set Cruise Altitude";
     s.tmp_0.arg1 = 5;
-    s.callLocIdx = 382; s.pc = 419; return s.tmp_0;
-  case 419:
+    s.callLocIdx = 385; s.pc = 423; return s.tmp_0;
+  case 423:
     r0 = s.retval;
-    globals.crsalt___170978 = (r0);
+    globals.crsalt___243521 = (r0);
   case 95:
-    { step = 313; continue; }
+    { step = 317; continue; }
   case 96:
     r0 = (s.arg0 == "ITKO to ILAR (rev)");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 101; continue; }
-    s.tmp_1 = RWstuff__P170968_mk(s);
+    s.tmp_1 = RWstuff__P242218_mk(s);
     s.tmp_1.arg0 = true;
-    s.callLocIdx = 383; s.pc = 420; return s.tmp_1;
-  case 420:
+    s.callLocIdx = 386; s.pc = 424; return s.tmp_1;
+  case 424:
     r0 = s.retval;
-    globals.start___170998 = ("ITKO");
-    globals.end___170996 = ("ILAR");
-    globals.heading___170979 = (150);
-    r0 = (globals.currentPlane___171003 == "A330");
+    globals.start___242235 = ("ITKO");
+    globals.end___242317 = ("ILAR");
+    globals.heading___243508 = (150);
+    r0 = (globals.currentPlane___242774 == "A330");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBool(s.tmp_0);
     if (!r0) { step = 97; continue; }
     r0 = s.tmp_0;
     { step = 98; continue; }
   case 97:
-    r0 = (globals.currentPlane___171003 == "757");
+    r0 = (globals.currentPlane___242774 == "757");
   case 98:
     // jmp value (already in r0)
     s.tmp_1 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_1);
     if (!r0) { step = 99; continue; }
-    globals.crsalt___170978 = (10000);
+    globals.crsalt___243521 = (10000);
     { step = 100; continue; }
   case 99:
     s.tmp_0 = game_askForNumber__P169589_mk(s);
     s.tmp_0.arg0 = "Set Cruise Altitude";
     s.tmp_0.arg1 = 5;
-    s.callLocIdx = 384; s.pc = 421; return s.tmp_0;
-  case 421:
+    s.callLocIdx = 387; s.pc = 425; return s.tmp_0;
+  case 425:
     r0 = s.retval;
-    globals.crsalt___170978 = (r0);
+    globals.crsalt___243521 = (r0);
   case 100:
-    { step = 312; continue; }
+    { step = 316; continue; }
   case 101:
     r0 = (s.arg0 == "IRFD to IPPH");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 106; continue; }
-    s.tmp_1 = RWstuff__P170968_mk(s);
+    s.tmp_1 = RWstuff__P242218_mk(s);
     s.tmp_1.arg0 = true;
-    s.callLocIdx = 385; s.pc = 422; return s.tmp_1;
-  case 422:
+    s.callLocIdx = 388; s.pc = 426; return s.tmp_1;
+  case 426:
     r0 = s.retval;
-    globals.start___170998 = ("IRFD");
-    globals.end___170996 = ("IPPH");
-    globals.heading___170979 = (35);
-    r0 = (globals.currentPlane___171003 == "A330");
+    globals.start___242235 = ("IRFD");
+    globals.end___242317 = ("IPPH");
+    globals.heading___243508 = (35);
+    r0 = (globals.currentPlane___242774 == "A330");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBool(s.tmp_0);
     if (!r0) { step = 102; continue; }
     r0 = s.tmp_0;
     { step = 103; continue; }
   case 102:
-    r0 = (globals.currentPlane___171003 == "757");
+    r0 = (globals.currentPlane___242774 == "757");
   case 103:
     // jmp value (already in r0)
     s.tmp_1 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_1);
     if (!r0) { step = 104; continue; }
-    globals.crsalt___170978 = (7500);
+    globals.crsalt___243521 = (7500);
     { step = 105; continue; }
   case 104:
     s.tmp_0 = game_askForNumber__P169589_mk(s);
     s.tmp_0.arg0 = "Set Cruise Altitude";
     s.tmp_0.arg1 = 5;
-    s.callLocIdx = 386; s.pc = 423; return s.tmp_0;
-  case 423:
+    s.callLocIdx = 389; s.pc = 427; return s.tmp_0;
+  case 427:
     r0 = s.retval;
-    globals.crsalt___170978 = (r0);
+    globals.crsalt___243521 = (r0);
   case 105:
-    { step = 311; continue; }
+    { step = 315; continue; }
   case 106:
     r0 = (s.arg0 == "IPPH to IRFD (rev)");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 111; continue; }
-    s.tmp_1 = RWstuff__P170968_mk(s);
+    s.tmp_1 = RWstuff__P242218_mk(s);
     s.tmp_1.arg0 = true;
-    s.callLocIdx = 387; s.pc = 424; return s.tmp_1;
-  case 424:
+    s.callLocIdx = 390; s.pc = 428; return s.tmp_1;
+  case 428:
     r0 = s.retval;
-    globals.start___170998 = ("IPPH");
-    globals.end___170996 = ("IRFD");
-    globals.heading___170979 = (215);
-    r0 = (globals.currentPlane___171003 == "A330");
+    globals.start___242235 = ("IPPH");
+    globals.end___242317 = ("IRFD");
+    globals.heading___243508 = (215);
+    r0 = (globals.currentPlane___242774 == "A330");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBool(s.tmp_0);
     if (!r0) { step = 107; continue; }
     r0 = s.tmp_0;
     { step = 108; continue; }
   case 107:
-    r0 = (globals.currentPlane___171003 == "757");
+    r0 = (globals.currentPlane___242774 == "757");
   case 108:
     // jmp value (already in r0)
     s.tmp_1 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_1);
     if (!r0) { step = 109; continue; }
-    globals.crsalt___170978 = (7500);
+    globals.crsalt___243521 = (7500);
     { step = 110; continue; }
   case 109:
     s.tmp_0 = game_askForNumber__P169589_mk(s);
     s.tmp_0.arg0 = "Set Cruise Altitude";
     s.tmp_0.arg1 = 5;
-    s.callLocIdx = 388; s.pc = 425; return s.tmp_0;
-  case 425:
+    s.callLocIdx = 391; s.pc = 429; return s.tmp_0;
+  case 429:
     r0 = s.retval;
-    globals.crsalt___170978 = (r0);
+    globals.crsalt___243521 = (r0);
   case 110:
-    { step = 310; continue; }
+    { step = 314; continue; }
   case 111:
     r0 = (s.arg0 == "Save Current Aircraft");
     s.tmp_0 = r0;
@@ -4581,50 +4582,50 @@ switch (step) {
     if (!r0) { step = 112; continue; }
     s.tmp_1 = blockSettings_writeString__P170960_mk(s);
     s.tmp_1.arg0 = "savedplane";
-    s.tmp_1.arg1 = globals.currentPlane___171003;
-    s.callLocIdx = 389; s.pc = 426; return s.tmp_1;
-  case 426:
+    s.tmp_1.arg1 = globals.currentPlane___242774;
+    s.callLocIdx = 392; s.pc = 430; return s.tmp_1;
+  case 430:
     r0 = s.retval;
     s.tmp_0 = game_splash__P169508_mk(s);
     s.tmp_0.arg0 = "Plane Saved:";
-    s.tmp_0.arg1 = globals.currentPlane___171003;
-    s.callLocIdx = 390; s.pc = 427; return s.tmp_0;
-  case 427:
+    s.tmp_0.arg1 = globals.currentPlane___242774;
+    s.callLocIdx = 393; s.pc = 431; return s.tmp_0;
+  case 431:
     r0 = s.retval;
-    { step = 309; continue; }
+    { step = 313; continue; }
   case 112:
     r0 = (s.arg0 == "Delete Saves");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 113; continue; }
     s.tmp_1 = blockSettings_clear__P170967_mk(s);
-    s.callLocIdx = 391; s.pc = 428; return s.tmp_1;
-  case 428:
+    s.callLocIdx = 394; s.pc = 432; return s.tmp_1;
+  case 432:
     r0 = s.retval;
     s.tmp_0 = game_splash__P169508_mk(s);
     s.tmp_0.arg0 = "Saves Deleted!";
     s.tmp_0.arg1 = undefined;
-    s.callLocIdx = 392; s.pc = 429; return s.tmp_0;
-  case 429:
+    s.callLocIdx = 395; s.pc = 433; return s.tmp_0;
+  case 433:
     r0 = s.retval;
-    { step = 308; continue; }
+    { step = 312; continue; }
   case 113:
     r0 = (s.arg0 == "MCDU Menu");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 114; continue; }
     s.tmp_1 = blockMenu_closeMenu__P170910_mk(s);
-    s.callLocIdx = 393; s.pc = 430; return s.tmp_1;
-  case 430:
+    s.callLocIdx = 396; s.pc = 434; return s.tmp_1;
+  case 434:
     r0 = s.retval;
     s.tmp_0 = blockMenu_showMenu__P170909_mk(s);
-    s.tmp_0.arg0 = globals.menu1___171024;
+    s.tmp_0.arg0 = globals.menu1___243210;
     s.tmp_0.arg1 = 1;
     s.tmp_0.arg2 = 0;
-    s.callLocIdx = 394; s.pc = 431; return s.tmp_0;
-  case 431:
+    s.callLocIdx = 397; s.pc = 435; return s.tmp_0;
+  case 435:
     r0 = s.retval;
-    { step = 307; continue; }
+    { step = 311; continue; }
   case 114:
     r0 = (s.arg0 == "Change Cruise Alt");
     s.tmp_0 = r0;
@@ -4633,11 +4634,11 @@ switch (step) {
     s.tmp_1 = game_askForNumber__P169589_mk(s);
     s.tmp_1.arg0 = "Set Cruise Altitude";
     s.tmp_1.arg1 = 5;
-    s.callLocIdx = 395; s.pc = 432; return s.tmp_1;
-  case 432:
+    s.callLocIdx = 398; s.pc = 436; return s.tmp_1;
+  case 436:
     r0 = s.retval;
-    globals.crsalt___170978 = (r0);
-    { step = 306; continue; }
+    globals.crsalt___243521 = (r0);
+    { step = 310; continue; }
   case 115:
     r0 = (s.arg0 == "Airliner/Cargo");
     s.tmp_0 = r0;
@@ -4658,10 +4659,10 @@ switch (step) {
     s.tmp_2.arg0 = s.tmp_1;
     s.tmp_2.arg1 = 1;
     s.tmp_2.arg2 = 0;
-    s.callLocIdx = 396; s.pc = 433; return s.tmp_2;
-  case 433:
+    s.callLocIdx = 399; s.pc = 437; return s.tmp_2;
+  case 437:
     r0 = s.retval;
-    { step = 305; continue; }
+    { step = 309; continue; }
   case 116:
     r0 = (s.arg0 == "Light Aircraft");
     s.tmp_0 = r0;
@@ -4683,275 +4684,275 @@ switch (step) {
     s.tmp_2.arg0 = s.tmp_1;
     s.tmp_2.arg1 = 1;
     s.tmp_2.arg2 = 0;
-    s.callLocIdx = 397; s.pc = 434; return s.tmp_2;
-  case 434:
+    s.callLocIdx = 400; s.pc = 438; return s.tmp_2;
+  case 438:
     r0 = s.retval;
-    { step = 304; continue; }
+    { step = 308; continue; }
   case 117:
     r0 = (s.arg0 == "IDCS to ILKL");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 118; continue; }
-    s.tmp_1 = RWstuff__P170968_mk(s);
+    s.tmp_1 = RWstuff__P242218_mk(s);
     s.tmp_1.arg0 = true;
-    s.callLocIdx = 398; s.pc = 435; return s.tmp_1;
-  case 435:
+    s.callLocIdx = 401; s.pc = 439; return s.tmp_1;
+  case 439:
     r0 = s.retval;
-    globals.start___170998 = ("IDCS");
-    globals.end___170996 = ("ILKL");
-    globals.heading___170979 = (135);
+    globals.start___242235 = ("IDCS");
+    globals.end___242317 = ("ILKL");
+    globals.heading___243508 = (135);
     s.tmp_0 = game_askForNumber__P169589_mk(s);
     s.tmp_0.arg0 = "Set Cruise Altitude";
     s.tmp_0.arg1 = 5;
-    s.callLocIdx = 399; s.pc = 436; return s.tmp_0;
-  case 436:
+    s.callLocIdx = 402; s.pc = 440; return s.tmp_0;
+  case 440:
     r0 = s.retval;
-    globals.crsalt___170978 = (r0);
-    { step = 303; continue; }
+    globals.crsalt___243521 = (r0);
+    { step = 307; continue; }
   case 118:
     r0 = (s.arg0 == "ILKL to IDCS (rev)");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 119; continue; }
-    s.tmp_1 = RWstuff__P170968_mk(s);
+    s.tmp_1 = RWstuff__P242218_mk(s);
     s.tmp_1.arg0 = true;
-    s.callLocIdx = 400; s.pc = 437; return s.tmp_1;
-  case 437:
+    s.callLocIdx = 403; s.pc = 441; return s.tmp_1;
+  case 441:
     r0 = s.retval;
-    globals.start___170998 = ("ILKL");
-    globals.end___170996 = ("IDCS");
-    globals.heading___170979 = (0);
+    globals.start___242235 = ("ILKL");
+    globals.end___242317 = ("IDCS");
+    globals.heading___243508 = (0);
     s.tmp_0 = game_askForNumber__P169589_mk(s);
     s.tmp_0.arg0 = "Set Cruise Altitude";
     s.tmp_0.arg1 = 5;
-    s.callLocIdx = 401; s.pc = 438; return s.tmp_0;
-  case 438:
+    s.callLocIdx = 404; s.pc = 442; return s.tmp_0;
+  case 442:
     r0 = s.retval;
-    globals.crsalt___170978 = (r0);
-    { step = 302; continue; }
+    globals.crsalt___243521 = (r0);
+    { step = 306; continue; }
   case 119:
     r0 = (s.arg0 == "ILKL to IJAF");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 120; continue; }
-    s.tmp_1 = RWstuff__P170968_mk(s);
+    s.tmp_1 = RWstuff__P242218_mk(s);
     s.tmp_1.arg0 = true;
-    s.callLocIdx = 402; s.pc = 439; return s.tmp_1;
-  case 439:
+    s.callLocIdx = 405; s.pc = 443; return s.tmp_1;
+  case 443:
     r0 = s.retval;
-    globals.start___170998 = ("ILKL");
-    globals.end___170996 = ("IJAF");
-    globals.heading___170979 = (130);
+    globals.start___242235 = ("ILKL");
+    globals.end___242317 = ("IJAF");
+    globals.heading___243508 = (130);
     s.tmp_0 = game_askForNumber__P169589_mk(s);
     s.tmp_0.arg0 = "Set Cruise Altitude";
     s.tmp_0.arg1 = 5;
-    s.callLocIdx = 403; s.pc = 440; return s.tmp_0;
-  case 440:
+    s.callLocIdx = 406; s.pc = 444; return s.tmp_0;
+  case 444:
     r0 = s.retval;
-    globals.crsalt___170978 = (r0);
-    { step = 301; continue; }
+    globals.crsalt___243521 = (r0);
+    { step = 305; continue; }
   case 120:
     r0 = (s.arg0 == "IJAF to ILKL (rev)");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 121; continue; }
-    s.tmp_1 = RWstuff__P170968_mk(s);
+    s.tmp_1 = RWstuff__P242218_mk(s);
     s.tmp_1.arg0 = true;
-    s.callLocIdx = 404; s.pc = 441; return s.tmp_1;
-  case 441:
+    s.callLocIdx = 407; s.pc = 445; return s.tmp_1;
+  case 445:
     r0 = s.retval;
-    globals.start___170998 = ("IJAF");
-    globals.end___170996 = ("ILKL");
-    globals.heading___170979 = (0);
+    globals.start___242235 = ("IJAF");
+    globals.end___242317 = ("ILKL");
+    globals.heading___243508 = (0);
     s.tmp_0 = game_askForNumber__P169589_mk(s);
     s.tmp_0.arg0 = "Set Cruise Altitude";
     s.tmp_0.arg1 = 5;
-    s.callLocIdx = 405; s.pc = 442; return s.tmp_0;
-  case 442:
+    s.callLocIdx = 408; s.pc = 446; return s.tmp_0;
+  case 446:
     r0 = s.retval;
-    globals.crsalt___170978 = (r0);
-    { step = 300; continue; }
+    globals.crsalt___243521 = (r0);
+    { step = 304; continue; }
   case 121:
     r0 = (s.arg0 == "IJAF to IHEN");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 122; continue; }
-    s.tmp_1 = RWstuff__P170968_mk(s);
+    s.tmp_1 = RWstuff__P242218_mk(s);
     s.tmp_1.arg0 = true;
-    s.callLocIdx = 406; s.pc = 443; return s.tmp_1;
-  case 443:
+    s.callLocIdx = 409; s.pc = 447; return s.tmp_1;
+  case 447:
     r0 = s.retval;
-    globals.start___170998 = ("IJAF");
-    globals.end___170996 = ("IHEN");
-    globals.heading___170979 = (211);
+    globals.start___242235 = ("IJAF");
+    globals.end___242317 = ("IHEN");
+    globals.heading___243508 = (211);
     s.tmp_0 = game_askForNumber__P169589_mk(s);
     s.tmp_0.arg0 = "Set Cruise Altitude";
     s.tmp_0.arg1 = 5;
-    s.callLocIdx = 407; s.pc = 444; return s.tmp_0;
-  case 444:
+    s.callLocIdx = 410; s.pc = 448; return s.tmp_0;
+  case 448:
     r0 = s.retval;
-    globals.crsalt___170978 = (r0);
-    { step = 299; continue; }
+    globals.crsalt___243521 = (r0);
+    { step = 303; continue; }
   case 122:
     r0 = (s.arg0 == "IHEN to IJAF (rev)");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 123; continue; }
-    s.tmp_1 = RWstuff__P170968_mk(s);
+    s.tmp_1 = RWstuff__P242218_mk(s);
     s.tmp_1.arg0 = true;
-    s.callLocIdx = 408; s.pc = 445; return s.tmp_1;
-  case 445:
+    s.callLocIdx = 411; s.pc = 449; return s.tmp_1;
+  case 449:
     r0 = s.retval;
-    globals.start___170998 = ("IHEN");
-    globals.end___170996 = ("IJAF");
-    globals.heading___170979 = (0);
+    globals.start___242235 = ("IHEN");
+    globals.end___242317 = ("IJAF");
+    globals.heading___243508 = (0);
     s.tmp_0 = game_askForNumber__P169589_mk(s);
     s.tmp_0.arg0 = "Set Cruise Altitude";
     s.tmp_0.arg1 = 5;
-    s.callLocIdx = 409; s.pc = 446; return s.tmp_0;
-  case 446:
+    s.callLocIdx = 412; s.pc = 450; return s.tmp_0;
+  case 450:
     r0 = s.retval;
-    globals.crsalt___170978 = (r0);
-    { step = 298; continue; }
+    globals.crsalt___243521 = (r0);
+    { step = 302; continue; }
   case 123:
     r0 = (s.arg0 == "IHEN to IMLR ");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 124; continue; }
-    s.tmp_1 = RWstuff__P170968_mk(s);
+    s.tmp_1 = RWstuff__P242218_mk(s);
     s.tmp_1.arg0 = true;
-    s.callLocIdx = 410; s.pc = 447; return s.tmp_1;
-  case 447:
+    s.callLocIdx = 413; s.pc = 451; return s.tmp_1;
+  case 451:
     r0 = s.retval;
-    globals.start___170998 = ("IHEN");
-    globals.end___170996 = ("IMLR");
-    globals.heading___170979 = (305);
+    globals.start___242235 = ("IHEN");
+    globals.end___242317 = ("IMLR");
+    globals.heading___243508 = (305);
     s.tmp_0 = game_askForNumber__P169589_mk(s);
     s.tmp_0.arg0 = "Set Cruise Altitude";
     s.tmp_0.arg1 = 5;
-    s.callLocIdx = 411; s.pc = 448; return s.tmp_0;
-  case 448:
+    s.callLocIdx = 414; s.pc = 452; return s.tmp_0;
+  case 452:
     r0 = s.retval;
-    globals.crsalt___170978 = (r0);
-    { step = 297; continue; }
+    globals.crsalt___243521 = (r0);
+    { step = 301; continue; }
   case 124:
     r0 = (s.arg0 == "IMLR to IHEN (rev)");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 125; continue; }
-    s.tmp_1 = RWstuff__P170968_mk(s);
+    s.tmp_1 = RWstuff__P242218_mk(s);
     s.tmp_1.arg0 = true;
-    s.callLocIdx = 412; s.pc = 449; return s.tmp_1;
-  case 449:
+    s.callLocIdx = 415; s.pc = 453; return s.tmp_1;
+  case 453:
     r0 = s.retval;
-    globals.start___170998 = ("IMLR");
-    globals.end___170996 = ("IHEN");
-    globals.heading___170979 = (0);
+    globals.start___242235 = ("IMLR");
+    globals.end___242317 = ("IHEN");
+    globals.heading___243508 = (0);
     s.tmp_0 = game_askForNumber__P169589_mk(s);
     s.tmp_0.arg0 = "Set Cruise Altitude";
     s.tmp_0.arg1 = 5;
-    s.callLocIdx = 413; s.pc = 450; return s.tmp_0;
-  case 450:
+    s.callLocIdx = 416; s.pc = 454; return s.tmp_0;
+  case 454:
     r0 = s.retval;
-    globals.crsalt___170978 = (r0);
-    { step = 296; continue; }
+    globals.crsalt___243521 = (r0);
+    { step = 300; continue; }
   case 125:
     r0 = (s.arg0 == "IMLR to IBTH");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 126; continue; }
-    s.tmp_1 = RWstuff__P170968_mk(s);
+    s.tmp_1 = RWstuff__P242218_mk(s);
     s.tmp_1.arg0 = true;
-    s.callLocIdx = 414; s.pc = 451; return s.tmp_1;
-  case 451:
+    s.callLocIdx = 417; s.pc = 455; return s.tmp_1;
+  case 455:
     r0 = s.retval;
-    globals.start___170998 = ("IMLR");
-    globals.end___170996 = ("IBTH");
-    globals.heading___170979 = (32);
+    globals.start___242235 = ("IMLR");
+    globals.end___242317 = ("IBTH");
+    globals.heading___243508 = (32);
     s.tmp_0 = game_askForNumber__P169589_mk(s);
     s.tmp_0.arg0 = "Set Cruise Altitude";
     s.tmp_0.arg1 = 5;
-    s.callLocIdx = 415; s.pc = 452; return s.tmp_0;
-  case 452:
+    s.callLocIdx = 418; s.pc = 456; return s.tmp_0;
+  case 456:
     r0 = s.retval;
-    globals.crsalt___170978 = (r0);
-    { step = 295; continue; }
+    globals.crsalt___243521 = (r0);
+    { step = 299; continue; }
   case 126:
     r0 = (s.arg0 == "IBTH to IMLR (rev)");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 127; continue; }
-    s.tmp_1 = RWstuff__P170968_mk(s);
+    s.tmp_1 = RWstuff__P242218_mk(s);
     s.tmp_1.arg0 = true;
-    s.callLocIdx = 416; s.pc = 453; return s.tmp_1;
-  case 453:
+    s.callLocIdx = 419; s.pc = 457; return s.tmp_1;
+  case 457:
     r0 = s.retval;
-    globals.start___170998 = ("IBTH");
-    globals.end___170996 = ("IMLR");
-    globals.heading___170979 = (0);
+    globals.start___242235 = ("IBTH");
+    globals.end___242317 = ("IMLR");
+    globals.heading___243508 = (0);
     s.tmp_0 = game_askForNumber__P169589_mk(s);
     s.tmp_0.arg0 = "Set Cruise Altitude";
     s.tmp_0.arg1 = 5;
-    s.callLocIdx = 417; s.pc = 454; return s.tmp_0;
-  case 454:
+    s.callLocIdx = 420; s.pc = 458; return s.tmp_0;
+  case 458:
     r0 = s.retval;
-    globals.crsalt___170978 = (r0);
-    { step = 294; continue; }
+    globals.crsalt___243521 = (r0);
+    { step = 298; continue; }
   case 127:
     r0 = (s.arg0 == "IBTH to IDCS");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 128; continue; }
-    s.tmp_1 = RWstuff__P170968_mk(s);
+    s.tmp_1 = RWstuff__P242218_mk(s);
     s.tmp_1.arg0 = true;
-    s.callLocIdx = 418; s.pc = 455; return s.tmp_1;
-  case 455:
+    s.callLocIdx = 421; s.pc = 459; return s.tmp_1;
+  case 459:
     r0 = s.retval;
-    globals.start___170998 = ("IBTH");
-    globals.end___170996 = ("IDCS");
-    globals.heading___170979 = (340);
+    globals.start___242235 = ("IBTH");
+    globals.end___242317 = ("IDCS");
+    globals.heading___243508 = (340);
     s.tmp_0 = game_askForNumber__P169589_mk(s);
     s.tmp_0.arg0 = "Set Cruise Altitude";
     s.tmp_0.arg1 = 5;
-    s.callLocIdx = 419; s.pc = 456; return s.tmp_0;
-  case 456:
+    s.callLocIdx = 422; s.pc = 460; return s.tmp_0;
+  case 460:
     r0 = s.retval;
-    globals.crsalt___170978 = (r0);
-    { step = 293; continue; }
+    globals.crsalt___243521 = (r0);
+    { step = 297; continue; }
   case 128:
     r0 = (s.arg0 == "IDCS to IBTH (rev)");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 129; continue; }
-    s.tmp_1 = RWstuff__P170968_mk(s);
+    s.tmp_1 = RWstuff__P242218_mk(s);
     s.tmp_1.arg0 = true;
-    s.callLocIdx = 420; s.pc = 457; return s.tmp_1;
-  case 457:
+    s.callLocIdx = 423; s.pc = 461; return s.tmp_1;
+  case 461:
     r0 = s.retval;
-    globals.start___170998 = ("IDCS");
-    globals.end___170996 = ("IBTH");
-    globals.heading___170979 = (0);
+    globals.start___242235 = ("IDCS");
+    globals.end___242317 = ("IBTH");
+    globals.heading___243508 = (0);
     s.tmp_0 = game_askForNumber__P169589_mk(s);
     s.tmp_0.arg0 = "Set Cruise Altitude";
     s.tmp_0.arg1 = 5;
-    s.callLocIdx = 421; s.pc = 458; return s.tmp_0;
-  case 458:
+    s.callLocIdx = 424; s.pc = 462; return s.tmp_0;
+  case 462:
     r0 = s.retval;
-    globals.crsalt___170978 = (r0);
-    { step = 292; continue; }
+    globals.crsalt___243521 = (r0);
+    { step = 296; continue; }
   case 129:
     r0 = (s.arg0 == "Choose Runways");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 134; continue; }
-    s.tmp_2 = r0 = globals.start___170998;
+    s.tmp_2 = r0 = globals.start___242235;
     r0 = pxsim_String_.mkEmpty();
     s.tmp_3 = r0;
     r0 = (s.tmp_2 != s.tmp_3);
     s.tmp_1 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_1);
     if (!r0) { step = 132; continue; }
-    r0 = pxsim_String_.includes(globals.start___170998, "i", undefined);
+    r0 = pxsim_String_.includes(globals.start___242235, "i", undefined);
     s.tmp_6 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_6);
     s.tmp_5 = r0;
@@ -4959,24 +4960,24 @@ switch (step) {
     s.tmp_4 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_4);
     if (!r0) { step = 130; continue; }
-    s.tmp_7 = runways__P170969_mk(s);
-    s.callLocIdx = 422; s.pc = 459; return s.tmp_7;
-  case 459:
+    s.tmp_7 = runways__P242232_mk(s);
+    s.callLocIdx = 425; s.pc = 463; return s.tmp_7;
+  case 463:
     r0 = s.retval;
     s.tmp_0 = blockMenu_showMenu__P170909_mk(s);
-    s.tmp_0.arg0 = globals.ARWS_Departure___170997;
+    s.tmp_0.arg0 = globals.ARWS_Departure___242237;
     s.tmp_0.arg1 = 1;
     s.tmp_0.arg2 = 0;
-    s.callLocIdx = 423; s.pc = 460; return s.tmp_0;
-  case 460:
+    s.callLocIdx = 426; s.pc = 464; return s.tmp_0;
+  case 464:
     r0 = s.retval;
     { step = 131; continue; }
   case 130:
     s.tmp_0 = game_splash__P169508_mk(s);
     s.tmp_0.arg0 = "Error";
     s.tmp_0.arg1 = "Use e.g IRFD not irfd";
-    s.callLocIdx = 424; s.pc = 461; return s.tmp_0;
-  case 461:
+    s.callLocIdx = 427; s.pc = 465; return s.tmp_0;
+  case 465:
     r0 = s.retval;
   case 131:
     { step = 133; continue; }
@@ -4984,11 +4985,11 @@ switch (step) {
     s.tmp_0 = game_splash__P169508_mk(s);
     s.tmp_0.arg0 = "Error";
     s.tmp_0.arg1 = "No Airports Set";
-    s.callLocIdx = 425; s.pc = 462; return s.tmp_0;
-  case 462:
+    s.callLocIdx = 428; s.pc = 466; return s.tmp_0;
+  case 466:
     r0 = s.retval;
   case 133:
-    { step = 291; continue; }
+    { step = 295; continue; }
   case 134:
     r0 = (s.arg0 == "36L");
     s.tmp_0 = r0;
@@ -5124,39 +5125,39 @@ switch (step) {
     s.tmp_23 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_23);
     if (!r0) { step = 163; continue; }
-    r0 = (globals.choosingrw___170976 == 0);
+    r0 = (globals.choosingrw___243843 == 0);
     s.tmp_24 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_24);
     if (!r0) { step = 159; continue; }
-    globals.chosenDeparture_RW___171026 = (s.arg0);
-    r0 = (globals.choosingrw___170976 + 1);
-    globals.choosingrw___170976 = (r0);
+    globals.chosenDeparture_RW___242223 = (s.arg0);
+    r0 = (globals.choosingrw___243843 + 1);
+    globals.choosingrw___243843 = (r0);
     s.tmp_0 = blockMenu_showMenu__P170909_mk(s);
-    s.tmp_0.arg0 = globals.ARWS_Arrival___170995;
+    s.tmp_0.arg0 = globals.ARWS_Arrival___242319;
     s.tmp_0.arg1 = 1;
     s.tmp_0.arg2 = 0;
-    s.callLocIdx = 426; s.pc = 463; return s.tmp_0;
-  case 463:
+    s.callLocIdx = 429; s.pc = 467; return s.tmp_0;
+  case 467:
     r0 = s.retval;
     { step = 162; continue; }
   case 159:
-    r0 = (globals.choosingrw___170976 >= 1);
+    r0 = (globals.choosingrw___243843 >= 1);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 160; continue; }
-    globals.chosenArrival_RW___171027 = (s.arg0);
-    globals.choosingrw___170976 = (0);
+    globals.chosenArrival_RW___242221 = (s.arg0);
+    globals.choosingrw___243843 = (0);
     s.tmp_0 = blockMenu_showMenu__P170909_mk(s);
-    s.tmp_0.arg0 = globals.flightpathmenu___171022;
+    s.tmp_0.arg0 = globals.flightpathmenu___242229;
     s.tmp_0.arg1 = 1;
     s.tmp_0.arg2 = 0;
-    s.callLocIdx = 427; s.pc = 464; return s.tmp_0;
-  case 464:
+    s.callLocIdx = 430; s.pc = 468; return s.tmp_0;
+  case 468:
     r0 = s.retval;
   case 160:
   case 161:
   case 162:
-    { step = 290; continue; }
+    { step = 294; continue; }
   case 163:
     r0 = (s.arg0 == "01");
     s.tmp_0 = r0;
@@ -5303,76 +5304,76 @@ switch (step) {
     s.tmp_25 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_25);
     if (!r0) { step = 194; continue; }
-    r0 = (globals.choosingrw___170976 == 0);
+    r0 = (globals.choosingrw___243843 == 0);
     s.tmp_26 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_26);
     if (!r0) { step = 190; continue; }
-    globals.chosenDeparture_RW___171026 = (s.arg0);
-    r0 = (globals.choosingrw___170976 + 1);
-    globals.choosingrw___170976 = (r0);
+    globals.chosenDeparture_RW___242223 = (s.arg0);
+    r0 = (globals.choosingrw___243843 + 1);
+    globals.choosingrw___243843 = (r0);
     s.tmp_0 = blockMenu_showMenu__P170909_mk(s);
-    s.tmp_0.arg0 = globals.ARWS_Arrival___170995;
+    s.tmp_0.arg0 = globals.ARWS_Arrival___242319;
     s.tmp_0.arg1 = 1;
     s.tmp_0.arg2 = 0;
-    s.callLocIdx = 428; s.pc = 465; return s.tmp_0;
-  case 465:
+    s.callLocIdx = 431; s.pc = 469; return s.tmp_0;
+  case 469:
     r0 = s.retval;
     { step = 193; continue; }
   case 190:
-    r0 = (globals.choosingrw___170976 >= 1);
+    r0 = (globals.choosingrw___243843 >= 1);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 191; continue; }
-    globals.chosenArrival_RW___171027 = (s.arg0);
-    globals.choosingrw___170976 = (0);
+    globals.chosenArrival_RW___242221 = (s.arg0);
+    globals.choosingrw___243843 = (0);
     s.tmp_0 = blockMenu_showMenu__P170909_mk(s);
-    s.tmp_0.arg0 = globals.flightpathmenu___171022;
+    s.tmp_0.arg0 = globals.flightpathmenu___242229;
     s.tmp_0.arg1 = 1;
     s.tmp_0.arg2 = 0;
-    s.callLocIdx = 429; s.pc = 466; return s.tmp_0;
-  case 466:
+    s.callLocIdx = 432; s.pc = 470; return s.tmp_0;
+  case 470:
     r0 = s.retval;
   case 191:
   case 192:
   case 193:
-    { step = 289; continue; }
+    { step = 293; continue; }
   case 194:
     r0 = (s.arg0 == "Mobile Mode");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 197; continue; }
-    r0 = pxsim_numops_toBoolDecr(globals.mobile_mode___171002);
+    r0 = pxsim_numops_toBoolDecr(globals.mobile_mode___242697);
     if (!r0) { step = 195; continue; }
-    globals.mobile_mode___171002 = (false);
+    globals.mobile_mode___242697 = (false);
     s.tmp_0 = game_splash__P169508_mk(s);
     s.tmp_0.arg0 = "PC/Hardware Mode Active";
     s.tmp_0.arg1 = undefined;
-    s.callLocIdx = 430; s.pc = 467; return s.tmp_0;
-  case 467:
+    s.callLocIdx = 433; s.pc = 471; return s.tmp_0;
+  case 471:
     r0 = s.retval;
     s.tmp_0 = blockSettings_writeString__P170960_mk(s);
     s.tmp_0.arg0 = "mode";
     s.tmp_0.arg1 = "pc";
-    s.callLocIdx = 431; s.pc = 468; return s.tmp_0;
-  case 468:
+    s.callLocIdx = 434; s.pc = 472; return s.tmp_0;
+  case 472:
     r0 = s.retval;
     { step = 196; continue; }
   case 195:
-    globals.mobile_mode___171002 = (true);
+    globals.mobile_mode___242697 = (true);
     s.tmp_0 = game_splash__P169508_mk(s);
     s.tmp_0.arg0 = "Mobile Mode Active";
     s.tmp_0.arg1 = undefined;
-    s.callLocIdx = 432; s.pc = 469; return s.tmp_0;
-  case 469:
+    s.callLocIdx = 435; s.pc = 473; return s.tmp_0;
+  case 473:
     r0 = s.retval;
     s.tmp_0 = blockSettings_writeString__P170960_mk(s);
     s.tmp_0.arg0 = "mode";
     s.tmp_0.arg1 = "mobile";
-    s.callLocIdx = 433; s.pc = 470; return s.tmp_0;
-  case 470:
+    s.callLocIdx = 436; s.pc = 474; return s.tmp_0;
+  case 474:
     r0 = s.retval;
   case 196:
-    { step = 288; continue; }
+    { step = 292; continue; }
   case 197:
     r0 = (s.arg0 == "Options");
     s.tmp_0 = r0;
@@ -5390,10 +5391,10 @@ switch (step) {
     s.tmp_2.arg0 = s.tmp_1;
     s.tmp_2.arg1 = 1;
     s.tmp_2.arg2 = 0;
-    s.callLocIdx = 434; s.pc = 471; return s.tmp_2;
-  case 471:
+    s.callLocIdx = 437; s.pc = 475; return s.tmp_2;
+  case 475:
     r0 = s.retval;
-    { step = 287; continue; }
+    { step = 291; continue; }
   case 198:
     r0 = (s.arg0 == "Credits");
     s.tmp_0 = r0;
@@ -5402,16 +5403,16 @@ switch (step) {
     s.tmp_1 = game_showLongText__P169503_mk(s);
     s.tmp_1.arg0 = "Idea, Code and design by Dahbix";
     s.tmp_1.arg1 = 5;
-    s.callLocIdx = 435; s.pc = 472; return s.tmp_1;
-  case 472:
+    s.callLocIdx = 438; s.pc = 476; return s.tmp_1;
+  case 476:
     r0 = s.retval;
     s.tmp_0 = game_showLongText__P169503_mk(s);
     s.tmp_0.arg0 = "Suggestions, Testing and Stats (Partially) by PhantomRaptor1";
     s.tmp_0.arg1 = 5;
-    s.callLocIdx = 436; s.pc = 473; return s.tmp_0;
-  case 473:
+    s.callLocIdx = 439; s.pc = 477; return s.tmp_0;
+  case 477:
     r0 = s.retval;
-    { step = 286; continue; }
+    { step = 290; continue; }
   case 199:
     r0 = (s.arg0 == "Change Heading");
     s.tmp_0 = r0;
@@ -5420,11 +5421,11 @@ switch (step) {
     s.tmp_1 = game_askForNumber__P169589_mk(s);
     s.tmp_1.arg0 = "Set Heading";
     s.tmp_1.arg1 = 3;
-    s.callLocIdx = 437; s.pc = 474; return s.tmp_1;
-  case 474:
+    s.callLocIdx = 440; s.pc = 478; return s.tmp_1;
+  case 478:
     r0 = s.retval;
-    globals.heading___170979 = (r0);
-    { step = 285; continue; }
+    globals.heading___243508 = (r0);
+    { step = 289; continue; }
   case 200:
     r0 = (s.arg0 == "Change Departure");
     s.tmp_0 = r0;
@@ -5433,16 +5434,16 @@ switch (step) {
     s.tmp_1 = game_askForString__P169580_mk(s);
     s.tmp_1.arg0 = "Set Departure Airport";
     s.tmp_1.arg1 = 4;
-    s.callLocIdx = 438; s.pc = 475; return s.tmp_1;
-  case 475:
+    s.callLocIdx = 441; s.pc = 479; return s.tmp_1;
+  case 479:
     r0 = s.retval;
-    globals.start___170998 = (r0);
-    s.tmp_0 = RWstuff__P170968_mk(s);
+    globals.start___242235 = (r0);
+    s.tmp_0 = RWstuff__P242218_mk(s);
     s.tmp_0.arg0 = false;
-    s.callLocIdx = 439; s.pc = 476; return s.tmp_0;
-  case 476:
+    s.callLocIdx = 442; s.pc = 480; return s.tmp_0;
+  case 480:
     r0 = s.retval;
-    { step = 284; continue; }
+    { step = 288; continue; }
   case 201:
     r0 = (s.arg0 == "Change Arrival");
     s.tmp_0 = r0;
@@ -5451,42 +5452,42 @@ switch (step) {
     s.tmp_1 = game_askForString__P169580_mk(s);
     s.tmp_1.arg0 = "Set Arrival Airport";
     s.tmp_1.arg1 = 4;
-    s.callLocIdx = 440; s.pc = 477; return s.tmp_1;
-  case 477:
+    s.callLocIdx = 443; s.pc = 481; return s.tmp_1;
+  case 481:
     r0 = s.retval;
-    globals.end___170996 = (r0);
-    s.tmp_0 = RWstuff__P170968_mk(s);
+    globals.end___242317 = (r0);
+    s.tmp_0 = RWstuff__P242218_mk(s);
     s.tmp_0.arg0 = false;
-    s.callLocIdx = 441; s.pc = 478; return s.tmp_0;
-  case 478:
+    s.callLocIdx = 444; s.pc = 482; return s.tmp_0;
+  case 482:
     r0 = s.retval;
-    { step = 283; continue; }
+    { step = 287; continue; }
   case 202:
     r0 = (s.arg0 == "Change Settings");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 203; continue; }
     s.tmp_1 = blockMenu_showMenu__P170909_mk(s);
-    s.tmp_1.arg0 = globals.changeSettings___171023;
+    s.tmp_1.arg0 = globals.changeSettings___243967;
     s.tmp_1.arg1 = 1;
     s.tmp_1.arg2 = 0;
-    s.callLocIdx = 442; s.pc = 479; return s.tmp_1;
-  case 479:
+    s.callLocIdx = 445; s.pc = 483; return s.tmp_1;
+  case 483:
     r0 = s.retval;
-    { step = 282; continue; }
+    { step = 286; continue; }
   case 203:
     r0 = (s.arg0 == "Back ");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 204; continue; }
     s.tmp_1 = blockMenu_showMenu__P170909_mk(s);
-    s.tmp_1.arg0 = globals.flightpathmenu___171022;
+    s.tmp_1.arg0 = globals.flightpathmenu___242229;
     s.tmp_1.arg1 = 1;
     s.tmp_1.arg2 = 0;
-    s.callLocIdx = 443; s.pc = 480; return s.tmp_1;
-  case 480:
+    s.callLocIdx = 446; s.pc = 484; return s.tmp_1;
+  case 484:
     r0 = s.retval;
-    { step = 281; continue; }
+    { step = 285; continue; }
   case 204:
     r0 = (s.arg0 == "More");
     s.tmp_0 = r0;
@@ -5503,102 +5504,102 @@ switch (step) {
     s.tmp_2.arg0 = s.tmp_1;
     s.tmp_2.arg1 = 1;
     s.tmp_2.arg2 = 0;
-    s.callLocIdx = 444; s.pc = 481; return s.tmp_2;
-  case 481:
+    s.callLocIdx = 447; s.pc = 485; return s.tmp_2;
+  case 485:
     r0 = s.retval;
-    { step = 280; continue; }
+    { step = 284; continue; }
   case 205:
     r0 = (s.arg0 == "ITKO to IPPH");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 206; continue; }
-    s.tmp_1 = RWstuff__P170968_mk(s);
+    s.tmp_1 = RWstuff__P242218_mk(s);
     s.tmp_1.arg0 = true;
-    s.callLocIdx = 445; s.pc = 482; return s.tmp_1;
-  case 482:
+    s.callLocIdx = 448; s.pc = 486; return s.tmp_1;
+  case 486:
     r0 = s.retval;
-    globals.start___170998 = ("ITKO");
-    globals.end___170996 = ("IPPH");
-    globals.heading___170979 = (0);
+    globals.start___242235 = ("ITKO");
+    globals.end___242317 = ("IPPH");
+    globals.heading___243508 = (0);
     s.tmp_0 = game_askForNumber__P169589_mk(s);
     s.tmp_0.arg0 = "Set Cruise Altitude";
     s.tmp_0.arg1 = 5;
-    s.callLocIdx = 446; s.pc = 483; return s.tmp_0;
-  case 483:
+    s.callLocIdx = 449; s.pc = 487; return s.tmp_0;
+  case 487:
     r0 = s.retval;
-    globals.crsalt___170978 = (r0);
-    { step = 279; continue; }
+    globals.crsalt___243521 = (r0);
+    { step = 283; continue; }
   case 206:
     r0 = (s.arg0 == "IPPH to ITKO (rev)");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 207; continue; }
-    s.tmp_1 = RWstuff__P170968_mk(s);
+    s.tmp_1 = RWstuff__P242218_mk(s);
     s.tmp_1.arg0 = true;
-    s.callLocIdx = 447; s.pc = 484; return s.tmp_1;
-  case 484:
+    s.callLocIdx = 450; s.pc = 488; return s.tmp_1;
+  case 488:
     r0 = s.retval;
-    globals.start___170998 = ("IPPH");
-    globals.end___170996 = ("ITKO");
-    globals.heading___170979 = (0);
+    globals.start___242235 = ("IPPH");
+    globals.end___242317 = ("ITKO");
+    globals.heading___243508 = (0);
     s.tmp_0 = game_askForNumber__P169589_mk(s);
     s.tmp_0.arg0 = "Set Cruise Altitude";
     s.tmp_0.arg1 = 5;
-    s.callLocIdx = 448; s.pc = 485; return s.tmp_0;
-  case 485:
+    s.callLocIdx = 451; s.pc = 489; return s.tmp_0;
+  case 489:
     r0 = s.retval;
-    globals.crsalt___170978 = (r0);
-    { step = 278; continue; }
+    globals.crsalt___243521 = (r0);
+    { step = 282; continue; }
   case 207:
     r0 = (s.arg0 == "Emergencies Settings");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 208; continue; }
     s.tmp_1 = blockMenu_showMenu__P170909_mk(s);
-    s.tmp_1.arg0 = globals.emrgcySettings___171021;
+    s.tmp_1.arg0 = globals.emrgcySettings___244002;
     s.tmp_1.arg1 = 1;
     s.tmp_1.arg2 = 0;
-    s.callLocIdx = 449; s.pc = 486; return s.tmp_1;
-  case 486:
+    s.callLocIdx = 452; s.pc = 490; return s.tmp_1;
+  case 490:
     r0 = s.retval;
-    { step = 277; continue; }
+    { step = 281; continue; }
   case 208:
     r0 = (s.arg0 == "Emergencies ON/OFF");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 211; continue; }
-    r0 = pxsim_numops_toBoolDecr(globals.emergencies___171028);
+    r0 = pxsim_numops_toBoolDecr(globals.emergencies___244008);
     if (!r0) { step = 209; continue; }
-    globals.emergencies___171028 = (false);
+    globals.emergencies___244008 = (false);
     s.tmp_0 = blockSettings_writeString__P170960_mk(s);
     s.tmp_0.arg0 = "emergencies";
     s.tmp_0.arg1 = "fls";
-    s.callLocIdx = 450; s.pc = 487; return s.tmp_0;
-  case 487:
+    s.callLocIdx = 453; s.pc = 491; return s.tmp_0;
+  case 491:
     r0 = s.retval;
     s.tmp_0 = game_splash__P169508_mk(s);
     s.tmp_0.arg0 = "Emergencies";
     s.tmp_0.arg1 = "are now OFF";
-    s.callLocIdx = 451; s.pc = 488; return s.tmp_0;
-  case 488:
+    s.callLocIdx = 454; s.pc = 492; return s.tmp_0;
+  case 492:
     r0 = s.retval;
     { step = 210; continue; }
   case 209:
-    globals.emergencies___171028 = (true);
+    globals.emergencies___244008 = (true);
     s.tmp_0 = blockSettings_writeString__P170960_mk(s);
     s.tmp_0.arg0 = "emergencies";
     s.tmp_0.arg1 = "tru";
-    s.callLocIdx = 452; s.pc = 489; return s.tmp_0;
-  case 489:
+    s.callLocIdx = 455; s.pc = 493; return s.tmp_0;
+  case 493:
     r0 = s.retval;
     s.tmp_0 = game_splash__P169508_mk(s);
     s.tmp_0.arg0 = "Emergencies";
     s.tmp_0.arg1 = "are now ON";
-    s.callLocIdx = 453; s.pc = 490; return s.tmp_0;
-  case 490:
+    s.callLocIdx = 456; s.pc = 494; return s.tmp_0;
+  case 494:
     r0 = s.retval;
   case 210:
-    { step = 276; continue; }
+    { step = 280; continue; }
   case 211:
     r0 = (s.arg0 == "Emergency Chance");
     s.tmp_0 = r0;
@@ -5607,18 +5608,18 @@ switch (step) {
     s.tmp_1 = game_askForNumber__P169589_mk(s);
     s.tmp_1.arg0 = "Chance 10-999";
     s.tmp_1.arg1 = 3;
-    s.callLocIdx = 454; s.pc = 491; return s.tmp_1;
-  case 491:
+    s.callLocIdx = 457; s.pc = 495; return s.tmp_1;
+  case 495:
     r0 = s.retval;
-    globals.Chance___170999 = (r0);
-    r0 = (globals.Chance___170999 >= 10);
+    globals.Chance___244019 = (r0);
+    r0 = (globals.Chance___244019 >= 10);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBool(s.tmp_0);
     if (r0) { step = 212; continue; }
     r0 = s.tmp_0;
     { step = 213; continue; }
   case 212:
-    r0 = (globals.Chance___170999 <= 999);
+    r0 = (globals.Chance___244019 <= 999);
   case 213:
     // jmp value (already in r0)
     s.tmp_1 = r0;
@@ -5631,94 +5632,94 @@ switch (step) {
     s.tmp_4 = game_splash__P169508_mk(s);
     s.tmp_4.arg0 = "Error!";
     s.tmp_4.arg1 = "Chance not possible!";
-    s.callLocIdx = 455; s.pc = 492; return s.tmp_4;
-  case 492:
+    s.callLocIdx = 458; s.pc = 496; return s.tmp_4;
+  case 496:
     r0 = s.retval;
-    globals.Chance___170999 = (500);
+    globals.Chance___244019 = (500);
     { step = 215; continue; }
   case 214:
     s.tmp_0 = blockSettings_writeNumber__P170958_mk(s);
     s.tmp_0.arg0 = "chance";
-    s.tmp_0.arg1 = globals.Chance___170999;
-    s.callLocIdx = 456; s.pc = 493; return s.tmp_0;
-  case 493:
+    s.tmp_0.arg1 = globals.Chance___244019;
+    s.callLocIdx = 459; s.pc = 497; return s.tmp_0;
+  case 497:
     r0 = s.retval;
   case 215:
-    { step = 275; continue; }
+    { step = 279; continue; }
   case 216:
     r0 = (s.arg0 == "MCDU Fail ON/OFF");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 219; continue; }
-    r0 = pxsim_numops_toBoolDecr(globals.MCDUfail___171001);
+    r0 = pxsim_numops_toBoolDecr(globals.MCDUfail___244036);
     if (!r0) { step = 217; continue; }
-    globals.MCDUfail___171001 = (false);
+    globals.MCDUfail___244036 = (false);
     s.tmp_0 = blockSettings_writeString__P170960_mk(s);
     s.tmp_0.arg0 = "MCDUfail";
     s.tmp_0.arg1 = "fls";
-    s.callLocIdx = 457; s.pc = 494; return s.tmp_0;
-  case 494:
+    s.callLocIdx = 460; s.pc = 498; return s.tmp_0;
+  case 498:
     r0 = s.retval;
     s.tmp_0 = game_splash__P169508_mk(s);
     s.tmp_0.arg0 = "MCDU Fails";
     s.tmp_0.arg1 = "are now OFF";
-    s.callLocIdx = 458; s.pc = 495; return s.tmp_0;
-  case 495:
+    s.callLocIdx = 461; s.pc = 499; return s.tmp_0;
+  case 499:
     r0 = s.retval;
     { step = 218; continue; }
   case 217:
-    globals.MCDUfail___171001 = (true);
+    globals.MCDUfail___244036 = (true);
     s.tmp_0 = blockSettings_writeString__P170960_mk(s);
     s.tmp_0.arg0 = "MCDUfail";
     s.tmp_0.arg1 = "tru";
-    s.callLocIdx = 459; s.pc = 496; return s.tmp_0;
-  case 496:
+    s.callLocIdx = 462; s.pc = 500; return s.tmp_0;
+  case 500:
     r0 = s.retval;
     s.tmp_0 = game_splash__P169508_mk(s);
     s.tmp_0.arg0 = "MCDU Fails";
     s.tmp_0.arg1 = "are now ON";
-    s.callLocIdx = 460; s.pc = 497; return s.tmp_0;
-  case 497:
+    s.callLocIdx = 463; s.pc = 501; return s.tmp_0;
+  case 501:
     r0 = s.retval;
   case 218:
-    { step = 274; continue; }
+    { step = 278; continue; }
   case 219:
     r0 = (s.arg0 == "Summing Failures ON/OFF");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 222; continue; }
-    r0 = pxsim_numops_toBoolDecr(globals.summingFail___171000);
+    r0 = pxsim_numops_toBoolDecr(globals.summingFail___243171);
     if (!r0) { step = 220; continue; }
-    globals.summingFail___171000 = (false);
+    globals.summingFail___243171 = (false);
     s.tmp_0 = blockSettings_writeString__P170960_mk(s);
     s.tmp_0.arg0 = "summingfail";
     s.tmp_0.arg1 = "fls";
-    s.callLocIdx = 461; s.pc = 498; return s.tmp_0;
-  case 498:
+    s.callLocIdx = 464; s.pc = 502; return s.tmp_0;
+  case 502:
     r0 = s.retval;
     s.tmp_0 = game_splash__P169508_mk(s);
     s.tmp_0.arg0 = "Summing Fails";
     s.tmp_0.arg1 = "are now OFF";
-    s.callLocIdx = 462; s.pc = 499; return s.tmp_0;
-  case 499:
+    s.callLocIdx = 465; s.pc = 503; return s.tmp_0;
+  case 503:
     r0 = s.retval;
     { step = 221; continue; }
   case 220:
-    globals.summingFail___171000 = (true);
+    globals.summingFail___243171 = (true);
     s.tmp_0 = blockSettings_writeString__P170960_mk(s);
     s.tmp_0.arg0 = "summingfail";
     s.tmp_0.arg1 = "tru";
-    s.callLocIdx = 463; s.pc = 500; return s.tmp_0;
-  case 500:
+    s.callLocIdx = 466; s.pc = 504; return s.tmp_0;
+  case 504:
     r0 = s.retval;
     s.tmp_0 = game_splash__P169508_mk(s);
     s.tmp_0.arg0 = "Summing Fails";
     s.tmp_0.arg1 = "are now ON";
-    s.callLocIdx = 464; s.pc = 501; return s.tmp_0;
-  case 501:
+    s.callLocIdx = 467; s.pc = 505; return s.tmp_0;
+  case 505:
     r0 = s.retval;
   case 221:
-    { step = 273; continue; }
+    { step = 277; continue; }
   case 222:
     r0 = (s.arg0 == "Alarm Volume");
     s.tmp_0 = r0;
@@ -5727,18 +5728,18 @@ switch (step) {
     s.tmp_1 = game_askForNumber__P169589_mk(s);
     s.tmp_1.arg0 = "Volume 0-255";
     s.tmp_1.arg1 = 3;
-    s.callLocIdx = 465; s.pc = 502; return s.tmp_1;
-  case 502:
+    s.callLocIdx = 468; s.pc = 506; return s.tmp_1;
+  case 506:
     r0 = s.retval;
-    globals.volume___170975 = (r0);
-    r0 = (globals.volume___170975 >= 0);
+    globals.volume___244056 = (r0);
+    r0 = (globals.volume___244056 >= 0);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBool(s.tmp_0);
     if (r0) { step = 223; continue; }
     r0 = s.tmp_0;
     { step = 224; continue; }
   case 223:
-    r0 = (globals.volume___170975 <= 255);
+    r0 = (globals.volume___244056 <= 255);
   case 224:
     // jmp value (already in r0)
     s.tmp_1 = r0;
@@ -5746,42 +5747,42 @@ switch (step) {
     if (!r0) { step = 225; continue; }
     s.tmp_2 = game_splash__P169508_mk(s);
     s.tmp_2.arg0 = "Volume Set To";
-    s.tmp_2.arg1 = globals.volume___170975;
-    s.callLocIdx = 466; s.pc = 503; return s.tmp_2;
-  case 503:
+    s.tmp_2.arg1 = globals.volume___244056;
+    s.callLocIdx = 469; s.pc = 507; return s.tmp_2;
+  case 507:
     r0 = s.retval;
     s.tmp_0 = blockSettings_writeNumber__P170958_mk(s);
     s.tmp_0.arg0 = "vol";
-    s.tmp_0.arg1 = globals.volume___170975;
-    s.callLocIdx = 467; s.pc = 504; return s.tmp_0;
-  case 504:
+    s.tmp_0.arg1 = globals.volume___244056;
+    s.callLocIdx = 470; s.pc = 508; return s.tmp_0;
+  case 508:
     r0 = s.retval;
     s.tmp_0 = music_setVolume__P168164_mk(s);
-    s.tmp_0.arg0 = globals.volume___170975;
-    s.callLocIdx = 468; s.pc = 505; return s.tmp_0;
-  case 505:
+    s.tmp_0.arg0 = globals.volume___244056;
+    s.callLocIdx = 471; s.pc = 509; return s.tmp_0;
+  case 509:
     r0 = s.retval;
     { step = 226; continue; }
   case 225:
     s.tmp_0 = game_splash__P169508_mk(s);
     s.tmp_0.arg0 = "Error!";
     s.tmp_0.arg1 = "Volume not possible!";
-    s.callLocIdx = 469; s.pc = 506; return s.tmp_0;
-  case 506:
+    s.callLocIdx = 472; s.pc = 510; return s.tmp_0;
+  case 510:
     r0 = s.retval;
     s.tmp_0 = music_setVolume__P168164_mk(s);
     s.tmp_0.arg0 = 70;
-    s.callLocIdx = 470; s.pc = 507; return s.tmp_0;
-  case 507:
+    s.callLocIdx = 473; s.pc = 511; return s.tmp_0;
+  case 511:
     r0 = s.retval;
   case 226:
-    { step = 272; continue; }
+    { step = 276; continue; }
   case 227:
     r0 = (s.arg0 == "View Active Fail");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 240; continue; }
-    r0 = pxsim_Array__length(globals.active_fails___171025);
+    r0 = pxsim_Array__length(globals.active_fails___242432);
     s.tmp_2 = r0;
     r0 = (s.tmp_2 == 0);
     s.tmp_1 = r0;
@@ -5790,168 +5791,168 @@ switch (step) {
     s.tmp_3 = game_splash__P169508_mk(s);
     s.tmp_3.arg0 = "No Active Failures";
     s.tmp_3.arg1 = "No Active Malfunctions";
-    s.callLocIdx = 471; s.pc = 508; return s.tmp_3;
-  case 508:
+    s.callLocIdx = 474; s.pc = 512; return s.tmp_3;
+  case 512:
     r0 = s.retval;
     { step = 239; continue; }
   case 228:
-    r0 = pxsim_Array__length(globals.active_fails___171025);
+    r0 = pxsim_Array__length(globals.active_fails___242432);
     s.tmp_1 = r0;
     r0 = (s.tmp_1 == 2);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 229; continue; }
     s.tmp_2 = game_splash__P169508_mk(s);
-    r0 = pxsim_Array__getAt(globals.active_fails___171025, 0);
+    r0 = pxsim_Array__getAt(globals.active_fails___242432, 0);
     s.tmp_2.arg0 = r0;
-    r0 = pxsim_Array__getAt(globals.active_fails___171025, 1);
+    r0 = pxsim_Array__getAt(globals.active_fails___242432, 1);
     s.tmp_2.arg1 = r0;
-    s.callLocIdx = 472; s.pc = 509; return s.tmp_2;
-  case 509:
+    s.callLocIdx = 475; s.pc = 513; return s.tmp_2;
+  case 513:
     r0 = s.retval;
     { step = 238; continue; }
   case 229:
-    r0 = pxsim_Array__length(globals.active_fails___171025);
+    r0 = pxsim_Array__length(globals.active_fails___242432);
     s.tmp_1 = r0;
     r0 = (s.tmp_1 == 4);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 230; continue; }
     s.tmp_2 = game_splash__P169508_mk(s);
-    r0 = pxsim_Array__getAt(globals.active_fails___171025, 0);
+    r0 = pxsim_Array__getAt(globals.active_fails___242432, 0);
     s.tmp_2.arg0 = r0;
-    r0 = pxsim_Array__getAt(globals.active_fails___171025, 1);
+    r0 = pxsim_Array__getAt(globals.active_fails___242432, 1);
     s.tmp_2.arg1 = r0;
-    s.callLocIdx = 473; s.pc = 510; return s.tmp_2;
-  case 510:
+    s.callLocIdx = 476; s.pc = 514; return s.tmp_2;
+  case 514:
     r0 = s.retval;
     s.tmp_0 = game_splash__P169508_mk(s);
-    r0 = pxsim_Array__getAt(globals.active_fails___171025, 2);
+    r0 = pxsim_Array__getAt(globals.active_fails___242432, 2);
     s.tmp_0.arg0 = r0;
-    r0 = pxsim_Array__getAt(globals.active_fails___171025, 3);
+    r0 = pxsim_Array__getAt(globals.active_fails___242432, 3);
     s.tmp_0.arg1 = r0;
-    s.callLocIdx = 474; s.pc = 511; return s.tmp_0;
-  case 511:
+    s.callLocIdx = 477; s.pc = 515; return s.tmp_0;
+  case 515:
     r0 = s.retval;
     { step = 237; continue; }
   case 230:
-    r0 = pxsim_Array__length(globals.active_fails___171025);
+    r0 = pxsim_Array__length(globals.active_fails___242432);
     s.tmp_1 = r0;
     r0 = (s.tmp_1 == 6);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 231; continue; }
     s.tmp_2 = game_splash__P169508_mk(s);
-    r0 = pxsim_Array__getAt(globals.active_fails___171025, 0);
+    r0 = pxsim_Array__getAt(globals.active_fails___242432, 0);
     s.tmp_2.arg0 = r0;
-    r0 = pxsim_Array__getAt(globals.active_fails___171025, 1);
+    r0 = pxsim_Array__getAt(globals.active_fails___242432, 1);
     s.tmp_2.arg1 = r0;
-    s.callLocIdx = 475; s.pc = 512; return s.tmp_2;
-  case 512:
+    s.callLocIdx = 478; s.pc = 516; return s.tmp_2;
+  case 516:
     r0 = s.retval;
     s.tmp_0 = game_splash__P169508_mk(s);
-    r0 = pxsim_Array__getAt(globals.active_fails___171025, 2);
+    r0 = pxsim_Array__getAt(globals.active_fails___242432, 2);
     s.tmp_0.arg0 = r0;
-    r0 = pxsim_Array__getAt(globals.active_fails___171025, 3);
+    r0 = pxsim_Array__getAt(globals.active_fails___242432, 3);
     s.tmp_0.arg1 = r0;
-    s.callLocIdx = 476; s.pc = 513; return s.tmp_0;
-  case 513:
+    s.callLocIdx = 479; s.pc = 517; return s.tmp_0;
+  case 517:
     r0 = s.retval;
     s.tmp_0 = game_splash__P169508_mk(s);
-    r0 = pxsim_Array__getAt(globals.active_fails___171025, 4);
+    r0 = pxsim_Array__getAt(globals.active_fails___242432, 4);
     s.tmp_0.arg0 = r0;
-    r0 = pxsim_Array__getAt(globals.active_fails___171025, 5);
+    r0 = pxsim_Array__getAt(globals.active_fails___242432, 5);
     s.tmp_0.arg1 = r0;
-    s.callLocIdx = 477; s.pc = 514; return s.tmp_0;
-  case 514:
+    s.callLocIdx = 480; s.pc = 518; return s.tmp_0;
+  case 518:
     r0 = s.retval;
     { step = 236; continue; }
   case 231:
-    r0 = pxsim_Array__length(globals.active_fails___171025);
+    r0 = pxsim_Array__length(globals.active_fails___242432);
     s.tmp_1 = r0;
     r0 = (s.tmp_1 == 8);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 232; continue; }
     s.tmp_2 = game_splash__P169508_mk(s);
-    r0 = pxsim_Array__getAt(globals.active_fails___171025, 0);
+    r0 = pxsim_Array__getAt(globals.active_fails___242432, 0);
     s.tmp_2.arg0 = r0;
-    r0 = pxsim_Array__getAt(globals.active_fails___171025, 1);
+    r0 = pxsim_Array__getAt(globals.active_fails___242432, 1);
     s.tmp_2.arg1 = r0;
-    s.callLocIdx = 478; s.pc = 515; return s.tmp_2;
-  case 515:
+    s.callLocIdx = 481; s.pc = 519; return s.tmp_2;
+  case 519:
     r0 = s.retval;
     s.tmp_0 = game_splash__P169508_mk(s);
-    r0 = pxsim_Array__getAt(globals.active_fails___171025, 2);
+    r0 = pxsim_Array__getAt(globals.active_fails___242432, 2);
     s.tmp_0.arg0 = r0;
-    r0 = pxsim_Array__getAt(globals.active_fails___171025, 3);
+    r0 = pxsim_Array__getAt(globals.active_fails___242432, 3);
     s.tmp_0.arg1 = r0;
-    s.callLocIdx = 479; s.pc = 516; return s.tmp_0;
-  case 516:
+    s.callLocIdx = 482; s.pc = 520; return s.tmp_0;
+  case 520:
     r0 = s.retval;
     s.tmp_0 = game_splash__P169508_mk(s);
-    r0 = pxsim_Array__getAt(globals.active_fails___171025, 4);
+    r0 = pxsim_Array__getAt(globals.active_fails___242432, 4);
     s.tmp_0.arg0 = r0;
-    r0 = pxsim_Array__getAt(globals.active_fails___171025, 5);
+    r0 = pxsim_Array__getAt(globals.active_fails___242432, 5);
     s.tmp_0.arg1 = r0;
-    s.callLocIdx = 480; s.pc = 517; return s.tmp_0;
-  case 517:
+    s.callLocIdx = 483; s.pc = 521; return s.tmp_0;
+  case 521:
     r0 = s.retval;
     s.tmp_0 = game_splash__P169508_mk(s);
-    r0 = pxsim_Array__getAt(globals.active_fails___171025, 6);
+    r0 = pxsim_Array__getAt(globals.active_fails___242432, 6);
     s.tmp_0.arg0 = r0;
-    r0 = pxsim_Array__getAt(globals.active_fails___171025, 7);
+    r0 = pxsim_Array__getAt(globals.active_fails___242432, 7);
     s.tmp_0.arg1 = r0;
-    s.callLocIdx = 481; s.pc = 518; return s.tmp_0;
-  case 518:
+    s.callLocIdx = 484; s.pc = 522; return s.tmp_0;
+  case 522:
     r0 = s.retval;
     { step = 235; continue; }
   case 232:
-    r0 = pxsim_Array__length(globals.active_fails___171025);
+    r0 = pxsim_Array__length(globals.active_fails___242432);
     s.tmp_1 = r0;
     r0 = (s.tmp_1 == 10);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 233; continue; }
     s.tmp_2 = game_splash__P169508_mk(s);
-    r0 = pxsim_Array__getAt(globals.active_fails___171025, 0);
+    r0 = pxsim_Array__getAt(globals.active_fails___242432, 0);
     s.tmp_2.arg0 = r0;
-    r0 = pxsim_Array__getAt(globals.active_fails___171025, 1);
+    r0 = pxsim_Array__getAt(globals.active_fails___242432, 1);
     s.tmp_2.arg1 = r0;
-    s.callLocIdx = 482; s.pc = 519; return s.tmp_2;
-  case 519:
-    r0 = s.retval;
-    s.tmp_0 = game_splash__P169508_mk(s);
-    r0 = pxsim_Array__getAt(globals.active_fails___171025, 2);
-    s.tmp_0.arg0 = r0;
-    r0 = pxsim_Array__getAt(globals.active_fails___171025, 3);
-    s.tmp_0.arg1 = r0;
-    s.callLocIdx = 483; s.pc = 520; return s.tmp_0;
-  case 520:
-    r0 = s.retval;
-    s.tmp_0 = game_splash__P169508_mk(s);
-    r0 = pxsim_Array__getAt(globals.active_fails___171025, 4);
-    s.tmp_0.arg0 = r0;
-    r0 = pxsim_Array__getAt(globals.active_fails___171025, 5);
-    s.tmp_0.arg1 = r0;
-    s.callLocIdx = 484; s.pc = 521; return s.tmp_0;
-  case 521:
-    r0 = s.retval;
-    s.tmp_0 = game_splash__P169508_mk(s);
-    r0 = pxsim_Array__getAt(globals.active_fails___171025, 6);
-    s.tmp_0.arg0 = r0;
-    r0 = pxsim_Array__getAt(globals.active_fails___171025, 7);
-    s.tmp_0.arg1 = r0;
-    s.callLocIdx = 485; s.pc = 522; return s.tmp_0;
-  case 522:
-    r0 = s.retval;
-    s.tmp_0 = game_splash__P169508_mk(s);
-    r0 = pxsim_Array__getAt(globals.active_fails___171025, 8);
-    s.tmp_0.arg0 = r0;
-    r0 = pxsim_Array__getAt(globals.active_fails___171025, 9);
-    s.tmp_0.arg1 = r0;
-    s.callLocIdx = 486; s.pc = 523; return s.tmp_0;
+    s.callLocIdx = 485; s.pc = 523; return s.tmp_2;
   case 523:
+    r0 = s.retval;
+    s.tmp_0 = game_splash__P169508_mk(s);
+    r0 = pxsim_Array__getAt(globals.active_fails___242432, 2);
+    s.tmp_0.arg0 = r0;
+    r0 = pxsim_Array__getAt(globals.active_fails___242432, 3);
+    s.tmp_0.arg1 = r0;
+    s.callLocIdx = 486; s.pc = 524; return s.tmp_0;
+  case 524:
+    r0 = s.retval;
+    s.tmp_0 = game_splash__P169508_mk(s);
+    r0 = pxsim_Array__getAt(globals.active_fails___242432, 4);
+    s.tmp_0.arg0 = r0;
+    r0 = pxsim_Array__getAt(globals.active_fails___242432, 5);
+    s.tmp_0.arg1 = r0;
+    s.callLocIdx = 487; s.pc = 525; return s.tmp_0;
+  case 525:
+    r0 = s.retval;
+    s.tmp_0 = game_splash__P169508_mk(s);
+    r0 = pxsim_Array__getAt(globals.active_fails___242432, 6);
+    s.tmp_0.arg0 = r0;
+    r0 = pxsim_Array__getAt(globals.active_fails___242432, 7);
+    s.tmp_0.arg1 = r0;
+    s.callLocIdx = 488; s.pc = 526; return s.tmp_0;
+  case 526:
+    r0 = s.retval;
+    s.tmp_0 = game_splash__P169508_mk(s);
+    r0 = pxsim_Array__getAt(globals.active_fails___242432, 8);
+    s.tmp_0.arg0 = r0;
+    r0 = pxsim_Array__getAt(globals.active_fails___242432, 9);
+    s.tmp_0.arg1 = r0;
+    s.callLocIdx = 489; s.pc = 527; return s.tmp_0;
+  case 527:
     r0 = s.retval;
   case 233:
   case 234:
@@ -5960,7 +5961,7 @@ switch (step) {
   case 237:
   case 238:
   case 239:
-    { step = 271; continue; }
+    { step = 275; continue; }
   case 240:
     r0 = (s.arg0 == "Wright Brothers");
     s.tmp_0 = r0;
@@ -5969,100 +5970,103 @@ switch (step) {
     s.tmp_1 = game_splash__P169508_mk(s);
     s.tmp_1.arg0 = "MCDU not available";
     s.tmp_1.arg1 = undefined;
-    s.callLocIdx = 487; s.pc = 524; return s.tmp_1;
-  case 524:
+    s.callLocIdx = 490; s.pc = 528; return s.tmp_1;
+  case 528:
     r0 = s.retval;
-    { step = 270; continue; }
+    { step = 274; continue; }
   case 241:
     r0 = (s.arg0 == "Douglas MD11");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBool(s.tmp_0);
     if (!r0) { step = 242; continue; }
     r0 = s.tmp_0;
-    { step = 265; continue; }
+    { step = 267; continue; }
   case 242:
     r0 = (s.arg0 == "A-10 Warthog");
     s.tmp_1 = r0;
     r0 = pxsim_numops_toBool(s.tmp_1);
     if (!r0) { step = 243; continue; }
     r0 = s.tmp_1;
-    { step = 264; continue; }
+    { step = 266; continue; }
   case 243:
     r0 = (s.arg0 == "B2 Bomber");
     s.tmp_2 = r0;
     r0 = pxsim_numops_toBool(s.tmp_2);
     if (!r0) { step = 244; continue; }
     r0 = s.tmp_2;
-    { step = 263; continue; }
+    { step = 265; continue; }
   case 244:
     r0 = (s.arg0 == "Eurofighter Typhoon");
     s.tmp_3 = r0;
     r0 = pxsim_numops_toBool(s.tmp_3);
     if (!r0) { step = 245; continue; }
     r0 = s.tmp_3;
-    { step = 262; continue; }
+    { step = 264; continue; }
   case 245:
     r0 = (s.arg0 == "F/A-18 Super Hornet");
     s.tmp_4 = r0;
     r0 = pxsim_numops_toBool(s.tmp_4);
     if (!r0) { step = 246; continue; }
     r0 = s.tmp_4;
-    { step = 261; continue; }
+    { step = 263; continue; }
   case 246:
     r0 = (s.arg0 == "F-14 Tomcat");
     s.tmp_5 = r0;
     r0 = pxsim_numops_toBool(s.tmp_5);
     if (!r0) { step = 247; continue; }
     r0 = s.tmp_5;
-    { step = 260; continue; }
+    { step = 262; continue; }
   case 247:
     r0 = (s.arg0 == "F-15 Strike Eagle");
     s.tmp_6 = r0;
     r0 = pxsim_numops_toBool(s.tmp_6);
     if (!r0) { step = 248; continue; }
     r0 = s.tmp_6;
-    { step = 259; continue; }
+    { step = 261; continue; }
   case 248:
     r0 = (s.arg0 == "F-35B");
     s.tmp_7 = r0;
     r0 = pxsim_numops_toBool(s.tmp_7);
     if (!r0) { step = 249; continue; }
     r0 = s.tmp_7;
-    { step = 258; continue; }
+    { step = 260; continue; }
   case 249:
     r0 = (s.arg0 == "Hawk T1");
     s.tmp_8 = r0;
     r0 = pxsim_numops_toBool(s.tmp_8);
     if (!r0) { step = 250; continue; }
     r0 = s.tmp_8;
-    { step = 257; continue; }
+    { step = 259; continue; }
   case 250:
     r0 = (s.arg0 == "Sukhoi Su-27");
     s.tmp_9 = r0;
     r0 = pxsim_numops_toBool(s.tmp_9);
     if (!r0) { step = 251; continue; }
     r0 = s.tmp_9;
-    { step = 256; continue; }
+    { step = 258; continue; }
   case 251:
     r0 = (s.arg0 == "Paratrike");
     s.tmp_10 = r0;
     r0 = pxsim_numops_toBool(s.tmp_10);
     if (!r0) { step = 252; continue; }
     r0 = s.tmp_10;
-    { step = 255; continue; }
+    { step = 257; continue; }
   case 252:
     r0 = (s.arg0 == "Cub");
     s.tmp_11 = r0;
     r0 = pxsim_numops_toBool(s.tmp_11);
     if (!r0) { step = 253; continue; }
     r0 = s.tmp_11;
-    { step = 254; continue; }
+    { step = 256; continue; }
   case 253:
     r0 = (s.arg0 == "A220");
-  case 254:
-    // jmp value (already in r0)
     s.tmp_12 = r0;
+    r0 = pxsim_numops_toBool(s.tmp_12);
+    if (!r0) { step = 254; continue; }
     r0 = s.tmp_12;
+    { step = 255; continue; }
+  case 254:
+    r0 = (s.arg0 == "A380");
   case 255:
     // jmp value (already in r0)
     s.tmp_13 = r0;
@@ -6106,31 +6110,40 @@ switch (step) {
   case 265:
     // jmp value (already in r0)
     s.tmp_23 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_23);
-    if (!r0) { step = 266; continue; }
-    globals.currentPlane___171003 = (s.arg0);
+    r0 = s.tmp_23;
+  case 266:
+    // jmp value (already in r0)
+    s.tmp_24 = r0;
+    r0 = s.tmp_24;
+  case 267:
+    // jmp value (already in r0)
+    s.tmp_25 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_25);
+    if (!r0) { step = 268; continue; }
+    globals.currentPlane___242774 = (s.arg0);
     s.tmp_0 = game_splash__P169508_mk(s);
     s.tmp_0.arg0 = "Aircraft Selected:";
-    s.tmp_0.arg1 = globals.currentPlane___171003;
-    s.callLocIdx = 488; s.pc = 525; return s.tmp_0;
-  case 525:
+    s.tmp_0.arg1 = globals.currentPlane___242774;
+    s.callLocIdx = 491; s.pc = 529; return s.tmp_0;
+  case 529:
     r0 = s.retval;
-    { step = 269; continue; }
-  case 266:
+    { step = 273; continue; }
+  case 268:
     r0 = (s.arg0 == "Choose Callsign");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 267; continue; }
+    if (!r0) { step = 269; continue; }
     s.tmp_1 = game_askForNumber__P169589_mk(s);
     s.tmp_1.arg0 = "Choose Callsign";
     s.tmp_1.arg1 = 4;
-    s.callLocIdx = 489; s.pc = 526; return s.tmp_1;
-  case 526:
+    s.callLocIdx = 492; s.pc = 530; return s.tmp_1;
+  case 530:
     r0 = s.retval;
-    globals.callsign___170977 = (r0);
-  case 267:
-  case 268:
+    globals.callsign___243540 = (r0);
+    { step = 272; continue; }
   case 269:
+    r0 = pxsim_numops_toBoolDecr(false);
+    if (!r0) { step = 270; continue; }
   case 270:
   case 271:
   case 272:
@@ -6208,16 +6221,20 @@ switch (step) {
   case 344:
   case 345:
   case 346:
+  case 347:
+  case 348:
+  case 349:
+  case 350:
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-inline__P174714.info = {"start":102172,"length":22191,"line":1018,"column":31,"endLine":1545,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["option","index"]}
+inline__P243234.info = {"start":102333,"length":22271,"line":1023,"column":31,"endLine":1553,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["option","index"]}
 
-function inline__P174714_mk(s) {
+function inline__P243234_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P174714, depth: s.depth + 1,
+        parent: s, fn: inline__P243234, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -6254,7 +6271,7 @@ function inline__P174714_mk(s) {
 
 
 
-function inline__P175007(s) {
+function inline__P243529(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -6264,17 +6281,17 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    globals.canresettimer___170983 = (true);
+    globals.canresettimer___242721 = (true);
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-inline__P175007.info = {"start":108548,"length":64,"line":1176,"column":29,"endLine":1178,"endColumn":13,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P243529.info = {"start":108729,"length":64,"line":1182,"column":29,"endLine":1184,"endColumn":13,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P175007_mk(s) {
+function inline__P243529_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P175007, depth: s.depth + 1,
+        parent: s, fn: inline__P243529, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
 } }
 
@@ -6282,7 +6299,7 @@ function inline__P175007_mk(s) {
 
 
 
-function inline__P175029(s) {
+function inline__P243552(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -6292,17 +6309,17 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    globals.canresettimer___170983 = (true);
+    globals.canresettimer___242721 = (true);
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-inline__P175029.info = {"start":109014,"length":64,"line":1189,"column":29,"endLine":1191,"endColumn":13,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P243552.info = {"start":109195,"length":64,"line":1195,"column":29,"endLine":1197,"endColumn":13,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P175029_mk(s) {
+function inline__P243552_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P175029, depth: s.depth + 1,
+        parent: s, fn: inline__P243552, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
 } }
 
@@ -6310,7 +6327,7 @@ function inline__P175029_mk(s) {
 
 
 
-function inline__P175771(s) {
+function inline__P244306(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -6323,23 +6340,23 @@ switch (step) {
     s.tmp_0 = scene_setBackgroundImage__P169428_mk(s);
     s.tmp_1 = helpers_getImageByName__P169879_mk(s);
     s.tmp_1.arg0 = "myImage0";
-    s.callLocIdx = 505; s.pc = 2; return s.tmp_1;
+    s.callLocIdx = 508; s.pc = 2; return s.tmp_1;
   case 2:
     r0 = s.retval;
     s.tmp_0.arg0 = r0;
-    s.callLocIdx = 506; s.pc = 1; return s.tmp_0;
+    s.callLocIdx = 509; s.pc = 1; return s.tmp_0;
   case 1:
     r0 = s.retval;
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-inline__P175771.info = {"start":169460,"length":76,"line":1980,"column":22,"endLine":1982,"endColumn":5,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P244306.info = {"start":169701,"length":76,"line":1988,"column":22,"endLine":1990,"endColumn":5,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P175771_mk(s) {
+function inline__P244306_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P175771, depth: s.depth + 1,
+        parent: s, fn: inline__P244306, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -6349,7 +6366,7 @@ function inline__P175771_mk(s) {
 
 
 
-function inline__P175776(s) {
+function inline__P244311(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -6360,31 +6377,31 @@ switch (step) {
   case 0:
 
     s.tmp_0 = scene_setBackgroundImage__P169428_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex175779);
+    r0 = pxsim.image.ofBuffer(_hex244314);
     s.tmp_0.arg0 = r0;
-    s.callLocIdx = 508; s.pc = 1; return s.tmp_0;
+    s.callLocIdx = 511; s.pc = 1; return s.tmp_0;
   case 1:
     r0 = s.retval;
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-inline__P175776.info = {"start":169560,"length":20832,"line":1983,"column":22,"endLine":2106,"endColumn":5,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P244311.info = {"start":169801,"length":20832,"line":1991,"column":22,"endLine":2114,"endColumn":5,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P175776_mk(s) {
+function inline__P244311_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P175776, depth: s.depth + 1,
+        parent: s, fn: inline__P244311, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
 } }
 
-const _hex175779 = pxsim.BufferMethods.createBufferFromHex("8704a00078000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9f99999fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9f9fff9ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9ff9fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9fffff9fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9f99999fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9fffff9fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9f99999fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9f9fff9fffffffffffffffffffffff1ff1fff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9fffff9ffffffffffffffffffffffff11ffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9ffffffffffffffffffffffff11ffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff99f9fffffffffffff1ffffffffff1ff11ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9f9f9f9ffffffffffffff1f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9f9f9f9ffffffffffffff1f1fffffffff111f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9ffff99ffffffffffffff1f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9fffffffffff1fff1fffffffffff11f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9fffffffffff1fff1ffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9ffffffffffff1fffff1ffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9fffffffff1ffffffff1fffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9fffffffff1fffffff1fffffffff1ff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9f99999ffffffffff1fffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9ff9fffffff1fffffffffff1fffffff11ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9fff9fffffff1f111111111111fffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9ff9fffffff1fffff1fffff1fffffff11ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9f99999fffffff1fffff1fffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9ffffffffff1fff1f1fff1ff111111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff99f99fffffffff1f1fff1f1ffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9fff9f9ffffffffffff1fffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9fff9f9fffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9fffffff1fffffffff1111fffffff1f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9f99999ffffffffff1ffff11ffffffffff1ff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9fff9f9fffffffff1fff1ffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9fff9f9ffffffffffff1f1ffffffff111111f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff99f99fffffffffff1ffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9ffffffffffff111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9f99f99ffffffffffff1fff1fffffffff111f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9f9fffffffff1fffff1f1111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9f9fffffffff1fffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9f99f99ffffffffff1fffffffffffffffff1f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9ffffffffff1ffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9f9fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9fffffffffffffffffffffffffff11f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9f9ffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9fffffffffffffffffffffffffff1ff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9f9fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1111111111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff11ffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffff1fffffffffffffffffffffffffffffffff1f1111f1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffff1fffffffffffffffffffffffffffffffff1fffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffff1ffffffffffffffffffffffffffffff1ffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffff1ffffffffffffffffffffffffffffffffff1fffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffff1fffffffffffffffffffffffffffffff1ffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffff1ffffffffffffffffffffffffffffffff1ffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffff1fffffffffffffffffffffffffffff1ffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffff1fffffffffffffffffffffffffffff1fffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffff1ffffffffffffffffffffffffff1ffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffff1fffffffffffffffffffffffffff1ffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffff1ffffffffffffffffffffffff1fffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffff1ffffffffffffffffffffffffffff1ffffffffff1fffffffffffffffffffffffffffffff1f111111111111111111111111ffffffffffffffffffffffff11111111111111f1ffffffff1ffffffffffffff1ffffffffffffffffffffffffffff11f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1f11111111f1fffffffffffff1ffffffffffffffffffffffffff11ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffff11ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffff11ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffff11ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffff11f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1f11111111f1fffffffffffff1ffffffffffffffffffffffffffffff1f111111111111111111111111ffffffffffffffffffffffff11111111111111f1ffffffff1ffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffff1ffffffffffffffffffffffffffff1ffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffff1ffffffffffffffffffffffff1fffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffff1fffffffffffffffffffffffffff1ffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffff1ffffffffffffffffffffffffff1ffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffff1fffffffffffffffffffffffffffff1fffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffff1fffffffffffffffffffffffffffff1ffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffff1ffffffffffffffffffffffffffffffff1ffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffff1fffffffffffffffffffffffffffffff1ffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffff1ffffffffffffffffffffffffffffffffff1fffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffff1ffffffffffffffffffffffffffffff1ffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffff1fffffffffffffffffffffffffffffffff1fffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffff1fffffffffffffffffffffffffffffffff1f1111f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffff1fffffffffffffffffffffffffffffffffffffffffffff7f77f7ffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffff1ffffffffffffffffffffffffffffffffffffffffff7f7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffff7f7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffff1ffffffffffffffffffffffffffffffffffffffffff7f77f7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffff1fffffffffffffffffffffffffffffffffffffffffff7ffff7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff11ffffffff1fffffffffffffffffffffffffffffffffffffffffffff77ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1111111111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff7ffff7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff7f7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff7f77ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff")
+const _hex244314 = pxsim.BufferMethods.createBufferFromHex("8704a00078000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9f99999fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9f9fff9ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9ff9fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9fffff9fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9f99999fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9fffff9fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9f99999fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9f9fff9fffffffffffffffffffffff1ff1fff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9fffff9ffffffffffffffffffffffff11ffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9ffffffffffffffffffffffff11ffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff99f9fffffffffffff1ffffffffff1ff11ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9f9f9f9ffffffffffffff1f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9f9f9f9ffffffffffffff1f1fffffffff111f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9ffff99ffffffffffffff1f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9fffffffffff1fff1fffffffffff11f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9fffffffffff1fff1ffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9ffffffffffff1fffff1ffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9fffffffff1ffffffff1fffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9fffffffff1fffffff1fffffffff1ff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9f99999ffffffffff1fffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9ff9fffffff1fffffffffff1fffffff11ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9fff9fffffff1f111111111111fffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9ff9fffffff1fffff1fffff1fffffff11ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9f99999fffffff1fffff1fffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9ffffffffff1fff1f1fff1ff111111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff99f99fffffffff1f1fff1f1ffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9fff9f9ffffffffffff1fffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9fff9f9fffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9fffffff1fffffffff1111fffffff1f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9f99999ffffffffff1ffff11ffffffffff1ff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9fff9f9fffffffff1fff1ffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9fff9f9ffffffffffff1f1ffffffff111111f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff99f99fffffffffff1ffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9ffffffffffff111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9f99f99ffffffffffff1fff1fffffffff111f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9f9fffffffff1fffff1f1111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9f9fffffffff1fffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9f99f99ffffffffff1fffffffffffffffff1f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9ffffffffff1ffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9f9fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9fffffffffffffffffffffffffff11f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9f9ffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9fffffffffffffffffffffffffff1ff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9f9fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1111111111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff11ffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffff1fffffffffffffffffffffffffffffffff1f1111f1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffff1fffffffffffffffffffffffffffffffff1fffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffff1ffffffffffffffffffffffffffffff1ffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffff1ffffffffffffffffffffffffffffffffff1fffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffff1fffffffffffffffffffffffffffffff1ffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffff1ffffffffffffffffffffffffffffffff1ffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffff1fffffffffffffffffffffffffffff1ffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffff1fffffffffffffffffffffffffffff1fffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffff1ffffffffffffffffffffffffff1ffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffff1fffffffffffffffffffffffffff1ffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffff1ffffffffffffffffffffffff1fffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffff1ffffffffffffffffffffffffffff1ffffffffff1fffffffffffffffffffffffffffffff1f111111111111111111111111ffffffffffffffffffffffff11111111111111f1ffffffff1ffffffffffffff1ffffffffffffffffffffffffffff11f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1f11111111f1fffffffffffff1ffffffffffffffffffffffffff11ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffff11ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffff11ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffff11ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffff11f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1f11111111f1fffffffffffff1ffffffffffffffffffffffffffffff1f111111111111111111111111ffffffffffffffffffffffff11111111111111f1ffffffff1ffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffff1ffffffffffffffffffffffffffff1ffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffff1ffffffffffffffffffffffff1fffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffff1fffffffffffffffffffffffffff1ffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffff1ffffffffffffffffffffffffff1ffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffff1fffffffffffffffffffffffffffff1fffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffff1fffffffffffffffffffffffffffff1ffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffff1ffffffffffffffffffffffffffffffff1ffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffff1fffffffffffffffffffffffffffffff1ffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffff1ffffffffffffffffffffffffffffffffff1fffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffff1ffffffffffffffffffffffffffffff1ffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffff1fffffffffffffffffffffffffffffffff1fffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffff1fffffffffffffffffffffffffffffffff1f1111f1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffff1fffffffffffffffffffffffffffffffffffffffffffff7f77f7ffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffff1ffffffffffffffffffffffffffffffffffffffffff7f7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffff7f7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffff1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffff1ffffffffffffffffffffffffffffffffffffffffff7f77f7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffff1fffffffffffffffffffffffffffffffffffffffffff7ffff7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff11ffffffff1fffffffffffffffffffffffffffffffffffffffffffff77ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1111111111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff7ffff7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff7f7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff7f77ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff")
 
 
 
 
-function inline__P175781(s) {
+function inline__P244316(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -6397,23 +6414,23 @@ switch (step) {
     s.tmp_0 = scene_setBackgroundImage__P169428_mk(s);
     s.tmp_1 = helpers_getImageByName__P169879_mk(s);
     s.tmp_1.arg0 = "loadin screen";
-    s.callLocIdx = 510; s.pc = 2; return s.tmp_1;
+    s.callLocIdx = 513; s.pc = 2; return s.tmp_1;
   case 2:
     r0 = s.retval;
     s.tmp_0.arg0 = r0;
-    s.callLocIdx = 511; s.pc = 1; return s.tmp_0;
+    s.callLocIdx = 514; s.pc = 1; return s.tmp_0;
   case 1:
     r0 = s.retval;
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-inline__P175781.info = {"start":190416,"length":81,"line":2107,"column":22,"endLine":2109,"endColumn":5,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P244316.info = {"start":190657,"length":81,"line":2115,"column":22,"endLine":2117,"endColumn":5,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P175781_mk(s) {
+function inline__P244316_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P175781, depth: s.depth + 1,
+        parent: s, fn: inline__P244316, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -6423,7 +6440,7 @@ function inline__P175781_mk(s) {
 
 
 
-function inline__P175786(s) {
+function inline__P244321(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -6435,7 +6452,7 @@ switch (step) {
 
     s.tmp_1 = blockSettings_exists__P170965_mk(s);
     s.tmp_1.arg0 = "savedplane";
-    s.callLocIdx = 513; s.pc = 5; return s.tmp_1;
+    s.callLocIdx = 516; s.pc = 5; return s.tmp_1;
   case 5:
     r0 = s.retval;
     s.tmp_0 = r0;
@@ -6445,7 +6462,7 @@ switch (step) {
     s.tmp_2.arg0 = "Saved Plane Found!";
     s.tmp_7 = blockSettings_readString__P170961_mk(s);
     s.tmp_7.arg0 = "savedplane";
-    s.callLocIdx = 514; s.pc = 7; return s.tmp_7;
+    s.callLocIdx = 517; s.pc = 7; return s.tmp_7;
   case 7:
     r0 = s.retval;
     s.tmp_6 = r0;
@@ -6471,50 +6488,50 @@ switch (step) {
     s.tmp_3 = r0;
     r0 = pxsim_String__concat(s.tmp_3, "?");
     s.tmp_2.arg1 = r0;
-    s.callLocIdx = 515; s.pc = 6; return s.tmp_2;
+    s.callLocIdx = 518; s.pc = 6; return s.tmp_2;
   case 6:
     r0 = s.retval;
-    globals.usesavedplane___171004 = (r0);
-    r0 = pxsim_numops_toBoolDecr(globals.usesavedplane___171004);
+    globals.usesavedplane___244196 = (r0);
+    r0 = pxsim_numops_toBoolDecr(globals.usesavedplane___244196);
     if (!r0) { step = 1; continue; }
     s.tmp_0 = blockSettings_readString__P170961_mk(s);
     s.tmp_0.arg0 = "savedplane";
-    s.callLocIdx = 516; s.pc = 10; return s.tmp_0;
+    s.callLocIdx = 519; s.pc = 10; return s.tmp_0;
   case 10:
     r0 = s.retval;
-    globals.currentPlane___171003 = (r0);
+    globals.currentPlane___242774 = (r0);
   case 1:
   case 2:
   case 3:
   case 4:
-    s.tmp_0 = create_txt_sprites__P170971_mk(s);
-    s.callLocIdx = 517; s.pc = 11; return s.tmp_0;
+    s.tmp_0 = create_txt_sprites__P242740_mk(s);
+    s.callLocIdx = 520; s.pc = 11; return s.tmp_0;
   case 11:
     r0 = s.retval;
     s.tmp_0 = blockMenu_showMenu__P170909_mk(s);
-    s.tmp_0.arg0 = globals.menu1___171024;
+    s.tmp_0.arg0 = globals.menu1___243210;
     s.tmp_0.arg1 = 1;
     s.tmp_0.arg2 = 0;
-    s.callLocIdx = 518; s.pc = 12; return s.tmp_0;
+    s.callLocIdx = 521; s.pc = 12; return s.tmp_0;
   case 12:
     r0 = s.retval;
     s.tmp_0 = scene_setBackgroundImage__P169428_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex175810);
+    r0 = pxsim.image.ofBuffer(_hex244345);
     s.tmp_0.arg0 = r0;
-    s.callLocIdx = 519; s.pc = 13; return s.tmp_0;
+    s.callLocIdx = 522; s.pc = 13; return s.tmp_0;
   case 13:
     r0 = s.retval;
-    globals.emrgcyACTIVE___171029 = (false);
+    globals.emrgcyACTIVE___242388 = (false);
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-inline__P175786.info = {"start":190521,"length":21256,"line":2110,"column":22,"endLine":2242,"endColumn":5,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P244321.info = {"start":190762,"length":21256,"line":2118,"column":22,"endLine":2250,"endColumn":5,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P175786_mk(s) {
+function inline__P244321_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P175786, depth: s.depth + 1,
+        parent: s, fn: inline__P244321, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -6526,12 +6543,12 @@ function inline__P175786_mk(s) {
   tmp_7: undefined,
 } }
 
-const _hex175810 = pxsim.BufferMethods.createBufferFromHex("8704a00078000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex244345 = pxsim.BufferMethods.createBufferFromHex("8704a00078000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
 
 
 
 
-function inline__P175881(s) {
+function inline__P244416(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -6541,17 +6558,17 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    r0 = pxsim_numops_toBoolDecr(globals.counterrunning___170985);
+    r0 = pxsim_numops_toBoolDecr(globals.counterrunning___242711);
     if (!r0) { step = 3; continue; }
     r0 = (globals.elapsedTime___173684 / 1000);
-    globals.seconds___170984 = (r0);
-    r0 = pxsim_numops_toBoolDecr(globals.textSprite___170980);
+    globals.seconds___242718 = (r0);
+    r0 = pxsim_numops_toBoolDecr(globals.textSprite___242764);
     if (!r0) { step = 1; continue; }
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.textSprite___170980;
+    s.tmp_0.arg0 = globals.textSprite___242764;
     r0 = pxsim_String_.mkEmpty();
     s.tmp_1 = r0;
-    r0 = pxsim.Math_.round(globals.seconds___170984);
+    r0 = pxsim.Math_.round(globals.seconds___242718);
     s.tmp_3 = r0;
     if ((s.tmp_3) && (s.tmp_3).vtable) {
     setupResume(s, 8);
@@ -6564,19 +6581,19 @@ switch (step) {
     s.tmp_2 = r0;
     r0 = pxsim_String__concat(s.tmp_1, s.tmp_2);
     s.tmp_0.arg1 = r0;
-    s.callLocIdx = 543; s.pc = 7; return s.tmp_0;
+    s.callLocIdx = 546; s.pc = 7; return s.tmp_0;
   case 7:
     r0 = s.retval;
   case 1:
   case 2:
     { step = 6; continue; }
   case 3:
-    r0 = pxsim_numops_toBoolDecr(globals.timerhasbeenreset___170982);
+    r0 = pxsim_numops_toBoolDecr(globals.timerhasbeenreset___242730);
     if (!r0) { step = 4; continue; }
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.textSprite___170980;
+    s.tmp_0.arg0 = globals.textSprite___242764;
     s.tmp_0.arg1 = "0";
-    s.callLocIdx = 544; s.pc = 9; return s.tmp_0;
+    s.callLocIdx = 547; s.pc = 9; return s.tmp_0;
   case 9:
     r0 = s.retval;
   case 4:
@@ -6586,12 +6603,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P175881.info = {"start":213324,"length":272,"line":2299,"column":14,"endLine":2310,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P244416.info = {"start":213565,"length":272,"line":2307,"column":14,"endLine":2318,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P175881_mk(s) {
+function inline__P244416_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P175881, depth: s.depth + 1,
+        parent: s, fn: inline__P244416, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -6603,7 +6620,7 @@ function inline__P175881_mk(s) {
 
 
 
-function inline__P175899(s) {
+function inline__P244434(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -6613,170 +6630,170 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    r0 = pxsim_numops_toBoolDecr(globals.emergencies___171028);
+    r0 = pxsim_numops_toBoolDecr(globals.emergencies___244008);
     if (!r0) { step = 33; continue; }
-    r0 = pxsim_numops_toBoolDecr(globals.emrgcyACTIVE___171029);
+    r0 = pxsim_numops_toBoolDecr(globals.emrgcyACTIVE___242388);
     s.tmp_1 = r0;
     r0 = pxsim_Boolean__bang(s.tmp_1);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 31; continue; }
-    r0 = pxsim.Math_.randomRange(1, globals.Chance___170999);
-    globals.random___170974 = (r0);
-    r0 = (globals.random___170974 == 1);
+    r0 = pxsim.Math_.randomRange(1, globals.Chance___244019);
+    globals.random___244192 = (r0);
+    r0 = (globals.random___244192 == 1);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 29; continue; }
     r0 = pxsim.Math_.randomRange(1, 10);
-    globals.chooseemrcy___170994 = (r0);
-    r0 = (globals.chooseemrcy___170994 == 1);
+    globals.chooseemrcy___242385 = (r0);
+    r0 = (globals.chooseemrcy___242385 == 1);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 3; continue; }
     s.tmp_2 = Math_percentChance__P169600_mk(s);
     s.tmp_2.arg0 = 50;
-    s.callLocIdx = 546; s.pc = 35; return s.tmp_2;
+    s.callLocIdx = 549; s.pc = 35; return s.tmp_2;
   case 35:
     r0 = s.retval;
     s.tmp_1 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_1);
     if (!r0) { step = 1; continue; }
-    s.tmp_3 = failure__P170970_mk(s);
+    s.tmp_3 = failure__P242381_mk(s);
     s.tmp_3.arg0 = 1;
     s.tmp_3.arg1 = 1;
-    s.callLocIdx = 547; s.pc = 36; return s.tmp_3;
+    s.callLocIdx = 550; s.pc = 36; return s.tmp_3;
   case 36:
     r0 = s.retval;
   case 1:
   case 2:
     { step = 28; continue; }
   case 3:
-    r0 = (globals.chooseemrcy___170994 == 2);
+    r0 = (globals.chooseemrcy___242385 == 2);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 4; continue; }
-    s.tmp_1 = failure__P170970_mk(s);
+    s.tmp_1 = failure__P242381_mk(s);
     s.tmp_1.arg0 = 1;
     s.tmp_1.arg1 = 2;
-    s.callLocIdx = 548; s.pc = 37; return s.tmp_1;
+    s.callLocIdx = 551; s.pc = 37; return s.tmp_1;
   case 37:
     r0 = s.retval;
     { step = 27; continue; }
   case 4:
-    r0 = (globals.chooseemrcy___170994 == 3);
+    r0 = (globals.chooseemrcy___242385 == 3);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 5; continue; }
-    s.tmp_1 = failure__P170970_mk(s);
+    s.tmp_1 = failure__P242381_mk(s);
     s.tmp_1.arg0 = 1;
     s.tmp_1.arg1 = 3;
-    s.callLocIdx = 549; s.pc = 38; return s.tmp_1;
+    s.callLocIdx = 552; s.pc = 38; return s.tmp_1;
   case 38:
     r0 = s.retval;
     { step = 26; continue; }
   case 5:
-    r0 = (globals.chooseemrcy___170994 == 4);
+    r0 = (globals.chooseemrcy___242385 == 4);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 6; continue; }
-    s.tmp_1 = failure__P170970_mk(s);
+    s.tmp_1 = failure__P242381_mk(s);
     s.tmp_1.arg0 = 2;
     s.tmp_1.arg1 = 4;
-    s.callLocIdx = 550; s.pc = 39; return s.tmp_1;
+    s.callLocIdx = 553; s.pc = 39; return s.tmp_1;
   case 39:
     r0 = s.retval;
     { step = 25; continue; }
   case 6:
-    r0 = (globals.chooseemrcy___170994 == 5);
+    r0 = (globals.chooseemrcy___242385 == 5);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 7; continue; }
-    s.tmp_1 = failure__P170970_mk(s);
+    s.tmp_1 = failure__P242381_mk(s);
     s.tmp_1.arg0 = 2;
     s.tmp_1.arg1 = 5;
-    s.callLocIdx = 551; s.pc = 40; return s.tmp_1;
+    s.callLocIdx = 554; s.pc = 40; return s.tmp_1;
   case 40:
     r0 = s.retval;
     { step = 24; continue; }
   case 7:
-    r0 = (globals.chooseemrcy___170994 == 6);
+    r0 = (globals.chooseemrcy___242385 == 6);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 8; continue; }
-    s.tmp_1 = failure__P170970_mk(s);
+    s.tmp_1 = failure__P242381_mk(s);
     s.tmp_1.arg0 = 2;
     s.tmp_1.arg1 = 6;
-    s.callLocIdx = 552; s.pc = 41; return s.tmp_1;
+    s.callLocIdx = 555; s.pc = 41; return s.tmp_1;
   case 41:
     r0 = s.retval;
     { step = 23; continue; }
   case 8:
-    r0 = (globals.chooseemrcy___170994 == 7);
+    r0 = (globals.chooseemrcy___242385 == 7);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 9; continue; }
-    s.tmp_1 = failure__P170970_mk(s);
+    s.tmp_1 = failure__P242381_mk(s);
     s.tmp_1.arg0 = 2;
     s.tmp_1.arg1 = 7;
-    s.callLocIdx = 553; s.pc = 42; return s.tmp_1;
+    s.callLocIdx = 556; s.pc = 42; return s.tmp_1;
   case 42:
     r0 = s.retval;
     { step = 22; continue; }
   case 9:
-    r0 = (globals.chooseemrcy___170994 == 8);
+    r0 = (globals.chooseemrcy___242385 == 8);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 12; continue; }
     s.tmp_2 = Math_percentChance__P169600_mk(s);
     s.tmp_2.arg0 = 50;
-    s.callLocIdx = 554; s.pc = 43; return s.tmp_2;
+    s.callLocIdx = 557; s.pc = 43; return s.tmp_2;
   case 43:
     r0 = s.retval;
     s.tmp_1 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_1);
     if (!r0) { step = 10; continue; }
-    s.tmp_3 = failure__P170970_mk(s);
+    s.tmp_3 = failure__P242381_mk(s);
     s.tmp_3.arg0 = 1;
     s.tmp_3.arg1 = 8;
-    s.callLocIdx = 555; s.pc = 44; return s.tmp_3;
+    s.callLocIdx = 558; s.pc = 44; return s.tmp_3;
   case 44:
     r0 = s.retval;
   case 10:
   case 11:
     { step = 21; continue; }
   case 12:
-    r0 = (globals.chooseemrcy___170994 == 9);
+    r0 = (globals.chooseemrcy___242385 == 9);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 15; continue; }
     s.tmp_2 = Math_percentChance__P169600_mk(s);
     s.tmp_2.arg0 = 50;
-    s.callLocIdx = 556; s.pc = 45; return s.tmp_2;
+    s.callLocIdx = 559; s.pc = 45; return s.tmp_2;
   case 45:
     r0 = s.retval;
     s.tmp_1 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_1);
     if (!r0) { step = 13; continue; }
-    s.tmp_3 = failure__P170970_mk(s);
+    s.tmp_3 = failure__P242381_mk(s);
     s.tmp_3.arg0 = 1;
     s.tmp_3.arg1 = 9;
-    s.callLocIdx = 557; s.pc = 46; return s.tmp_3;
+    s.callLocIdx = 560; s.pc = 46; return s.tmp_3;
   case 46:
     r0 = s.retval;
   case 13:
   case 14:
     { step = 20; continue; }
   case 15:
-    r0 = (globals.chooseemrcy___170994 == 10);
+    r0 = (globals.chooseemrcy___242385 == 10);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 18; continue; }
-    r0 = pxsim_numops_toBoolDecr(globals.MCDUfail___171001);
+    r0 = pxsim_numops_toBoolDecr(globals.MCDUfail___244036);
     if (!r0) { step = 16; continue; }
-    s.tmp_1 = failure__P170970_mk(s);
+    s.tmp_1 = failure__P242381_mk(s);
     s.tmp_1.arg0 = 1;
     s.tmp_1.arg1 = 10;
-    s.callLocIdx = 558; s.pc = 47; return s.tmp_1;
+    s.callLocIdx = 561; s.pc = 47; return s.tmp_1;
   case 47:
     r0 = s.retval;
   case 16:
@@ -6802,12 +6819,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P175899.info = {"start":213626,"length":1328,"line":2311,"column":28,"endLine":2349,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P244434.info = {"start":213867,"length":1328,"line":2319,"column":28,"endLine":2357,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P175899_mk(s) {
+function inline__P244434_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P175899, depth: s.depth + 1,
+        parent: s, fn: inline__P244434, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -6819,7 +6836,7 @@ function inline__P175899_mk(s) {
 
 
 
-function failure__P170970(s) {
+function failure__P242381(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -6834,9 +6851,9 @@ switch (step) {
       s.arg1 = (s.lambdaArgs[1]);
       s.lambdaArgs = null;
     }
-    globals.chooseemrcy___170994 = (0);
-    globals.emrgcyACTIVE___171029 = (true);
-    globals.canexiterror___170993 = (false);
+    globals.chooseemrcy___242385 = (0);
+    globals.emrgcyACTIVE___242388 = (true);
+    globals.canexiterror___242391 = (false);
     s.tmp_0 = blockMenu_setControlsEnabled__P170918_mk(s);
     s.tmp_0.arg0 = false;
     s.callLocIdx = 89; s.pc = 21; return s.tmp_0;
@@ -6861,14 +6878,14 @@ switch (step) {
   case 23:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt1___170992;
+    s.tmp_0.arg0 = globals.txt1___242402;
     s.tmp_0.arg1 = "All Engine Failure";
     s.callLocIdx = 93; s.pc = 25; return s.tmp_0;
   case 25:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    r0 = (globals.Landing_Throttle___170990 - 5);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    r0 = (globals.Landing_Throttle___242416 - 5);
     s.tmp_4 = r0;
     if ((s.tmp_4) && (s.tmp_4).vtable) {
     setupResume(s, 27);
@@ -6896,21 +6913,21 @@ switch (step) {
   case 26:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
+    s.tmp_0.arg0 = globals.txt3___242423;
     r0 = pxsim_String_.mkEmpty();
     s.tmp_0.arg1 = r0;
     s.callLocIdx = 95; s.pc = 29; return s.tmp_0;
   case 29:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt4___170988;
+    s.tmp_0.arg0 = globals.txt4___242427;
     s.tmp_0.arg1 = "Return to airport";
     s.callLocIdx = 96; s.pc = 30; return s.tmp_0;
   case 30:
     r0 = s.retval;
-    r0 = pxsim_Array__push(globals.active_fails___171025, "All engine failure");
-    s.tmp_0 = r0 = globals.active_fails___171025;
-    r0 = (globals.Landing_Throttle___170990 - 5);
+    r0 = pxsim_Array__push(globals.active_fails___242432, "All engine failure");
+    s.tmp_0 = r0 = globals.active_fails___242432;
+    r0 = (globals.Landing_Throttle___242416 - 5);
     s.tmp_5 = r0;
     if ((s.tmp_5) && (s.tmp_5).vtable) {
     setupResume(s, 31);
@@ -6952,14 +6969,14 @@ switch (step) {
   case 33:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt1___170992;
+    s.tmp_0.arg0 = globals.txt1___242402;
     s.tmp_0.arg1 = "Engine 1 Failure";
     s.callLocIdx = 99; s.pc = 35; return s.tmp_0;
   case 35:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    r0 = (globals.Landing_Throttle___170990 + 5);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    r0 = (globals.Landing_Throttle___242416 + 5);
     s.tmp_4 = r0;
     if ((s.tmp_4) && (s.tmp_4).vtable) {
     setupResume(s, 37);
@@ -6987,21 +7004,21 @@ switch (step) {
   case 36:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
+    s.tmp_0.arg0 = globals.txt3___242423;
     r0 = pxsim_String_.mkEmpty();
     s.tmp_0.arg1 = r0;
     s.callLocIdx = 101; s.pc = 39; return s.tmp_0;
   case 39:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt4___170988;
+    s.tmp_0.arg0 = globals.txt4___242427;
     s.tmp_0.arg1 = "Return to airport";
     s.callLocIdx = 102; s.pc = 40; return s.tmp_0;
   case 40:
     r0 = s.retval;
-    r0 = pxsim_Array__push(globals.active_fails___171025, "Engine 1 Failure");
-    s.tmp_0 = r0 = globals.active_fails___171025;
-    r0 = (globals.Landing_Throttle___170990 - 5);
+    r0 = pxsim_Array__push(globals.active_fails___242432, "Engine 1 Failure");
+    s.tmp_0 = r0 = globals.active_fails___242432;
+    r0 = (globals.Landing_Throttle___242416 - 5);
     s.tmp_5 = r0;
     if ((s.tmp_5) && (s.tmp_5).vtable) {
     setupResume(s, 41);
@@ -7043,14 +7060,14 @@ switch (step) {
   case 43:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt1___170992;
+    s.tmp_0.arg0 = globals.txt1___242402;
     s.tmp_0.arg1 = "Engine 2 Failure";
     s.callLocIdx = 105; s.pc = 45; return s.tmp_0;
   case 45:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    r0 = (globals.Landing_Throttle___170990 + 5);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    r0 = (globals.Landing_Throttle___242416 + 5);
     s.tmp_4 = r0;
     if ((s.tmp_4) && (s.tmp_4).vtable) {
     setupResume(s, 47);
@@ -7078,21 +7095,21 @@ switch (step) {
   case 46:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
+    s.tmp_0.arg0 = globals.txt3___242423;
     r0 = pxsim_String_.mkEmpty();
     s.tmp_0.arg1 = r0;
     s.callLocIdx = 107; s.pc = 49; return s.tmp_0;
   case 49:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt4___170988;
+    s.tmp_0.arg0 = globals.txt4___242427;
     s.tmp_0.arg1 = "Return to airport";
     s.callLocIdx = 108; s.pc = 50; return s.tmp_0;
   case 50:
     r0 = s.retval;
-    r0 = pxsim_Array__push(globals.active_fails___171025, "Engine 2 Failure");
-    s.tmp_0 = r0 = globals.active_fails___171025;
-    r0 = (globals.Landing_Throttle___170990 - 5);
+    r0 = pxsim_Array__push(globals.active_fails___242432, "Engine 2 Failure");
+    s.tmp_0 = r0 = globals.active_fails___242432;
+    r0 = (globals.Landing_Throttle___242416 - 5);
     s.tmp_5 = r0;
     if ((s.tmp_5) && (s.tmp_5).vtable) {
     setupResume(s, 51);
@@ -7134,32 +7151,32 @@ switch (step) {
   case 53:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt1___170992;
+    s.tmp_0.arg0 = globals.txt1___242402;
     s.tmp_0.arg1 = "Gear Malfunction";
     s.callLocIdx = 111; s.pc = 55; return s.tmp_0;
   case 55:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
+    s.tmp_0.arg0 = globals.txt2___242406;
     s.tmp_0.arg1 = "Gear Stuck";
     s.callLocIdx = 112; s.pc = 56; return s.tmp_0;
   case 56:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
+    s.tmp_0.arg0 = globals.txt3___242423;
     r0 = pxsim_String_.mkEmpty();
     s.tmp_0.arg1 = r0;
     s.callLocIdx = 113; s.pc = 57; return s.tmp_0;
   case 57:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt4___170988;
+    s.tmp_0.arg0 = globals.txt4___242427;
     s.tmp_0.arg1 = "Return to airport";
     s.callLocIdx = 114; s.pc = 58; return s.tmp_0;
   case 58:
     r0 = s.retval;
-    r0 = pxsim_Array__push(globals.active_fails___171025, "Gear Malfunction");
-    r0 = pxsim_Array__push(globals.active_fails___171025, "Gear Stuck");
+    r0 = pxsim_Array__push(globals.active_fails___242432, "Gear Malfunction");
+    r0 = pxsim_Array__push(globals.active_fails___242432, "Gear Stuck");
     { step = 17; continue; }
   case 4:
     r0 = (s.arg1 == 5);
@@ -7177,32 +7194,32 @@ switch (step) {
   case 59:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt1___170992;
+    s.tmp_0.arg0 = globals.txt1___242402;
     s.tmp_0.arg1 = "Flap Malfunction";
     s.callLocIdx = 117; s.pc = 61; return s.tmp_0;
   case 61:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
+    s.tmp_0.arg0 = globals.txt2___242406;
     s.tmp_0.arg1 = "Flaps Stuck";
     s.callLocIdx = 118; s.pc = 62; return s.tmp_0;
   case 62:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
+    s.tmp_0.arg0 = globals.txt3___242423;
     r0 = pxsim_String_.mkEmpty();
     s.tmp_0.arg1 = r0;
     s.callLocIdx = 119; s.pc = 63; return s.tmp_0;
   case 63:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt4___170988;
+    s.tmp_0.arg0 = globals.txt4___242427;
     s.tmp_0.arg1 = "Return to airport";
     s.callLocIdx = 120; s.pc = 64; return s.tmp_0;
   case 64:
     r0 = s.retval;
-    r0 = pxsim_Array__push(globals.active_fails___171025, "Flap Malfunction");
-    r0 = pxsim_Array__push(globals.active_fails___171025, "Flaps Stuck");
+    r0 = pxsim_Array__push(globals.active_fails___242432, "Flap Malfunction");
+    r0 = pxsim_Array__push(globals.active_fails___242432, "Flaps Stuck");
     { step = 16; continue; }
   case 5:
     r0 = (s.arg1 == 6);
@@ -7220,32 +7237,32 @@ switch (step) {
   case 65:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt1___170992;
+    s.tmp_0.arg0 = globals.txt1___242402;
     s.tmp_0.arg1 = "Flap Malfunction";
     s.callLocIdx = 123; s.pc = 67; return s.tmp_0;
   case 67:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
+    s.tmp_0.arg0 = globals.txt2___242406;
     s.tmp_0.arg1 = "Flaps 0";
     s.callLocIdx = 124; s.pc = 68; return s.tmp_0;
   case 68:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
+    s.tmp_0.arg0 = globals.txt3___242423;
     r0 = pxsim_String_.mkEmpty();
     s.tmp_0.arg1 = r0;
     s.callLocIdx = 125; s.pc = 69; return s.tmp_0;
   case 69:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt4___170988;
+    s.tmp_0.arg0 = globals.txt4___242427;
     s.tmp_0.arg1 = "Return to airport";
     s.callLocIdx = 126; s.pc = 70; return s.tmp_0;
   case 70:
     r0 = s.retval;
-    r0 = pxsim_Array__push(globals.active_fails___171025, "Flap Malfunction");
-    r0 = pxsim_Array__push(globals.active_fails___171025, "Flaps 0");
+    r0 = pxsim_Array__push(globals.active_fails___242432, "Flap Malfunction");
+    r0 = pxsim_Array__push(globals.active_fails___242432, "Flaps 0");
     { step = 15; continue; }
   case 6:
     r0 = (s.arg1 == 7);
@@ -7263,32 +7280,32 @@ switch (step) {
   case 71:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt1___170992;
+    s.tmp_0.arg0 = globals.txt1___242402;
     s.tmp_0.arg1 = "Flap Malfunction";
     s.callLocIdx = 129; s.pc = 73; return s.tmp_0;
   case 73:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
+    s.tmp_0.arg0 = globals.txt2___242406;
     s.tmp_0.arg1 = "Flaps Full";
     s.callLocIdx = 130; s.pc = 74; return s.tmp_0;
   case 74:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
+    s.tmp_0.arg0 = globals.txt3___242423;
     r0 = pxsim_String_.mkEmpty();
     s.tmp_0.arg1 = r0;
     s.callLocIdx = 131; s.pc = 75; return s.tmp_0;
   case 75:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt4___170988;
+    s.tmp_0.arg0 = globals.txt4___242427;
     s.tmp_0.arg1 = "Return to airport";
     s.callLocIdx = 132; s.pc = 76; return s.tmp_0;
   case 76:
     r0 = s.retval;
-    r0 = pxsim_Array__push(globals.active_fails___171025, "Flap Malfunction");
-    r0 = pxsim_Array__push(globals.active_fails___171025, "Flaps Full");
+    r0 = pxsim_Array__push(globals.active_fails___242432, "Flap Malfunction");
+    r0 = pxsim_Array__push(globals.active_fails___242432, "Flaps Full");
     { step = 14; continue; }
   case 7:
     r0 = (s.arg1 == 8);
@@ -7306,32 +7323,32 @@ switch (step) {
   case 77:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt1___170992;
+    s.tmp_0.arg0 = globals.txt1___242402;
     s.tmp_0.arg1 = "Rudder Malfunction";
     s.callLocIdx = 135; s.pc = 79; return s.tmp_0;
   case 79:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
+    s.tmp_0.arg0 = globals.txt2___242406;
     s.tmp_0.arg1 = "Hold D (Advanced)";
     s.callLocIdx = 136; s.pc = 80; return s.tmp_0;
   case 80:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
+    s.tmp_0.arg0 = globals.txt3___242423;
     r0 = pxsim_String_.mkEmpty();
     s.tmp_0.arg1 = r0;
     s.callLocIdx = 137; s.pc = 81; return s.tmp_0;
   case 81:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt4___170988;
+    s.tmp_0.arg0 = globals.txt4___242427;
     s.tmp_0.arg1 = "Return to airport";
     s.callLocIdx = 138; s.pc = 82; return s.tmp_0;
   case 82:
     r0 = s.retval;
-    r0 = pxsim_Array__push(globals.active_fails___171025, "Rudder Malfunction");
-    r0 = pxsim_Array__push(globals.active_fails___171025, "Hold D (Advanced)");
+    r0 = pxsim_Array__push(globals.active_fails___242432, "Rudder Malfunction");
+    r0 = pxsim_Array__push(globals.active_fails___242432, "Hold D (Advanced)");
     { step = 13; continue; }
   case 8:
     r0 = (s.arg1 == 9);
@@ -7349,32 +7366,32 @@ switch (step) {
   case 83:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt1___170992;
+    s.tmp_0.arg0 = globals.txt1___242402;
     s.tmp_0.arg1 = "Rudder Malfunction";
     s.callLocIdx = 141; s.pc = 85; return s.tmp_0;
   case 85:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
+    s.tmp_0.arg0 = globals.txt2___242406;
     s.tmp_0.arg1 = "Hold A (Advanced)";
     s.callLocIdx = 142; s.pc = 86; return s.tmp_0;
   case 86:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
+    s.tmp_0.arg0 = globals.txt3___242423;
     r0 = pxsim_String_.mkEmpty();
     s.tmp_0.arg1 = r0;
     s.callLocIdx = 143; s.pc = 87; return s.tmp_0;
   case 87:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt4___170988;
+    s.tmp_0.arg0 = globals.txt4___242427;
     s.tmp_0.arg1 = "Return to airport";
     s.callLocIdx = 144; s.pc = 88; return s.tmp_0;
   case 88:
     r0 = s.retval;
-    r0 = pxsim_Array__push(globals.active_fails___171025, "Rudder Malfunction");
-    r0 = pxsim_Array__push(globals.active_fails___171025, "Hold A (Advanced)");
+    r0 = pxsim_Array__push(globals.active_fails___242432, "Rudder Malfunction");
+    r0 = pxsim_Array__push(globals.active_fails___242432, "Hold A (Advanced)");
     { step = 12; continue; }
   case 9:
     r0 = (s.arg1 == 10);
@@ -7392,26 +7409,26 @@ switch (step) {
   case 89:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt1___170992;
+    s.tmp_0.arg0 = globals.txt1___242402;
     s.tmp_0.arg1 = "MCDU Malfunction";
     s.callLocIdx = 147; s.pc = 91; return s.tmp_0;
   case 91:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
+    s.tmp_0.arg0 = globals.txt2___242406;
     s.tmp_0.arg1 = "MCDU Restarting";
     s.callLocIdx = 148; s.pc = 92; return s.tmp_0;
   case 92:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
+    s.tmp_0.arg0 = globals.txt3___242423;
     r0 = pxsim_String_.mkEmpty();
     s.tmp_0.arg1 = r0;
     s.callLocIdx = 149; s.pc = 93; return s.tmp_0;
   case 93:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt4___170988;
+    s.tmp_0.arg0 = globals.txt4___242427;
     r0 = pxsim_String_.mkEmpty();
     s.tmp_0.arg1 = r0;
     s.callLocIdx = 150; s.pc = 94; return s.tmp_0;
@@ -7419,7 +7436,7 @@ switch (step) {
     r0 = s.retval;
     s.tmp_0 = timer_after__P170875_mk(s);
     s.tmp_0.arg0 = 3000;
-    s.tmp_0.arg1 = failure_inline__P174162;
+    s.tmp_0.arg1 = failure_inline__P242659;
     s.callLocIdx = 152; s.pc = 95; return s.tmp_0;
   case 95:
     r0 = s.retval;
@@ -7434,7 +7451,7 @@ switch (step) {
   case 18:
   case 19:
   case 20:
-    r0 = pxsim_pxtcore_mkAction(1, failure_inline__P174165);
+    r0 = pxsim_pxtcore_mkAction(1, failure_inline__P242662);
     s.tmp_0 = r0;
     r0 = pxsim_pxtrt_stclo(s.tmp_0, 0, s.arg0);
     s.tmp_1 = timer_after__P170875_mk(s);
@@ -7445,7 +7462,7 @@ switch (step) {
     r0 = s.retval;
     s.tmp_0 = timer_after__P170875_mk(s);
     s.tmp_0.arg0 = 5000;
-    s.tmp_0.arg1 = failure_inline__P174193;
+    s.tmp_0.arg1 = failure_inline__P242690;
     s.callLocIdx = 158; s.pc = 97; return s.tmp_0;
   case 97:
     r0 = s.retval;
@@ -7453,12 +7470,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-failure__P170970.info = {"start":2370,"length":4341,"line":76,"column":0,"endLine":178,"endColumn":1,"fileName":"main.ts","functionName":"failure","argumentNames":["sound","fail"]}
+failure__P242381.info = {"start":2370,"length":4341,"line":76,"column":0,"endLine":178,"endColumn":1,"fileName":"main.ts","functionName":"failure","argumentNames":["sound","fail"]}
 
-function failure__P170970_mk(s) {
+function failure__P242381_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: failure__P170970, depth: s.depth + 1,
+        parent: s, fn: failure__P242381, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -7474,7 +7491,7 @@ function failure__P170970_mk(s) {
 
 
 
-function failure_inline__P174162(s) {
+function failure_inline__P242659(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -7492,12 +7509,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-failure_inline__P174162.info = {"start":5864,"length":48,"line":160,"column":26,"endLine":162,"endColumn":9,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+failure_inline__P242659.info = {"start":5864,"length":48,"line":160,"column":26,"endLine":162,"endColumn":9,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function failure_inline__P174162_mk(s) {
+function failure_inline__P242659_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: failure_inline__P174162, depth: s.depth + 1,
+        parent: s, fn: failure_inline__P242659, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
 } }
@@ -7506,7 +7523,7 @@ function failure_inline__P174162_mk(s) {
 
 
 
-function failure_inline__P174165(s) {
+function failure_inline__P242662(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -7516,21 +7533,21 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    s.index___174168 = undefined;
-    s.index___174181 = undefined;
+    s.index___242665 = undefined;
+    s.index___242678 = undefined;
     r0 = (s.caps[0] == 1);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 3; continue; }
-    s.index___174168 = (0);
+    s.index___242665 = (0);
   case 1:
-    r0 = (s.index___174168 < 5);
+    r0 = (s.index___242665 < 5);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 2; continue; }
     s.tmp_1 = music_play__P168466_mk(s);
     s.tmp_2 = music_createSong__P168187_mk(s);
-    s.tmp_2.arg0 = _hex174175;
+    s.tmp_2.arg0 = _hex242672;
     s.callLocIdx = 153; s.pc = 10; return s.tmp_2;
   case 10:
     r0 = s.retval;
@@ -7539,8 +7556,8 @@ switch (step) {
     s.callLocIdx = 154; s.pc = 9; return s.tmp_1;
   case 9:
     r0 = s.retval;
-    r0 = (s.index___174168 + 1);
-    s.index___174168 = (r0);
+    r0 = (s.index___242665 + 1);
+    s.index___242665 = (r0);
     { step = 1; continue; }
   case 2:
     { step = 8; continue; }
@@ -7549,15 +7566,15 @@ switch (step) {
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 6; continue; }
-    s.index___174181 = (0);
+    s.index___242678 = (0);
   case 4:
-    r0 = (s.index___174181 < 5);
+    r0 = (s.index___242678 < 5);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 5; continue; }
     s.tmp_1 = music_play__P168466_mk(s);
     s.tmp_2 = music_createSong__P168187_mk(s);
-    s.tmp_2.arg0 = _hex174188;
+    s.tmp_2.arg0 = _hex242685;
     s.callLocIdx = 155; s.pc = 12; return s.tmp_2;
   case 12:
     r0 = s.retval;
@@ -7566,8 +7583,8 @@ switch (step) {
     s.callLocIdx = 156; s.pc = 11; return s.tmp_1;
   case 11:
     r0 = s.retval;
-    r0 = (s.index___174181 + 1);
-    s.index___174181 = (r0);
+    r0 = (s.index___242678 + 1);
+    s.index___242678 = (r0);
     { step = 4; continue; }
   case 5:
   case 6:
@@ -7577,27 +7594,27 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-failure_inline__P174165.info = {"start":5941,"length":696,"line":164,"column":21,"endLine":174,"endColumn":5,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+failure_inline__P242662.info = {"start":5941,"length":696,"line":164,"column":21,"endLine":174,"endColumn":5,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function failure_inline__P174165_mk(s) {
+function failure_inline__P242662_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: failure_inline__P174165, depth: s.depth + 1,
+        parent: s, fn: failure_inline__P242662, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
   tmp_2: undefined,
-  index___174168: undefined,
-  index___174181: undefined,
+  index___242665: undefined,
+  index___242678: undefined,
 } }
 
-const _hex174175 = pxsim.BufferMethods.createBufferFromHex("0078000408010100001c00010a006400f401640000040000000000000000000000000005000004300000000300012404000700012408000b0001240c000f00012410001300012414001700012418001b0001241c001f000124")
-const _hex174188 = pxsim.BufferMethods.createBufferFromHex("0078000408010105001c000f0a006400f4010a0000040000000000000000000000000000000002180000000400012408000c00012410001400012418001c000124")
+const _hex242672 = pxsim.BufferMethods.createBufferFromHex("0078000408010100001c00010a006400f401640000040000000000000000000000000005000004300000000300012404000700012408000b0001240c000f00012410001300012414001700012418001b0001241c001f000124")
+const _hex242685 = pxsim.BufferMethods.createBufferFromHex("0078000408010105001c000f0a006400f4010a0000040000000000000000000000000000000002180000000400012408000c00012410001400012418001c000124")
 
 
 
 
-function failure_inline__P174193(s) {
+function failure_inline__P242690(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -7607,17 +7624,17 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    globals.canexiterror___170993 = (true);
+    globals.canexiterror___242391 = (true);
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-failure_inline__P174193.info = {"start":6661,"length":47,"line":175,"column":22,"endLine":177,"endColumn":5,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+failure_inline__P242690.info = {"start":6661,"length":47,"line":175,"column":22,"endLine":177,"endColumn":5,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function failure_inline__P174193_mk(s) {
+function failure_inline__P242690_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: failure_inline__P174193, depth: s.depth + 1,
+        parent: s, fn: failure_inline__P242690, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
 } }
 
@@ -10803,7 +10820,7 @@ function game_onUpdate__P169566_mk(s) {
 
 
 
-function create_txt_sprites__P170971(s) {
+function create_txt_sprites__P242740(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -10820,9 +10837,9 @@ switch (step) {
     s.callLocIdx = 168; s.pc = 1; return s.tmp_0;
   case 1:
     r0 = s.retval;
-    globals.txt1___170992 = (r0);
+    globals.txt1___242402 = (r0);
     s.tmp_0 = Sprite_setPosition__P168952_mk(s);
-    s.tmp_0.arg0 = globals.txt1___170992;
+    s.tmp_0.arg0 = globals.txt1___242402;
     s.tmp_0.arg1 = 15;
     s.tmp_0.arg2 = 12;
     s.callLocIdx = 169; s.pc = 2; return s.tmp_0;
@@ -10835,9 +10852,9 @@ switch (step) {
     s.callLocIdx = 170; s.pc = 3; return s.tmp_0;
   case 3:
     r0 = s.retval;
-    globals.txt2___170991 = (r0);
+    globals.txt2___242406 = (r0);
     s.tmp_0 = Sprite_setPosition__P168952_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
+    s.tmp_0.arg0 = globals.txt2___242406;
     s.tmp_0.arg1 = 15;
     s.tmp_0.arg2 = 29;
     s.callLocIdx = 171; s.pc = 4; return s.tmp_0;
@@ -10850,9 +10867,9 @@ switch (step) {
     s.callLocIdx = 172; s.pc = 5; return s.tmp_0;
   case 5:
     r0 = s.retval;
-    globals.txt3___170989 = (r0);
+    globals.txt3___242423 = (r0);
     s.tmp_0 = Sprite_setPosition__P168952_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
+    s.tmp_0.arg0 = globals.txt3___242423;
     s.tmp_0.arg1 = 14;
     s.tmp_0.arg2 = 46;
     s.callLocIdx = 173; s.pc = 6; return s.tmp_0;
@@ -10865,9 +10882,9 @@ switch (step) {
     s.callLocIdx = 174; s.pc = 7; return s.tmp_0;
   case 7:
     r0 = s.retval;
-    globals.txt4___170988 = (r0);
+    globals.txt4___242427 = (r0);
     s.tmp_0 = Sprite_setPosition__P168952_mk(s);
-    s.tmp_0.arg0 = globals.txt4___170988;
+    s.tmp_0.arg0 = globals.txt4___242427;
     s.tmp_0.arg1 = 18;
     s.tmp_0.arg2 = 63;
     s.callLocIdx = 175; s.pc = 8; return s.tmp_0;
@@ -10880,9 +10897,9 @@ switch (step) {
     s.callLocIdx = 176; s.pc = 9; return s.tmp_0;
   case 9:
     r0 = s.retval;
-    globals.txt5___170981 = (r0);
+    globals.txt5___242758 = (r0);
     s.tmp_0 = Sprite_setPosition__P168952_mk(s);
-    s.tmp_0.arg0 = globals.txt5___170981;
+    s.tmp_0.arg0 = globals.txt5___242758;
     s.tmp_0.arg1 = 15;
     s.tmp_0.arg2 = 82;
     s.callLocIdx = 177; s.pc = 10; return s.tmp_0;
@@ -10895,9 +10912,9 @@ switch (step) {
     s.callLocIdx = 178; s.pc = 11; return s.tmp_0;
   case 11:
     r0 = s.retval;
-    globals.textSprite___170980 = (r0);
+    globals.textSprite___242764 = (r0);
     s.tmp_0 = Sprite_setPosition__P168952_mk(s);
-    s.tmp_0.arg0 = globals.textSprite___170980;
+    s.tmp_0.arg0 = globals.textSprite___242764;
     s.tmp_0.arg1 = 19;
     s.tmp_0.arg2 = 104;
     s.callLocIdx = 179; s.pc = 12; return s.tmp_0;
@@ -10907,12 +10924,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-create_txt_sprites__P170971.info = {"start":7710,"length":478,"line":208,"column":0,"endLine":221,"endColumn":1,"fileName":"main.ts","functionName":"create_txt_sprites","argumentNames":[]}
+create_txt_sprites__P242740.info = {"start":7710,"length":478,"line":208,"column":0,"endLine":221,"endColumn":1,"fileName":"main.ts","functionName":"create_txt_sprites","argumentNames":[]}
 
-function create_txt_sprites__P170971_mk(s) {
+function create_txt_sprites__P242740_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: create_txt_sprites__P170971, depth: s.depth + 1,
+        parent: s, fn: create_txt_sprites__P242740, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
 } }
@@ -18498,7 +18515,7 @@ function music_enableAmp__P171154_mk(s) {
 
 
 
-function runways__P170969(s) {
+function runways__P242232(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -18508,116 +18525,116 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    r0 = (globals.start___170998 == "IBTH");
+    r0 = (globals.start___242235 == "IBTH");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 1; continue; }
-    globals.ARWS_Departure___170997 = (globals.RWS_IBTH___171008);
+    globals.ARWS_Departure___242237 = (globals.RWS_IBTH___242239);
     { step = 32; continue; }
   case 1:
-    r0 = (globals.start___170998 == "IDCS");
+    r0 = (globals.start___242235 == "IDCS");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 2; continue; }
-    globals.ARWS_Departure___170997 = (globals.RWS_IDCS___171016);
+    globals.ARWS_Departure___242237 = (globals.RWS_IDCS___242244);
     { step = 31; continue; }
   case 2:
-    r0 = (globals.start___170998 == "IGAR");
+    r0 = (globals.start___242235 == "IGAR");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 3; continue; }
-    globals.ARWS_Departure___170997 = (globals.RWS_IGAR___171018);
+    globals.ARWS_Departure___242237 = (globals.RWS_IGAR___242249);
     { step = 30; continue; }
   case 3:
-    r0 = (globals.start___170998 == "IGRV");
+    r0 = (globals.start___242235 == "IGRV");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 4; continue; }
-    globals.ARWS_Departure___170997 = (globals.RWS_IGRV___171007);
+    globals.ARWS_Departure___242237 = (globals.RWS_IGRV___242254);
     { step = 29; continue; }
   case 4:
-    r0 = (globals.start___170998 == "IHEN");
+    r0 = (globals.start___242235 == "IHEN");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 5; continue; }
-    globals.ARWS_Departure___170997 = (globals.RWS_IHEN___171014);
+    globals.ARWS_Departure___242237 = (globals.RWS_IHEN___242259);
     { step = 28; continue; }
   case 5:
-    r0 = (globals.start___170998 == "IJAF");
+    r0 = (globals.start___242235 == "IJAF");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 6; continue; }
-    globals.ARWS_Departure___170997 = (globals.RWS_IJAF___171011);
+    globals.ARWS_Departure___242237 = (globals.RWS_IJAF___242264);
     { step = 27; continue; }
   case 6:
-    r0 = (globals.start___170998 == "ILAR");
+    r0 = (globals.start___242235 == "ILAR");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 7; continue; }
-    globals.ARWS_Departure___170997 = (globals.RWS_ILAR___171015);
+    globals.ARWS_Departure___242237 = (globals.RWS_ILAR___242269);
     { step = 26; continue; }
   case 7:
-    r0 = (globals.start___170998 == "ILKL");
+    r0 = (globals.start___242235 == "ILKL");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 8; continue; }
-    globals.ARWS_Departure___170997 = (globals.RWS_ILKL___171005);
+    globals.ARWS_Departure___242237 = (globals.RWS_ILKL___242274);
     { step = 25; continue; }
   case 8:
-    r0 = (globals.start___170998 == "IMLR");
+    r0 = (globals.start___242235 == "IMLR");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 9; continue; }
-    globals.ARWS_Departure___170997 = (globals.RWS_IMLR___171019);
+    globals.ARWS_Departure___242237 = (globals.RWS_IMLR___242279);
     { step = 24; continue; }
   case 9:
-    r0 = (globals.start___170998 == "IPAP");
+    r0 = (globals.start___242235 == "IPAP");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 10; continue; }
-    globals.ARWS_Departure___170997 = (globals.RWS_IPAP___171013);
+    globals.ARWS_Departure___242237 = (globals.RWS_IPAP___242284);
     { step = 23; continue; }
   case 10:
-    r0 = (globals.start___170998 == "IPPH");
+    r0 = (globals.start___242235 == "IPPH");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 11; continue; }
-    globals.ARWS_Departure___170997 = (globals.RWS_IPPH___171006);
+    globals.ARWS_Departure___242237 = (globals.RWS_IPPH___242289);
     { step = 22; continue; }
   case 11:
-    r0 = (globals.start___170998 == "IRFD");
+    r0 = (globals.start___242235 == "IRFD");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 12; continue; }
-    globals.ARWS_Departure___170997 = (globals.RWS_IRFD___171020);
+    globals.ARWS_Departure___242237 = (globals.RWS_IRFD___242294);
     { step = 21; continue; }
   case 12:
-    r0 = (globals.start___170998 == "ISAU");
+    r0 = (globals.start___242235 == "ISAU");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 13; continue; }
-    globals.ARWS_Departure___170997 = (globals.RWS_ISAU___171009);
+    globals.ARWS_Departure___242237 = (globals.RWS_ISAU___242299);
     { step = 20; continue; }
   case 13:
-    r0 = (globals.start___170998 == "ISCM");
+    r0 = (globals.start___242235 == "ISCM");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 14; continue; }
-    globals.ARWS_Departure___170997 = (globals.RWS_ISCM___171010);
+    globals.ARWS_Departure___242237 = (globals.RWS_ISCM___242304);
     { step = 19; continue; }
   case 14:
-    r0 = (globals.start___170998 == "ITKO");
+    r0 = (globals.start___242235 == "ITKO");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 15; continue; }
-    globals.ARWS_Departure___170997 = (globals.RWS_ITKO___171017);
+    globals.ARWS_Departure___242237 = (globals.RWS_ITKO___242309);
     { step = 18; continue; }
   case 15:
-    r0 = (globals.start___170998 == "IZOL");
+    r0 = (globals.start___242235 == "IZOL");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 16; continue; }
-    globals.ARWS_Departure___170997 = (globals.RWS_IZOL___171012);
+    globals.ARWS_Departure___242237 = (globals.RWS_IZOL___242314);
   case 16:
   case 17:
   case 18:
@@ -18635,116 +18652,116 @@ switch (step) {
   case 30:
   case 31:
   case 32:
-    r0 = (globals.end___170996 == "IBTH");
+    r0 = (globals.end___242317 == "IBTH");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 33; continue; }
-    globals.ARWS_Arrival___170995 = (globals.RWS_IBTH___171008);
+    globals.ARWS_Arrival___242319 = (globals.RWS_IBTH___242239);
     { step = 64; continue; }
   case 33:
-    r0 = (globals.end___170996 == "IDCS");
+    r0 = (globals.end___242317 == "IDCS");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 34; continue; }
-    globals.ARWS_Arrival___170995 = (globals.RWS_IDCS___171016);
+    globals.ARWS_Arrival___242319 = (globals.RWS_IDCS___242244);
     { step = 63; continue; }
   case 34:
-    r0 = (globals.end___170996 == "IGAR");
+    r0 = (globals.end___242317 == "IGAR");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 35; continue; }
-    globals.ARWS_Arrival___170995 = (globals.RWS_IGAR___171018);
+    globals.ARWS_Arrival___242319 = (globals.RWS_IGAR___242249);
     { step = 62; continue; }
   case 35:
-    r0 = (globals.end___170996 == "IGRV");
+    r0 = (globals.end___242317 == "IGRV");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 36; continue; }
-    globals.ARWS_Arrival___170995 = (globals.RWS_IGRV___171007);
+    globals.ARWS_Arrival___242319 = (globals.RWS_IGRV___242254);
     { step = 61; continue; }
   case 36:
-    r0 = (globals.end___170996 == "IHEN");
+    r0 = (globals.end___242317 == "IHEN");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 37; continue; }
-    globals.ARWS_Arrival___170995 = (globals.RWS_IHEN___171014);
+    globals.ARWS_Arrival___242319 = (globals.RWS_IHEN___242259);
     { step = 60; continue; }
   case 37:
-    r0 = (globals.end___170996 == "IJAF");
+    r0 = (globals.end___242317 == "IJAF");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 38; continue; }
-    globals.ARWS_Arrival___170995 = (globals.RWS_IJAF___171011);
+    globals.ARWS_Arrival___242319 = (globals.RWS_IJAF___242264);
     { step = 59; continue; }
   case 38:
-    r0 = (globals.end___170996 == "ILAR");
+    r0 = (globals.end___242317 == "ILAR");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 39; continue; }
-    globals.ARWS_Arrival___170995 = (globals.RWS_ILAR___171015);
+    globals.ARWS_Arrival___242319 = (globals.RWS_ILAR___242269);
     { step = 58; continue; }
   case 39:
-    r0 = (globals.end___170996 == "ILKL");
+    r0 = (globals.end___242317 == "ILKL");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 40; continue; }
-    globals.ARWS_Arrival___170995 = (globals.RWS_ILKL___171005);
+    globals.ARWS_Arrival___242319 = (globals.RWS_ILKL___242274);
     { step = 57; continue; }
   case 40:
-    r0 = (globals.end___170996 == "IMLR");
+    r0 = (globals.end___242317 == "IMLR");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 41; continue; }
-    globals.ARWS_Arrival___170995 = (globals.RWS_IMLR___171019);
+    globals.ARWS_Arrival___242319 = (globals.RWS_IMLR___242279);
     { step = 56; continue; }
   case 41:
-    r0 = (globals.end___170996 == "IPAP");
+    r0 = (globals.end___242317 == "IPAP");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 42; continue; }
-    globals.ARWS_Arrival___170995 = (globals.RWS_IPAP___171013);
+    globals.ARWS_Arrival___242319 = (globals.RWS_IPAP___242284);
     { step = 55; continue; }
   case 42:
-    r0 = (globals.end___170996 == "IPPH");
+    r0 = (globals.end___242317 == "IPPH");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 43; continue; }
-    globals.ARWS_Arrival___170995 = (globals.RWS_IPPH___171006);
+    globals.ARWS_Arrival___242319 = (globals.RWS_IPPH___242289);
     { step = 54; continue; }
   case 43:
-    r0 = (globals.end___170996 == "IRFD");
+    r0 = (globals.end___242317 == "IRFD");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 44; continue; }
-    globals.ARWS_Arrival___170995 = (globals.RWS_IRFD___171020);
+    globals.ARWS_Arrival___242319 = (globals.RWS_IRFD___242294);
     { step = 53; continue; }
   case 44:
-    r0 = (globals.end___170996 == "ISAU");
+    r0 = (globals.end___242317 == "ISAU");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 45; continue; }
-    globals.ARWS_Arrival___170995 = (globals.RWS_ISAU___171009);
+    globals.ARWS_Arrival___242319 = (globals.RWS_ISAU___242299);
     { step = 52; continue; }
   case 45:
-    r0 = (globals.end___170996 == "ISCM");
+    r0 = (globals.end___242317 == "ISCM");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 46; continue; }
-    globals.ARWS_Arrival___170995 = (globals.RWS_ISCM___171010);
+    globals.ARWS_Arrival___242319 = (globals.RWS_ISCM___242304);
     { step = 51; continue; }
   case 46:
-    r0 = (globals.end___170996 == "ITKO");
+    r0 = (globals.end___242317 == "ITKO");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 47; continue; }
-    globals.ARWS_Arrival___170995 = (globals.RWS_ITKO___171017);
+    globals.ARWS_Arrival___242319 = (globals.RWS_ITKO___242309);
     { step = 50; continue; }
   case 47:
-    r0 = (globals.end___170996 == "IZOL");
+    r0 = (globals.end___242317 == "IZOL");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 48; continue; }
-    globals.ARWS_Arrival___170995 = (globals.RWS_IZOL___171012);
+    globals.ARWS_Arrival___242319 = (globals.RWS_IZOL___242314);
   case 48:
   case 49:
   case 50:
@@ -18766,12 +18783,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-runways__P170969.info = {"start":236,"length":2133,"line":8,"column":0,"endLine":75,"endColumn":1,"fileName":"main.ts","functionName":"runways","argumentNames":[]}
+runways__P242232.info = {"start":236,"length":2133,"line":8,"column":0,"endLine":75,"endColumn":1,"fileName":"main.ts","functionName":"runways","argumentNames":[]}
 
-function runways__P170969_mk(s) {
+function runways__P242232_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: runways__P170969, depth: s.depth + 1,
+        parent: s, fn: runways__P242232, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
 } }
@@ -18966,7 +18983,7 @@ function settings_writeBuffer__P168604_mk(s) {
 
 
 
-function RWstuff__P170968(s) {
+function RWstuff__P242218(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -18980,8 +18997,8 @@ switch (step) {
       s.arg0 = (s.lambdaArgs[0]);
       s.lambdaArgs = null;
     }
-    globals.chosenArrival_RW___171027 = ("?");
-    globals.chosenDeparture_RW___171026 = ("?");
+    globals.chosenArrival_RW___242221 = ("?");
+    globals.chosenDeparture_RW___242223 = ("?");
     r0 = pxsim_numops_toBoolDecr(s.arg0);
     if (!r0) { step = 1; continue; }
     s.tmp_0 = game_splash__P169508_mk(s);
@@ -18993,7 +19010,7 @@ switch (step) {
   case 1:
   case 2:
     s.tmp_0 = blockMenu_showMenu__P170909_mk(s);
-    s.tmp_0.arg0 = globals.flightpathmenu___171022;
+    s.tmp_0.arg0 = globals.flightpathmenu___242229;
     s.tmp_0.arg1 = 1;
     s.tmp_0.arg2 = 0;
     s.callLocIdx = 88; s.pc = 4; return s.tmp_0;
@@ -19003,12 +19020,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-RWstuff__P170968.info = {"start":0,"length":235,"line":0,"column":0,"endLine":7,"endColumn":1,"fileName":"main.ts","functionName":"RWstuff","argumentNames":["extra"]}
+RWstuff__P242218.info = {"start":0,"length":235,"line":0,"column":0,"endLine":7,"endColumn":1,"fileName":"main.ts","functionName":"RWstuff","argumentNames":["extra"]}
 
-function RWstuff__P170968_mk(s) {
+function RWstuff__P242218_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: RWstuff__P170968, depth: s.depth + 1,
+        parent: s, fn: RWstuff__P242218, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   arg0: undefined,
@@ -33759,7 +33776,7 @@ function blockMenu_MenuSprite_setSelectedOption__P170934_mk(s) {
 
 
 
-function ShowInfo__P170972(s) {
+function ShowInfo__P242769(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -33770,1039 +33787,1063 @@ switch (step) {
   case 0:
 
     s.tmp_0 = blockMenu_closeMenu__P170910_mk(s);
-    s.callLocIdx = 180; s.pc = 83; return s.tmp_0;
-  case 83:
+    s.callLocIdx = 180; s.pc = 85; return s.tmp_0;
+  case 85:
     r0 = s.retval;
     s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt4___170988;
-    s.tmp_0.arg1 = globals.currentPlane___171003;
-    s.callLocIdx = 181; s.pc = 84; return s.tmp_0;
-  case 84:
+    s.tmp_0.arg0 = globals.txt4___242427;
+    s.tmp_0.arg1 = globals.currentPlane___242774;
+    s.callLocIdx = 181; s.pc = 86; return s.tmp_0;
+  case 86:
     r0 = s.retval;
-    r0 = (globals.currentPlane___171003 == "A220");
+    r0 = (globals.currentPlane___242774 == "A220");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 1; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "470kts";
-    s.callLocIdx = 182; s.pc = 85; return s.tmp_1;
-  case 85:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "115kts";
-    s.callLocIdx = 183; s.pc = 86; return s.tmp_0;
-  case 86:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "48%";
-    s.callLocIdx = 184; s.pc = 87; return s.tmp_0;
+    s.callLocIdx = 182; s.pc = 87; return s.tmp_1;
   case 87:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (48);
-    { step = 82; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "115kts";
+    s.callLocIdx = 183; s.pc = 88; return s.tmp_0;
+  case 88:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "48%";
+    s.callLocIdx = 184; s.pc = 89; return s.tmp_0;
+  case 89:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (48);
+    { step = 84; continue; }
   case 1:
-    r0 = (globals.currentPlane___171003 == "A320");
+    r0 = (globals.currentPlane___242774 == "A320");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 2; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "447kts";
-    s.callLocIdx = 185; s.pc = 88; return s.tmp_1;
-  case 88:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "110kts";
-    s.callLocIdx = 186; s.pc = 89; return s.tmp_0;
-  case 89:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "50%";
-    s.callLocIdx = 187; s.pc = 90; return s.tmp_0;
+    s.callLocIdx = 185; s.pc = 90; return s.tmp_1;
   case 90:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (0);
-    { step = 81; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "110kts";
+    s.callLocIdx = 186; s.pc = 91; return s.tmp_0;
+  case 91:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "50%";
+    s.callLocIdx = 187; s.pc = 92; return s.tmp_0;
+  case 92:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (0);
+    { step = 83; continue; }
   case 2:
-    r0 = (globals.currentPlane___171003 == "A330");
+    r0 = (globals.currentPlane___242774 == "A330");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 3; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "475kts";
-    s.callLocIdx = 188; s.pc = 91; return s.tmp_1;
-  case 91:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "120kts";
-    s.callLocIdx = 189; s.pc = 92; return s.tmp_0;
-  case 92:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "50%";
-    s.callLocIdx = 190; s.pc = 93; return s.tmp_0;
+    s.callLocIdx = 188; s.pc = 93; return s.tmp_1;
   case 93:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (50);
-    { step = 80; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "120kts";
+    s.callLocIdx = 189; s.pc = 94; return s.tmp_0;
+  case 94:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "50%";
+    s.callLocIdx = 190; s.pc = 95; return s.tmp_0;
+  case 95:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (50);
+    { step = 82; continue; }
   case 3:
-    r0 = (globals.currentPlane___171003 == "A340");
+    r0 = (globals.currentPlane___242774 == "A340");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 4; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "470kts";
-    s.callLocIdx = 191; s.pc = 94; return s.tmp_1;
-  case 94:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "115kts";
-    s.callLocIdx = 192; s.pc = 95; return s.tmp_0;
-  case 95:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "50%";
-    s.callLocIdx = 193; s.pc = 96; return s.tmp_0;
+    s.callLocIdx = 191; s.pc = 96; return s.tmp_1;
   case 96:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (50);
-    { step = 79; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "115kts";
+    s.callLocIdx = 192; s.pc = 97; return s.tmp_0;
+  case 97:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "50%";
+    s.callLocIdx = 193; s.pc = 98; return s.tmp_0;
+  case 98:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (50);
+    { step = 81; continue; }
   case 4:
-    r0 = (globals.currentPlane___171003 == "A350");
+    r0 = (globals.currentPlane___242774 == "A350");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 5; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "487kts";
-    s.callLocIdx = 194; s.pc = 97; return s.tmp_1;
-  case 97:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "120kts";
-    s.callLocIdx = 195; s.pc = 98; return s.tmp_0;
-  case 98:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "50%";
-    s.callLocIdx = 196; s.pc = 99; return s.tmp_0;
+    s.callLocIdx = 194; s.pc = 99; return s.tmp_1;
   case 99:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (50);
-    { step = 78; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "120kts";
+    s.callLocIdx = 195; s.pc = 100; return s.tmp_0;
+  case 100:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "50%";
+    s.callLocIdx = 196; s.pc = 101; return s.tmp_0;
+  case 101:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (50);
+    { step = 80; continue; }
   case 5:
-    r0 = (globals.currentPlane___171003 == "737");
+    r0 = (globals.currentPlane___242774 == "737");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 6; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "454kts";
-    s.callLocIdx = 197; s.pc = 100; return s.tmp_1;
-  case 100:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "112kts";
-    s.callLocIdx = 198; s.pc = 101; return s.tmp_0;
-  case 101:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "50%";
-    s.callLocIdx = 199; s.pc = 102; return s.tmp_0;
+    s.callLocIdx = 197; s.pc = 102; return s.tmp_1;
   case 102:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (50);
-    { step = 77; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "112kts";
+    s.callLocIdx = 198; s.pc = 103; return s.tmp_0;
+  case 103:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "50%";
+    s.callLocIdx = 199; s.pc = 104; return s.tmp_0;
+  case 104:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (50);
+    { step = 79; continue; }
   case 6:
-    r0 = (globals.currentPlane___171003 == "747");
+    r0 = (globals.currentPlane___242774 == "747");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 7; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "495kts";
-    s.callLocIdx = 200; s.pc = 103; return s.tmp_1;
-  case 103:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "122kts";
-    s.callLocIdx = 201; s.pc = 104; return s.tmp_0;
-  case 104:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "50%";
-    s.callLocIdx = 202; s.pc = 105; return s.tmp_0;
+    s.callLocIdx = 200; s.pc = 105; return s.tmp_1;
   case 105:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (50);
-    { step = 76; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "122kts";
+    s.callLocIdx = 201; s.pc = 106; return s.tmp_0;
+  case 106:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "50%";
+    s.callLocIdx = 202; s.pc = 107; return s.tmp_0;
+  case 107:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (50);
+    { step = 78; continue; }
   case 7:
-    r0 = (globals.currentPlane___171003 == "757");
+    r0 = (globals.currentPlane___242774 == "757");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 8; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "458kts";
-    s.callLocIdx = 203; s.pc = 106; return s.tmp_1;
-  case 106:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "111kts";
-    s.callLocIdx = 204; s.pc = 107; return s.tmp_0;
-  case 107:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "50%";
-    s.callLocIdx = 205; s.pc = 108; return s.tmp_0;
+    s.callLocIdx = 203; s.pc = 108; return s.tmp_1;
   case 108:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (50);
-    { step = 75; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "111kts";
+    s.callLocIdx = 204; s.pc = 109; return s.tmp_0;
+  case 109:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "50%";
+    s.callLocIdx = 205; s.pc = 110; return s.tmp_0;
+  case 110:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (50);
+    { step = 77; continue; }
   case 8:
-    r0 = (globals.currentPlane___171003 == "767");
+    r0 = (globals.currentPlane___242774 == "767");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 9; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "458kts";
-    s.callLocIdx = 206; s.pc = 109; return s.tmp_1;
-  case 109:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "112kts";
-    s.callLocIdx = 207; s.pc = 110; return s.tmp_0;
-  case 110:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "50%";
-    s.callLocIdx = 208; s.pc = 111; return s.tmp_0;
+    s.callLocIdx = 206; s.pc = 111; return s.tmp_1;
   case 111:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (50);
-    { step = 74; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "112kts";
+    s.callLocIdx = 207; s.pc = 112; return s.tmp_0;
+  case 112:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "50%";
+    s.callLocIdx = 208; s.pc = 113; return s.tmp_0;
+  case 113:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (50);
+    { step = 76; continue; }
   case 9:
-    r0 = (globals.currentPlane___171003 == "777");
+    r0 = (globals.currentPlane___242774 == "777");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 10; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "518kts";
-    s.callLocIdx = 209; s.pc = 112; return s.tmp_1;
-  case 112:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "131kts";
-    s.callLocIdx = 210; s.pc = 113; return s.tmp_0;
-  case 113:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "50%";
-    s.callLocIdx = 211; s.pc = 114; return s.tmp_0;
+    s.callLocIdx = 209; s.pc = 114; return s.tmp_1;
   case 114:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (50);
-    { step = 73; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "131kts";
+    s.callLocIdx = 210; s.pc = 115; return s.tmp_0;
+  case 115:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "50%";
+    s.callLocIdx = 211; s.pc = 116; return s.tmp_0;
+  case 116:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (50);
+    { step = 75; continue; }
   case 10:
-    r0 = (globals.currentPlane___171003 == "787");
+    r0 = (globals.currentPlane___242774 == "787");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 11; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "487kts";
-    s.callLocIdx = 212; s.pc = 115; return s.tmp_1;
-  case 115:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "120kts";
-    s.callLocIdx = 213; s.pc = 116; return s.tmp_0;
-  case 116:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "50%";
-    s.callLocIdx = 214; s.pc = 117; return s.tmp_0;
+    s.callLocIdx = 212; s.pc = 117; return s.tmp_1;
   case 117:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (50);
-    { step = 72; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "120kts";
+    s.callLocIdx = 213; s.pc = 118; return s.tmp_0;
+  case 118:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "50%";
+    s.callLocIdx = 214; s.pc = 119; return s.tmp_0;
+  case 119:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (50);
+    { step = 74; continue; }
   case 11:
-    r0 = (globals.currentPlane___171003 == "CRJ700");
+    r0 = (globals.currentPlane___242774 == "CRJ700");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 12; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "472kts";
-    s.callLocIdx = 215; s.pc = 118; return s.tmp_1;
-  case 118:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "108kts";
-    s.callLocIdx = 216; s.pc = 119; return s.tmp_0;
-  case 119:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "50%";
-    s.callLocIdx = 217; s.pc = 120; return s.tmp_0;
+    s.callLocIdx = 215; s.pc = 120; return s.tmp_1;
   case 120:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (50);
-    { step = 71; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "108kts";
+    s.callLocIdx = 216; s.pc = 121; return s.tmp_0;
+  case 121:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "50%";
+    s.callLocIdx = 217; s.pc = 122; return s.tmp_0;
+  case 122:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (50);
+    { step = 73; continue; }
   case 12:
-    r0 = (globals.currentPlane___171003 == "Q400");
+    r0 = (globals.currentPlane___242774 == "Q400");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 13; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "360kts";
-    s.callLocIdx = 218; s.pc = 121; return s.tmp_1;
-  case 121:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "89kts";
-    s.callLocIdx = 219; s.pc = 122; return s.tmp_0;
-  case 122:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "50%";
-    s.callLocIdx = 220; s.pc = 123; return s.tmp_0;
+    s.callLocIdx = 218; s.pc = 123; return s.tmp_1;
   case 123:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (50);
-    { step = 70; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "89kts";
+    s.callLocIdx = 219; s.pc = 124; return s.tmp_0;
+  case 124:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "50%";
+    s.callLocIdx = 220; s.pc = 125; return s.tmp_0;
+  case 125:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (50);
+    { step = 72; continue; }
   case 13:
-    r0 = (globals.currentPlane___171003 == "Concorde");
+    r0 = (globals.currentPlane___242774 == "Concorde");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 14; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "1165kts";
-    s.callLocIdx = 221; s.pc = 124; return s.tmp_1;
-  case 124:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "126kts";
-    s.callLocIdx = 222; s.pc = 125; return s.tmp_0;
-  case 125:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "30%";
-    s.callLocIdx = 223; s.pc = 126; return s.tmp_0;
+    s.callLocIdx = 221; s.pc = 126; return s.tmp_1;
   case 126:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (30);
-    { step = 69; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "126kts";
+    s.callLocIdx = 222; s.pc = 127; return s.tmp_0;
+  case 127:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "30%";
+    s.callLocIdx = 223; s.pc = 128; return s.tmp_0;
+  case 128:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (30);
+    { step = 71; continue; }
   case 14:
-    r0 = (globals.currentPlane___171003 == "MD11");
+    r0 = (globals.currentPlane___242774 == "MD11");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 15; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "473kts";
-    s.callLocIdx = 224; s.pc = 127; return s.tmp_1;
-  case 127:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "116kts";
-    s.callLocIdx = 225; s.pc = 128; return s.tmp_0;
-  case 128:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "50%";
-    s.callLocIdx = 226; s.pc = 129; return s.tmp_0;
+    s.callLocIdx = 224; s.pc = 129; return s.tmp_1;
   case 129:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (50);
-    { step = 68; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "116kts";
+    s.callLocIdx = 225; s.pc = 130; return s.tmp_0;
+  case 130:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "50%";
+    s.callLocIdx = 226; s.pc = 131; return s.tmp_0;
+  case 131:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (50);
+    { step = 70; continue; }
   case 15:
-    r0 = (globals.currentPlane___171003 == "MD90");
+    r0 = (globals.currentPlane___242774 == "MD90");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 16; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "437kts";
-    s.callLocIdx = 227; s.pc = 130; return s.tmp_1;
-  case 130:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "105kts";
-    s.callLocIdx = 228; s.pc = 131; return s.tmp_0;
-  case 131:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "50%";
-    s.callLocIdx = 229; s.pc = 132; return s.tmp_0;
+    s.callLocIdx = 227; s.pc = 132; return s.tmp_1;
   case 132:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (50);
-    { step = 67; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "105kts";
+    s.callLocIdx = 228; s.pc = 133; return s.tmp_0;
+  case 133:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "50%";
+    s.callLocIdx = 229; s.pc = 134; return s.tmp_0;
+  case 134:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (50);
+    { step = 69; continue; }
   case 16:
-    r0 = (globals.currentPlane___171003 == "172");
+    r0 = (globals.currentPlane___242774 == "172");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 17; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "163kts";
-    s.callLocIdx = 230; s.pc = 133; return s.tmp_1;
-  case 133:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "53kts";
-    s.callLocIdx = 231; s.pc = 134; return s.tmp_0;
-  case 134:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "58%";
-    s.callLocIdx = 232; s.pc = 135; return s.tmp_0;
+    s.callLocIdx = 230; s.pc = 135; return s.tmp_1;
   case 135:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (58);
-    { step = 66; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "53kts";
+    s.callLocIdx = 231; s.pc = 136; return s.tmp_0;
+  case 136:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "58%";
+    s.callLocIdx = 232; s.pc = 137; return s.tmp_0;
+  case 137:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (58);
+    { step = 68; continue; }
   case 17:
-    r0 = (globals.currentPlane___171003 == "182");
+    r0 = (globals.currentPlane___242774 == "182");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 18; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "145kts";
-    s.callLocIdx = 233; s.pc = 136; return s.tmp_1;
-  case 136:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "50kts";
-    s.callLocIdx = 234; s.pc = 137; return s.tmp_0;
-  case 137:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "60%";
-    s.callLocIdx = 235; s.pc = 138; return s.tmp_0;
+    s.callLocIdx = 233; s.pc = 138; return s.tmp_1;
   case 138:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (60);
-    { step = 65; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "50kts";
+    s.callLocIdx = 234; s.pc = 139; return s.tmp_0;
+  case 139:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "60%";
+    s.callLocIdx = 235; s.pc = 140; return s.tmp_0;
+  case 140:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (60);
+    { step = 67; continue; }
   case 18:
-    r0 = (globals.currentPlane___171003 == "Caravan");
+    r0 = (globals.currentPlane___242774 == "Caravan");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 19; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "186kts";
-    s.callLocIdx = 236; s.pc = 139; return s.tmp_1;
-  case 139:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "58kts";
-    s.callLocIdx = 237; s.pc = 140; return s.tmp_0;
-  case 140:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "58%";
-    s.callLocIdx = 238; s.pc = 141; return s.tmp_0;
+    s.callLocIdx = 236; s.pc = 141; return s.tmp_1;
   case 141:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (58);
-    { step = 64; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "58kts";
+    s.callLocIdx = 237; s.pc = 142; return s.tmp_0;
+  case 142:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "58%";
+    s.callLocIdx = 238; s.pc = 143; return s.tmp_0;
+  case 143:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (58);
+    { step = 66; continue; }
   case 19:
-    r0 = (globals.currentPlane___171003 == "Caravan Skd");
+    r0 = (globals.currentPlane___242774 == "Caravan Skd");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 20; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "186kts";
-    s.callLocIdx = 239; s.pc = 142; return s.tmp_1;
-  case 142:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "58kts";
-    s.callLocIdx = 240; s.pc = 143; return s.tmp_0;
-  case 143:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "58%";
-    s.callLocIdx = 241; s.pc = 144; return s.tmp_0;
+    s.callLocIdx = 239; s.pc = 144; return s.tmp_1;
   case 144:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (58);
-    { step = 63; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "58kts";
+    s.callLocIdx = 240; s.pc = 145; return s.tmp_0;
+  case 145:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "58%";
+    s.callLocIdx = 241; s.pc = 146; return s.tmp_0;
+  case 146:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (58);
+    { step = 65; continue; }
   case 20:
-    r0 = (globals.currentPlane___171003 == "Twin Otter");
+    r0 = (globals.currentPlane___242774 == "Twin Otter");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 21; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "159kts";
-    s.callLocIdx = 242; s.pc = 145; return s.tmp_1;
-  case 145:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "53kts";
-    s.callLocIdx = 243; s.pc = 146; return s.tmp_0;
-  case 146:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "60%";
-    s.callLocIdx = 244; s.pc = 147; return s.tmp_0;
+    s.callLocIdx = 242; s.pc = 147; return s.tmp_1;
   case 147:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (60);
-    { step = 62; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "53kts";
+    s.callLocIdx = 243; s.pc = 148; return s.tmp_0;
+  case 148:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "60%";
+    s.callLocIdx = 244; s.pc = 149; return s.tmp_0;
+  case 149:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (60);
+    { step = 64; continue; }
   case 21:
-    r0 = (globals.currentPlane___171003 == "300");
+    r0 = (globals.currentPlane___242774 == "300");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 22; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "185kts";
-    s.callLocIdx = 245; s.pc = 148; return s.tmp_1;
-  case 148:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "53kts";
-    s.callLocIdx = 246; s.pc = 149; return s.tmp_0;
-  case 149:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "50%";
-    s.callLocIdx = 247; s.pc = 150; return s.tmp_0;
+    s.callLocIdx = 245; s.pc = 150; return s.tmp_1;
   case 150:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (50);
-    { step = 61; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "53kts";
+    s.callLocIdx = 246; s.pc = 151; return s.tmp_0;
+  case 151:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "50%";
+    s.callLocIdx = 247; s.pc = 152; return s.tmp_0;
+  case 152:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (50);
+    { step = 63; continue; }
   case 22:
-    r0 = (globals.currentPlane___171003 == "Cub");
+    r0 = (globals.currentPlane___242774 == "Cub");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 23; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "55kts";
-    s.callLocIdx = 248; s.pc = 151; return s.tmp_1;
-  case 151:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "31kts";
-    s.callLocIdx = 249; s.pc = 152; return s.tmp_0;
-  case 152:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "66%";
-    s.callLocIdx = 250; s.pc = 153; return s.tmp_0;
+    s.callLocIdx = 248; s.pc = 153; return s.tmp_1;
   case 153:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (66);
-    { step = 60; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "31kts";
+    s.callLocIdx = 249; s.pc = 154; return s.tmp_0;
+  case 154:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "66%";
+    s.callLocIdx = 250; s.pc = 155; return s.tmp_0;
+  case 155:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (66);
+    { step = 62; continue; }
   case 23:
-    r0 = (globals.currentPlane___171003 == "PA-28");
+    r0 = (globals.currentPlane___242774 == "PA-28");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 24; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "123kts";
-    s.callLocIdx = 251; s.pc = 154; return s.tmp_1;
-  case 154:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "48kts";
-    s.callLocIdx = 252; s.pc = 155; return s.tmp_0;
-  case 155:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "66%";
-    s.callLocIdx = 253; s.pc = 156; return s.tmp_0;
+    s.callLocIdx = 251; s.pc = 156; return s.tmp_1;
   case 156:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (66);
-    { step = 59; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "48kts";
+    s.callLocIdx = 252; s.pc = 157; return s.tmp_0;
+  case 157:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "66%";
+    s.callLocIdx = 253; s.pc = 158; return s.tmp_0;
+  case 158:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (66);
+    { step = 61; continue; }
   case 24:
-    r0 = (globals.currentPlane___171003 == "Airbus Beluga");
+    r0 = (globals.currentPlane___242774 == "Airbus Beluga");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 25; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "420kts";
-    s.callLocIdx = 254; s.pc = 157; return s.tmp_1;
-  case 157:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "100kts";
-    s.callLocIdx = 255; s.pc = 158; return s.tmp_0;
-  case 158:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "50%";
-    s.callLocIdx = 256; s.pc = 159; return s.tmp_0;
+    s.callLocIdx = 254; s.pc = 159; return s.tmp_1;
   case 159:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (50);
-    { step = 58; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "100kts";
+    s.callLocIdx = 255; s.pc = 160; return s.tmp_0;
+  case 160:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "50%";
+    s.callLocIdx = 256; s.pc = 161; return s.tmp_0;
+  case 161:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (50);
+    { step = 60; continue; }
   case 25:
-    r0 = (globals.currentPlane___171003 == "Boeing 747");
+    r0 = (globals.currentPlane___242774 == "Boeing 747");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 26; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "495kts";
-    s.callLocIdx = 257; s.pc = 160; return s.tmp_1;
-  case 160:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "121kts";
-    s.callLocIdx = 258; s.pc = 161; return s.tmp_0;
-  case 161:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "50%";
-    s.callLocIdx = 259; s.pc = 162; return s.tmp_0;
+    s.callLocIdx = 257; s.pc = 162; return s.tmp_1;
   case 162:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (50);
-    { step = 57; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "121kts";
+    s.callLocIdx = 258; s.pc = 163; return s.tmp_0;
+  case 163:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "50%";
+    s.callLocIdx = 259; s.pc = 164; return s.tmp_0;
+  case 164:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (50);
+    { step = 59; continue; }
   case 26:
-    r0 = (globals.currentPlane___171003 == "Boeing 757");
+    r0 = (globals.currentPlane___242774 == "Boeing 757");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 27; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "458kts";
-    s.callLocIdx = 260; s.pc = 163; return s.tmp_1;
-  case 163:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "113kts";
-    s.callLocIdx = 261; s.pc = 164; return s.tmp_0;
-  case 164:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "50%";
-    s.callLocIdx = 262; s.pc = 165; return s.tmp_0;
+    s.callLocIdx = 260; s.pc = 165; return s.tmp_1;
   case 165:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (50);
-    { step = 56; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "113kts";
+    s.callLocIdx = 261; s.pc = 166; return s.tmp_0;
+  case 166:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "50%";
+    s.callLocIdx = 262; s.pc = 167; return s.tmp_0;
+  case 167:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (50);
+    { step = 58; continue; }
   case 27:
-    r0 = (globals.currentPlane___171003 == "Boeing 767");
+    r0 = (globals.currentPlane___242774 == "Boeing 767");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 28; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "458kts";
-    s.callLocIdx = 263; s.pc = 166; return s.tmp_1;
-  case 166:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "109kts";
-    s.callLocIdx = 264; s.pc = 167; return s.tmp_0;
-  case 167:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "50%";
-    s.callLocIdx = 265; s.pc = 168; return s.tmp_0;
+    s.callLocIdx = 263; s.pc = 168; return s.tmp_1;
   case 168:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (50);
-    { step = 55; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "109kts";
+    s.callLocIdx = 264; s.pc = 169; return s.tmp_0;
+  case 169:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "50%";
+    s.callLocIdx = 265; s.pc = 170; return s.tmp_0;
+  case 170:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (50);
+    { step = 57; continue; }
   case 28:
-    r0 = (globals.currentPlane___171003 == "Boeing 777");
+    r0 = (globals.currentPlane___242774 == "Boeing 777");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 29; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "518kts";
-    s.callLocIdx = 266; s.pc = 169; return s.tmp_1;
-  case 169:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "126kts";
-    s.callLocIdx = 267; s.pc = 170; return s.tmp_0;
-  case 170:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "50%";
-    s.callLocIdx = 268; s.pc = 171; return s.tmp_0;
+    s.callLocIdx = 266; s.pc = 171; return s.tmp_1;
   case 171:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (50);
-    { step = 54; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "126kts";
+    s.callLocIdx = 267; s.pc = 172; return s.tmp_0;
+  case 172:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "50%";
+    s.callLocIdx = 268; s.pc = 173; return s.tmp_0;
+  case 173:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (50);
+    { step = 56; continue; }
   case 29:
-    r0 = (globals.currentPlane___171003 == "Boeing DreamLifter");
+    r0 = (globals.currentPlane___242774 == "Boeing DreamLifter");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 30; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "305kts";
-    s.callLocIdx = 269; s.pc = 172; return s.tmp_1;
-  case 172:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "125kts";
-    s.callLocIdx = 270; s.pc = 173; return s.tmp_0;
-  case 173:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "50%";
-    s.callLocIdx = 271; s.pc = 174; return s.tmp_0;
+    s.callLocIdx = 269; s.pc = 174; return s.tmp_1;
   case 174:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (50);
-    { step = 53; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "125kts";
+    s.callLocIdx = 270; s.pc = 175; return s.tmp_0;
+  case 175:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "50%";
+    s.callLocIdx = 271; s.pc = 176; return s.tmp_0;
+  case 176:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (50);
+    { step = 55; continue; }
   case 30:
-    r0 = (globals.currentPlane___171003 == "Douglas MD11");
+    r0 = (globals.currentPlane___242774 == "Douglas MD11");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 31; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "473kts";
-    s.callLocIdx = 272; s.pc = 175; return s.tmp_1;
-  case 175:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "114kts";
-    s.callLocIdx = 273; s.pc = 176; return s.tmp_0;
-  case 176:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "50%";
-    s.callLocIdx = 274; s.pc = 177; return s.tmp_0;
+    s.callLocIdx = 272; s.pc = 177; return s.tmp_1;
   case 177:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (50);
-    { step = 52; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "114kts";
+    s.callLocIdx = 273; s.pc = 178; return s.tmp_0;
+  case 178:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "50%";
+    s.callLocIdx = 274; s.pc = 179; return s.tmp_0;
+  case 179:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (50);
+    { step = 54; continue; }
   case 31:
-    r0 = (globals.currentPlane___171003 == "A-10 Warthog");
+    r0 = (globals.currentPlane___242774 == "A-10 Warthog");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 32; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "348kts";
-    s.callLocIdx = 275; s.pc = 178; return s.tmp_1;
-  case 178:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "89kts";
-    s.callLocIdx = 276; s.pc = 179; return s.tmp_0;
-  case 179:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "50%";
-    s.callLocIdx = 277; s.pc = 180; return s.tmp_0;
+    s.callLocIdx = 275; s.pc = 180; return s.tmp_1;
   case 180:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (50);
-    { step = 51; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "89kts";
+    s.callLocIdx = 276; s.pc = 181; return s.tmp_0;
+  case 181:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "50%";
+    s.callLocIdx = 277; s.pc = 182; return s.tmp_0;
+  case 182:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (50);
+    { step = 53; continue; }
   case 32:
-    r0 = (globals.currentPlane___171003 == "B2 Bomber");
+    r0 = (globals.currentPlane___242774 == "B2 Bomber");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 33; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "869kts";
-    s.callLocIdx = 278; s.pc = 181; return s.tmp_1;
-  case 181:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "131kts";
-    s.callLocIdx = 279; s.pc = 182; return s.tmp_0;
-  case 182:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "45%";
-    s.callLocIdx = 280; s.pc = 183; return s.tmp_0;
+    s.callLocIdx = 278; s.pc = 183; return s.tmp_1;
   case 183:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (45);
-    { step = 50; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "131kts";
+    s.callLocIdx = 279; s.pc = 184; return s.tmp_0;
+  case 184:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "45%";
+    s.callLocIdx = 280; s.pc = 185; return s.tmp_0;
+  case 185:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (45);
+    { step = 52; continue; }
   case 33:
-    r0 = (globals.currentPlane___171003 == "Eurofighter Typhoon");
+    r0 = (globals.currentPlane___242774 == "Eurofighter Typhoon");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 34; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "1347kts";
-    s.callLocIdx = 281; s.pc = 184; return s.tmp_1;
-  case 184:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "152kts";
-    s.callLocIdx = 282; s.pc = 185; return s.tmp_0;
-  case 185:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "30%";
-    s.callLocIdx = 283; s.pc = 186; return s.tmp_0;
+    s.callLocIdx = 281; s.pc = 186; return s.tmp_1;
   case 186:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (30);
-    { step = 49; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "152kts";
+    s.callLocIdx = 282; s.pc = 187; return s.tmp_0;
+  case 187:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "30%";
+    s.callLocIdx = 283; s.pc = 188; return s.tmp_0;
+  case 188:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (30);
+    { step = 51; continue; }
   case 34:
-    r0 = (globals.currentPlane___171003 == "F/A-18 Super Hornet");
+    r0 = (globals.currentPlane___242774 == "F/A-18 Super Hornet");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 35; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "1040kts";
-    s.callLocIdx = 284; s.pc = 187; return s.tmp_1;
-  case 187:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "102kts";
-    s.callLocIdx = 285; s.pc = 188; return s.tmp_0;
-  case 188:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "32%";
-    s.callLocIdx = 286; s.pc = 189; return s.tmp_0;
+    s.callLocIdx = 284; s.pc = 189; return s.tmp_1;
   case 189:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (32);
-    { step = 48; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "102kts";
+    s.callLocIdx = 285; s.pc = 190; return s.tmp_0;
+  case 190:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "32%";
+    s.callLocIdx = 286; s.pc = 191; return s.tmp_0;
+  case 191:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (32);
+    { step = 50; continue; }
   case 35:
-    r0 = (globals.currentPlane___171003 == "F-14 Tomcat");
+    r0 = (globals.currentPlane___242774 == "F-14 Tomcat");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 36; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "1340kts";
-    s.callLocIdx = 287; s.pc = 190; return s.tmp_1;
-  case 190:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "119kts";
-    s.callLocIdx = 288; s.pc = 191; return s.tmp_0;
-  case 191:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "30%";
-    s.callLocIdx = 289; s.pc = 192; return s.tmp_0;
+    s.callLocIdx = 287; s.pc = 192; return s.tmp_1;
   case 192:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (30);
-    { step = 47; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "119kts";
+    s.callLocIdx = 288; s.pc = 193; return s.tmp_0;
+  case 193:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "30%";
+    s.callLocIdx = 289; s.pc = 194; return s.tmp_0;
+  case 194:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (30);
+    { step = 49; continue; }
   case 36:
-    r0 = (globals.currentPlane___171003 == "F-15 Strike Eagle");
+    r0 = (globals.currentPlane___242774 == "F-15 Strike Eagle");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 37; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "1700kts";
-    s.callLocIdx = 290; s.pc = 193; return s.tmp_1;
-  case 193:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "137kts";
-    s.callLocIdx = 291; s.pc = 194; return s.tmp_0;
-  case 194:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "29%";
-    s.callLocIdx = 292; s.pc = 195; return s.tmp_0;
+    s.callLocIdx = 290; s.pc = 195; return s.tmp_1;
   case 195:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (29);
-    { step = 46; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "137kts";
+    s.callLocIdx = 291; s.pc = 196; return s.tmp_0;
+  case 196:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "29%";
+    s.callLocIdx = 292; s.pc = 197; return s.tmp_0;
+  case 197:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (29);
+    { step = 48; continue; }
   case 37:
-    r0 = (globals.currentPlane___171003 == "F-35B");
+    r0 = (globals.currentPlane___242774 == "F-35B");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 38; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "No Data";
-    s.callLocIdx = 293; s.pc = 196; return s.tmp_1;
-  case 196:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "No Data";
-    s.callLocIdx = 294; s.pc = 197; return s.tmp_0;
-  case 197:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "No Data";
-    s.callLocIdx = 295; s.pc = 198; return s.tmp_0;
+    s.callLocIdx = 293; s.pc = 198; return s.tmp_1;
   case 198:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (50);
-    { step = 45; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "No Data";
+    s.callLocIdx = 294; s.pc = 199; return s.tmp_0;
+  case 199:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "No Data";
+    s.callLocIdx = 295; s.pc = 200; return s.tmp_0;
+  case 200:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (50);
+    { step = 47; continue; }
   case 38:
-    r0 = (globals.currentPlane___171003 == "Hawk T1");
+    r0 = (globals.currentPlane___242774 == "Hawk T1");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 39; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "539kts";
-    s.callLocIdx = 296; s.pc = 199; return s.tmp_1;
-  case 199:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "95kts";
-    s.callLocIdx = 297; s.pc = 200; return s.tmp_0;
-  case 200:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "43%";
-    s.callLocIdx = 298; s.pc = 201; return s.tmp_0;
+    s.callLocIdx = 296; s.pc = 201; return s.tmp_1;
   case 201:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (43);
-    { step = 44; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "95kts";
+    s.callLocIdx = 297; s.pc = 202; return s.tmp_0;
+  case 202:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "43%";
+    s.callLocIdx = 298; s.pc = 203; return s.tmp_0;
+  case 203:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (43);
+    { step = 46; continue; }
   case 39:
-    r0 = (globals.currentPlane___171003 == "Sukhoi Su-27");
+    r0 = (globals.currentPlane___242774 == "Sukhoi Su-27");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 40; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "1349kts";
-    s.callLocIdx = 299; s.pc = 202; return s.tmp_1;
-  case 202:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "100kts";
-    s.callLocIdx = 300; s.pc = 203; return s.tmp_0;
-  case 203:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "27%";
-    s.callLocIdx = 301; s.pc = 204; return s.tmp_0;
+    s.callLocIdx = 299; s.pc = 204; return s.tmp_1;
   case 204:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (27);
-    { step = 43; continue; }
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "100kts";
+    s.callLocIdx = 300; s.pc = 205; return s.tmp_0;
+  case 205:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "27%";
+    s.callLocIdx = 301; s.pc = 206; return s.tmp_0;
+  case 206:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (27);
+    { step = 45; continue; }
   case 40:
-    r0 = (globals.currentPlane___171003 == "Paratrike");
+    r0 = (globals.currentPlane___242774 == "Paratrike");
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 41; continue; }
     s.tmp_1 = TextSprite_setText__P170886_mk(s);
-    s.tmp_1.arg0 = globals.txt1___170992;
+    s.tmp_1.arg0 = globals.txt1___242402;
     s.tmp_1.arg1 = "55kts";
-    s.callLocIdx = 302; s.pc = 205; return s.tmp_1;
-  case 205:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt2___170991;
-    s.tmp_0.arg1 = "14kts";
-    s.callLocIdx = 303; s.pc = 206; return s.tmp_0;
-  case 206:
-    r0 = s.retval;
-    s.tmp_0 = TextSprite_setText__P170886_mk(s);
-    s.tmp_0.arg0 = globals.txt3___170989;
-    s.tmp_0.arg1 = "46%";
-    s.callLocIdx = 304; s.pc = 207; return s.tmp_0;
+    s.callLocIdx = 302; s.pc = 207; return s.tmp_1;
   case 207:
     r0 = s.retval;
-    globals.Landing_Throttle___170990 = (46);
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "14kts";
+    s.callLocIdx = 303; s.pc = 208; return s.tmp_0;
+  case 208:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "46%";
+    s.callLocIdx = 304; s.pc = 209; return s.tmp_0;
+  case 209:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (46);
+    { step = 44; continue; }
   case 41:
+    r0 = (globals.currentPlane___242774 == "A380");
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 42; continue; }
+    s.tmp_1 = TextSprite_setText__P170886_mk(s);
+    s.tmp_1.arg0 = globals.txt1___242402;
+    s.tmp_1.arg1 = "543kts";
+    s.callLocIdx = 305; s.pc = 210; return s.tmp_1;
+  case 210:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt2___242406;
+    s.tmp_0.arg1 = "143kts";
+    s.callLocIdx = 306; s.pc = 211; return s.tmp_0;
+  case 211:
+    r0 = s.retval;
+    s.tmp_0 = TextSprite_setText__P170886_mk(s);
+    s.tmp_0.arg0 = globals.txt3___242423;
+    s.tmp_0.arg1 = "50%";
+    s.callLocIdx = 307; s.pc = 212; return s.tmp_0;
+  case 212:
+    r0 = s.retval;
+    globals.Landing_Throttle___242416 = (50);
   case 42:
   case 43:
   case 44:
@@ -34844,16 +34885,18 @@ switch (step) {
   case 80:
   case 81:
   case 82:
+  case 83:
+  case 84:
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-ShowInfo__P170972.info = {"start":8189,"length":6826,"line":222,"column":0,"endLine":431,"endColumn":1,"fileName":"main.ts","functionName":"ShowInfo","argumentNames":[]}
+ShowInfo__P242769.info = {"start":8189,"length":6987,"line":222,"column":0,"endLine":436,"endColumn":1,"fileName":"main.ts","functionName":"ShowInfo","argumentNames":[]}
 
-function ShowInfo__P170972_mk(s) {
+function ShowInfo__P242769_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: ShowInfo__P170972, depth: s.depth + 1,
+        parent: s, fn: ShowInfo__P242769, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -39073,7 +39116,7 @@ function scene_Renderable_constructor__P169344_mk(s) {
 
 
 
-function flpthmenu__P170973(s) {
+function flpthmenu__P242739(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -39083,13 +39126,13 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    r0 = pxsim_numops_toBoolDecr(globals.mobile_mode___171002);
+    r0 = pxsim_numops_toBoolDecr(globals.mobile_mode___242697);
     s.tmp_1 = r0;
     r0 = pxsim_Boolean__bang(s.tmp_1);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 7; continue; }
-    r0 = pxsim_numops_toBoolDecr(globals.emrgcyACTIVE___171029);
+    r0 = pxsim_numops_toBoolDecr(globals.emrgcyACTIVE___242388);
     s.tmp_3 = r0;
     r0 = pxsim_Boolean__bang(s.tmp_3);
     s.tmp_2 = r0;
@@ -39097,53 +39140,53 @@ switch (step) {
     if (!r0) { step = 1; continue; }
     s.tmp_4 = blockMenu_setControlsEnabled__P170918_mk(s);
     s.tmp_4.arg0 = true;
-    s.callLocIdx = 305; s.pc = 9; return s.tmp_4;
+    s.callLocIdx = 308; s.pc = 9; return s.tmp_4;
   case 9:
     r0 = s.retval;
     s.tmp_0 = scene_setBackgroundImage__P169428_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex174644);
+    r0 = pxsim.image.ofBuffer(_hex243162);
     s.tmp_0.arg0 = r0;
-    s.callLocIdx = 306; s.pc = 10; return s.tmp_0;
+    s.callLocIdx = 309; s.pc = 10; return s.tmp_0;
   case 10:
     r0 = s.retval;
     s.tmp_0 = blockMenu_showMenu__P170909_mk(s);
-    s.tmp_0.arg0 = globals.flightpathmenu___171022;
+    s.tmp_0.arg0 = globals.flightpathmenu___242229;
     s.tmp_0.arg1 = 1;
     s.tmp_0.arg2 = 0;
-    s.callLocIdx = 307; s.pc = 11; return s.tmp_0;
+    s.callLocIdx = 310; s.pc = 11; return s.tmp_0;
   case 11:
     r0 = s.retval;
-    globals.inviewmode___170986 = (false);
-    globals.canresettimer___170983 = (false);
+    globals.inviewmode___242706 = (false);
+    globals.canresettimer___242721 = (false);
     { step = 6; continue; }
   case 1:
-    r0 = pxsim_numops_toBoolDecr(globals.canexiterror___170993);
+    r0 = pxsim_numops_toBoolDecr(globals.canexiterror___242391);
     if (!r0) { step = 4; continue; }
-    r0 = pxsim_numops_toBoolDecr(globals.summingFail___171000);
+    r0 = pxsim_numops_toBoolDecr(globals.summingFail___243171);
     if (!r0) { step = 2; continue; }
-    globals.emrgcyACTIVE___171029 = (false);
+    globals.emrgcyACTIVE___242388 = (false);
   case 2:
   case 3:
     s.tmp_0 = blockMenu_setControlsEnabled__P170918_mk(s);
     s.tmp_0.arg0 = true;
-    s.callLocIdx = 308; s.pc = 12; return s.tmp_0;
+    s.callLocIdx = 311; s.pc = 12; return s.tmp_0;
   case 12:
     r0 = s.retval;
     s.tmp_0 = scene_setBackgroundImage__P169428_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex174658);
+    r0 = pxsim.image.ofBuffer(_hex243177);
     s.tmp_0.arg0 = r0;
-    s.callLocIdx = 309; s.pc = 13; return s.tmp_0;
+    s.callLocIdx = 312; s.pc = 13; return s.tmp_0;
   case 13:
     r0 = s.retval;
     s.tmp_0 = blockMenu_showMenu__P170909_mk(s);
-    s.tmp_0.arg0 = globals.flightpathmenu___171022;
+    s.tmp_0.arg0 = globals.flightpathmenu___242229;
     s.tmp_0.arg1 = 1;
     s.tmp_0.arg2 = 0;
-    s.callLocIdx = 310; s.pc = 14; return s.tmp_0;
+    s.callLocIdx = 313; s.pc = 14; return s.tmp_0;
   case 14:
     r0 = s.retval;
-    globals.inviewmode___170986 = (false);
-    globals.canresettimer___170983 = (false);
+    globals.inviewmode___242706 = (false);
+    globals.canresettimer___242721 = (false);
   case 4:
   case 5:
   case 6:
@@ -39153,12 +39196,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-flpthmenu__P170973.info = {"start":15016,"length":43761,"line":432,"column":0,"endLine":695,"endColumn":1,"fileName":"main.ts","functionName":"flpthmenu","argumentNames":[]}
+flpthmenu__P242739.info = {"start":15177,"length":43761,"line":437,"column":0,"endLine":700,"endColumn":1,"fileName":"main.ts","functionName":"flpthmenu","argumentNames":[]}
 
-function flpthmenu__P170973_mk(s) {
+function flpthmenu__P242739_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: flpthmenu__P170973, depth: s.depth + 1,
+        parent: s, fn: flpthmenu__P242739, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -39167,8 +39210,8 @@ function flpthmenu__P170973_mk(s) {
   tmp_4: undefined,
 } }
 
-const _hex174644 = pxsim.BufferMethods.createBufferFromHex("8704a00078000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex174658 = pxsim.BufferMethods.createBufferFromHex("8704a00078000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex243162 = pxsim.BufferMethods.createBufferFromHex("8704a00078000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex243177 = pxsim.BufferMethods.createBufferFromHex("8704a00078000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
 
 
 
@@ -76697,7 +76740,7 @@ const sprites_BaseSpriteSayRenderer__C168803_VT = mkVTable({
   },
 });
 
-const breakpoints = setupDebugger(1, ["transparency16___171031","mobile_mode___171002","ACooldown___170987","inviewmode___170986","counterrunning___170985","seconds___170984","canresettimer___170983","timerhasbeenreset___170982","emrgcyACTIVE___171029","menu1___171024","canexiterror___170993","summingFail___171000","currentPlane___171003","flightpathmenu___171022","txt1___170992","start___170998","chosenDeparture_RW___171026","txt2___170991","end___170996","chosenArrival_RW___171027","txt3___170989","heading___170979","txt4___170988","crsalt___170978","txt5___170981","callsign___170977","ARWS_Departure___170997","choosingrw___170976","ARWS_Arrival___170995","changeSettings___171023","emrgcySettings___171021","emergencies___171028","Chance___170999","MCDUfail___171001","volume___170975","active_fails___171025","RWS_IRFD___171020","RWS_IMLR___171019","RWS_IGAR___171018","RWS_ITKO___171017","RWS_IDCS___171016","RWS_ILAR___171015","RWS_IHEN___171014","RWS_IPAP___171013","RWS_IZOL___171012","RWS_IJAF___171011","RWS_ISCM___171010","RWS_ISAU___171009","RWS_IBTH___171008","RWS_IGRV___171007","RWS_IPPH___171006","RWS_ILKL___171005","usesavedplane___171004","textSprite___170980","random___170974","chooseemrcy___170994","Landing_Throttle___170990"])
+const breakpoints = setupDebugger(1, ["transparency16___171031","mobile_mode___242697","ACooldown___242700","inviewmode___242706","counterrunning___242711","seconds___242718","canresettimer___242721","timerhasbeenreset___242730","emrgcyACTIVE___242388","menu1___243210","canexiterror___242391","summingFail___243171","currentPlane___242774","flightpathmenu___242229","txt1___242402","start___242235","chosenDeparture_RW___242223","txt2___242406","end___242317","chosenArrival_RW___242221","txt3___242423","heading___243508","txt4___242427","crsalt___243521","txt5___242758","callsign___243540","ARWS_Departure___242237","choosingrw___243843","ARWS_Arrival___242319","changeSettings___243967","emrgcySettings___244002","emergencies___244008","Chance___244019","MCDUfail___244036","volume___244056","active_fails___242432","RWS_IRFD___242294","RWS_IMLR___242279","RWS_IGAR___242249","RWS_ITKO___242309","RWS_IDCS___242244","RWS_ILAR___242269","RWS_IHEN___242259","RWS_IPAP___242284","RWS_IZOL___242314","RWS_IJAF___242264","RWS_ISCM___242304","RWS_ISAU___242299","RWS_IBTH___242239","RWS_IGRV___242254","RWS_IPPH___242289","RWS_ILKL___242274","usesavedplane___244196","textSprite___242764","random___244192","chooseemrcy___242385","Landing_Throttle___242416"])
 
-return _main___P195588
+return _main___P245026
 })
