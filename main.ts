@@ -428,6 +428,11 @@ function ShowInfo () {
         txt2.setText("14kts")
         txt3.setText("46%")
         Landing_Throttle = 46
+    } else if (currentPlane == "A380") {
+        txt1.setText("543kts")
+        txt2.setText("143kts")
+        txt3.setText("50%")
+        Landing_Throttle = 50
     }
 }
 function flpthmenu () {
@@ -1106,6 +1111,7 @@ blockMenu.onMenuOptionSelected(function (option, index) {
             "A330",
             "A340",
             "A350",
+            "A380",
             "Back"
             ], MenuStyle.List, MenuLocation.FullScreen)
         } else if (option == "Boeing") {
@@ -1534,11 +1540,13 @@ blockMenu.onMenuOptionSelected(function (option, index) {
             }
         } else if (option == "Wright Brothers") {
             game.splash("MCDU not available")
-        } else if (option == "Douglas MD11" || (option == "A-10 Warthog" || (option == "B2 Bomber" || (option == "Eurofighter Typhoon" || (option == "F/A-18 Super Hornet" || (option == "F-14 Tomcat" || (option == "F-15 Strike Eagle" || (option == "F-35B" || (option == "Hawk T1" || (option == "Sukhoi Su-27" || (option == "Paratrike" || (option == "Cub" || option == "A220")))))))))))) {
+        } else if (option == "Douglas MD11" || (option == "A-10 Warthog" || (option == "B2 Bomber" || (option == "Eurofighter Typhoon" || (option == "F/A-18 Super Hornet" || (option == "F-14 Tomcat" || (option == "F-15 Strike Eagle" || (option == "F-35B" || (option == "Hawk T1" || (option == "Sukhoi Su-27" || (option == "Paratrike" || (option == "Cub" || (option == "A220" || option == "A380"))))))))))))) {
             currentPlane = option
             game.splash("Aircraft Selected:", currentPlane)
         } else if (option == "Choose Callsign") {
             callsign = game.askForNumber("Choose Callsign", 4)
+        } else if (false) {
+        	
         } else {
         	
         }
