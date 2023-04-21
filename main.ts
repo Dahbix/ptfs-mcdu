@@ -1021,6 +1021,17 @@ controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
  * 
  * 33
  */
+/**
+ * F-15 Strike Eagle
+ * 
+ * F-35B
+ * 
+ * Hawk T1
+ * 
+ * Sukhoi Su-27
+ * 
+ * Paratrike
+ */
 blockMenu.onMenuOptionSelected(function (option, index) {
     if (!(ACooldown)) {
         if (option == "Current Aircraft") {
@@ -1198,8 +1209,8 @@ blockMenu.onMenuOptionSelected(function (option, index) {
             })
         } else if (option == "Set Flight Path") {
             blockMenu.setSelectedOption("NaN(None)")
-            start = game.askForString("Set Departure Airport", 4)
-            end = game.askForString("Set Arrival Airport", 4)
+            start = game.askForString("Set Departure Airport               I___", 3)
+            end = game.askForString("Set Arrival Airport                 I___", 3)
             heading = game.askForNumber("Set Heading", 3)
             crsalt = game.askForNumber("Set Cruise Altitude", 5)
             RWstuff(false)
@@ -1215,7 +1226,7 @@ blockMenu.onMenuOptionSelected(function (option, index) {
             end = "ITKO"
             heading = 2
             if (currentPlane == "A330" || currentPlane == "757") {
-                crsalt = 7500
+                crsalt = 12000
             } else {
                 crsalt = game.askForNumber("Set Cruise Altitude", 5)
             }
@@ -1225,7 +1236,7 @@ blockMenu.onMenuOptionSelected(function (option, index) {
             end = "IRFD"
             heading = 182
             if (currentPlane == "A330" || currentPlane == "757") {
-                crsalt = 7500
+                crsalt = 12000
             } else {
                 crsalt = game.askForNumber("Set Cruise Altitude", 5)
             }
@@ -1235,7 +1246,7 @@ blockMenu.onMenuOptionSelected(function (option, index) {
             end = "ITKO"
             heading = 340
             if (currentPlane == "A330" || currentPlane == "757") {
-                crsalt = 10000
+                crsalt = 12000
             } else {
                 crsalt = game.askForNumber("Set Cruise Altitude", 5)
             }
@@ -1245,7 +1256,7 @@ blockMenu.onMenuOptionSelected(function (option, index) {
             end = "ILAR"
             heading = 150
             if (currentPlane == "A330" || currentPlane == "757") {
-                crsalt = 10000
+                crsalt = 12000
             } else {
                 crsalt = game.askForNumber("Set Cruise Altitude", 5)
             }
@@ -1255,7 +1266,7 @@ blockMenu.onMenuOptionSelected(function (option, index) {
             end = "IPPH"
             heading = 35
             if (currentPlane == "A330" || currentPlane == "757") {
-                crsalt = 7500
+                crsalt = 12000
             } else {
                 crsalt = game.askForNumber("Set Cruise Altitude", 5)
             }
@@ -1265,7 +1276,7 @@ blockMenu.onMenuOptionSelected(function (option, index) {
             end = "IRFD"
             heading = 215
             if (currentPlane == "A330" || currentPlane == "757") {
-                crsalt = 7500
+                crsalt = 12000
             } else {
                 crsalt = game.askForNumber("Set Cruise Altitude", 5)
             }
@@ -1545,24 +1556,14 @@ blockMenu.onMenuOptionSelected(function (option, index) {
             game.splash("Aircraft Selected:", currentPlane)
         } else if (option == "Choose Callsign") {
             callsign = game.askForNumber("Choose Callsign", 4)
-        } else if (false) {
-        	
+        } else if (option == "Set Custom Runways") {
+            chosenDeparture_RW = game.askForString("Set Departure RWY", 4)
+            chosenArrival_RW = game.askForString("Set Arrival RWY", 4)
         } else {
         	
         }
     }
 })
-/**
- * F-15 Strike Eagle
- * 
- * F-35B
- * 
- * Hawk T1
- * 
- * Sukhoi Su-27
- * 
- * Paratrike
- */
 let random = 0
 let volume = 0
 let choosingrw = 0
@@ -1675,6 +1676,7 @@ changeSettings = [
 "Change Cruise Alt",
 "Choose Runways",
 "Choose Callsign",
+"Set Custom Runways",
 "Back "
 ]
 flightpathmenu = [
