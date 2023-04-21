@@ -1209,8 +1209,8 @@ blockMenu.onMenuOptionSelected(function (option, index) {
             })
         } else if (option == "Set Flight Path") {
             blockMenu.setSelectedOption("NaN(None)")
-            start = game.askForString("Set Departure Airport               I___", 3)
-            end = game.askForString("Set Arrival Airport                 I___", 3)
+            start = "I" + game.askForString("Set Departure Airport             I ? ? ?", 3)
+            end = "I" + game.askForString("Set Arrival Airport               I ? ? ?", 3)
             heading = game.askForNumber("Set Heading", 3)
             crsalt = game.askForNumber("Set Cruise Altitude", 5)
             RWstuff(false)
