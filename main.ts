@@ -80,6 +80,7 @@ function failure (sound: number, fail: number) {
     canexiterror = false
     blockMenu.setControlsEnabled(false)
     blockMenu.closeMenu()
+    txt5.setText("")
     if (fail == 1) {
         scene.setBackgroundImage(assets.image`Master Caution`)
         txt1.setText("All Engine Failure")
@@ -161,6 +162,42 @@ function failure (sound: number, fail: number) {
         timer.after(3000, function () {
             game.reset()
         })
+    } else if (fail == 11) {
+        scene.setBackgroundImage(assets.image`Master Caution`)
+        txt1.setText("Engine Malfunction")
+        txt2.setText("Engines off 2 min")
+        txt3.setText("")
+        txt4.setText("Return to airbase")
+        active_fails.push("Engine Malfunction")
+        active_fails.push("Engines off 2 min")
+    } else if (fail == 12) {
+        if (Math.percentChance(50)) {
+            scene.setBackgroundImage(assets.image`Master Caution`)
+            txt1.setText("Wing Malfunction")
+            txt2.setText("Sweep 68 50% Thr")
+            txt3.setText("")
+            txt4.setText("Return to airbase")
+            active_fails.push("Wing Malfunction")
+            active_fails.push("Sweep 68 50% Throttle")
+        } else {
+            scene.setBackgroundImage(assets.image`Master Caution`)
+            txt1.setText("Engine Stall")
+            txt2.setText("Throttle 55%")
+            txt3.setText("")
+            txt4.setText("Return to airbase")
+            active_fails.push("Engine Stall")
+            active_fails.push("Throttle 55%")
+        }
+    } else if (fail == 13) {
+        scene.setBackgroundImage(assets.image`Caution`)
+        txt1.setText("TCAS Warning")
+        txt2.setText("Pull Up")
+        txt3.setText("")
+        txt4.setText("Watch Traffic")
+        active_fails.push("TCAS Warning")
+        active_fails.push("Pull Up")
+    } else {
+    	
     }
     timer.after(100, function () {
         if (sound == 1) {
@@ -433,6 +470,11 @@ function ShowInfo () {
         txt2.setText("143kts")
         txt3.setText("50%")
         Landing_Throttle = 50
+    } else if (currentPlane == "Cirrus SF50") {
+        txt1.setText("300kts")
+        txt2.setText("67kts")
+        txt3.setText("48%")
+        Landing_Throttle = 48
     }
 }
 function flpthmenu () {
@@ -973,65 +1015,6 @@ controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
         }
     }
 })
-controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
-    flpthmenu()
-})
-/**
- * 01
- * 
- * 19
- * 
- * 11
- * 
- * 29
- * 
- * 13
- * 
- * 31
- * 
- * 20
- * 
- * 02
- * 
- * 07
- * 
- * 25
- * 
- * 06
- * 
- * 24
- * 
- * 17
- * 
- * 35
- * 
- * 10
- * 
- * 28
- * 
- * 08
- * 
- * 26
- * 
- * 09
- * 
- * 27
- * 
- * 15
- * 
- * 33
- */
-/**
- * F-15 Strike Eagle
- * 
- * F-35B
- * 
- * Hawk T1
- * 
- * Sukhoi Su-27
- * 
- * Paratrike
- */
 blockMenu.onMenuOptionSelected(function (option, index) {
     if (!(ACooldown)) {
         if (option == "Current Aircraft") {
@@ -1096,6 +1079,7 @@ blockMenu.onMenuOptionSelected(function (option, index) {
             "Extra",
             "Piper",
             "Wright Brothers",
+            "Cirrus",
             "Back"
             ], MenuStyle.List, MenuLocation.FullScreen)
         } else if (option == "Modern Military") {
@@ -1559,10 +1543,18 @@ blockMenu.onMenuOptionSelected(function (option, index) {
         } else if (option == "Set Custom Runways") {
             chosenDeparture_RW = game.askForString("Set Departure RWY", 4)
             chosenArrival_RW = game.askForString("Set Arrival RWY", 4)
+        } else if (option == "Cirrus") {
+            blockMenu.showMenu(["Cirrus SF50", "Back"], MenuStyle.List, MenuLocation.FullScreen)
+        } else if (option == "Cirrus SF50") {
+            currentPlane = option
+            game.splash("Aircraft Selected:", currentPlane)
         } else {
         	
         }
     }
+})
+controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
+    flpthmenu()
 })
 let random = 0
 let volume = 0
@@ -1571,7 +1563,6 @@ let callsign = 0
 let crsalt = 0
 let heading = 0
 let textSprite: TextSprite = null
-let txt5: TextSprite = null
 let timerhasbeenreset = false
 let canresettimer = false
 let seconds = 0
@@ -1583,6 +1574,7 @@ let txt3: TextSprite = null
 let Landing_Throttle = 0
 let txt2: TextSprite = null
 let txt1: TextSprite = null
+let txt5: TextSprite = null
 let canexiterror = false
 let chooseemrcy = 0
 let ARWS_Arrival: string[] = []
@@ -2307,24 +2299,68 @@ if (blockSettings.exists("vol")) {
 } else {
     music.setVolume(70)
 }
-game.onUpdate(function () {
-    if (counterrunning) {
-        seconds = info.getTimeElapsed()
-        if (textSprite) {
-            textSprite.setText("" + Math.round(seconds))
-        }
-    } else {
-        if (timerhasbeenreset) {
-            textSprite.setText("0")
-        }
-    }
-})
+/**
+ * 01
+ * 
+ * 19
+ * 
+ * 11
+ * 
+ * 29
+ * 
+ * 13
+ * 
+ * 31
+ * 
+ * 20
+ * 
+ * 02
+ * 
+ * 07
+ * 
+ * 25
+ * 
+ * 06
+ * 
+ * 24
+ * 
+ * 17
+ * 
+ * 35
+ * 
+ * 10
+ * 
+ * 28
+ * 
+ * 08
+ * 
+ * 26
+ * 
+ * 09
+ * 
+ * 27
+ * 
+ * 15
+ * 
+ * 33
+ */
+/**
+ * F-15 Strike Eagle
+ * 
+ * F-35B
+ * 
+ * Hawk T1
+ * 
+ * Sukhoi Su-27
+ * 
+ * Paratrike
+ */
 game.onUpdateInterval(5000, function () {
     if (emergencies) {
         if (!(emrgcyACTIVE)) {
             random = randint(1, Chance)
             if (random == 1) {
-                chooseemrcy = randint(1, 10)
+                chooseemrcy = randint(1, 12)
                 if (chooseemrcy == 1) {
                     if (Math.percentChance(50)) {
                         failure(1, 1)
@@ -2353,8 +2389,30 @@ game.onUpdateInterval(5000, function () {
                     if (MCDUfail) {
                         failure(1, 10)
                     }
+                } else if (chooseemrcy == 11 || chooseemrcy == 12) {
+                    if (currentPlane == "F/A-18 Super Hornet") {
+                        failure(1, 11)
+                    } else if (currentPlane == "F-14 Tomcat") {
+                        failure(2, 12)
+                    } else if (currentPlane == "A320" || (currentPlane == "747" || currentPlane == "777")) {
+                        failure(1, 13)
+                    } else {
+                    	
+                    }
                 }
             }
+        }
+    }
+})
+game.onUpdate(function () {
+    if (counterrunning) {
+        seconds = info.getTimeElapsed()
+        if (textSprite) {
+            textSprite.setText("" + Math.round(seconds))
+        }
+    } else {
+        if (timerhasbeenreset) {
+            textSprite.setText("0")
         }
     }
 })
