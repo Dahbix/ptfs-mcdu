@@ -214,6 +214,13 @@ function failure (sound: number, fail: number) {
         canexiterror = true
     })
 }
+function set_cruise_alt () {
+    if (unitFL) {
+        crsalt = game.askForNumber("Set Cruise Flight Level", 3)
+    } else {
+        crsalt = game.askForNumber("Set Cruise Altitude", 5)
+    }
+}
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     if (mobile_mode) {
         ACooldown = true
@@ -446,10 +453,10 @@ function ShowInfo () {
         txt3.setText("29%")
         Landing_Throttle = 29
     } else if (currentPlane == "F-35B") {
-        txt1.setText("No Data")
-        txt2.setText("No Data")
-        txt3.setText("No Data")
-        Landing_Throttle = 50
+        txt1.setText("1067kts")
+        txt2.setText("99kts")
+        txt3.setText("31%")
+        Landing_Throttle = 31
     } else if (currentPlane == "Hawk T1") {
         txt1.setText("539kts")
         txt2.setText("95kts")
@@ -466,15 +473,27 @@ function ShowInfo () {
         txt3.setText("46%")
         Landing_Throttle = 46
     } else if (currentPlane == "A380") {
-        txt1.setText("543kts")
-        txt2.setText("143kts")
-        txt3.setText("50%")
-        Landing_Throttle = 50
+        txt1.setText("566kts")
+        txt2.setText("113kts")
+        txt3.setText("45%")
+        Landing_Throttle = 45
     } else if (currentPlane == "Cirrus SF50") {
         txt1.setText("300kts")
         txt2.setText("67kts")
         txt3.setText("48%")
         Landing_Throttle = 48
+    } else if (currentPlane == "C130") {
+        txt1.setText("291kts")
+        txt2.setText("85kts")
+        txt3.setText("55%")
+        Landing_Throttle = 55
+    } else if (currentPlane == "F-16") {
+        txt1.setText("1174kts")
+        txt2.setText("139kts")
+        txt3.setText("31%")
+        Landing_Throttle = 31
+    } else {
+    	
     }
 }
 function flpthmenu () {
@@ -1015,6 +1034,9 @@ controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
         }
     }
 })
+controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
+    flpthmenu()
+})
 blockMenu.onMenuOptionSelected(function (option, index) {
     if (!(ACooldown)) {
         if (option == "Current Aircraft") {
@@ -1090,13 +1112,14 @@ blockMenu.onMenuOptionSelected(function (option, index) {
             "F/A-18 Super Hornet",
             "F-14 Tomcat",
             "F-15 Strike Eagle",
+            "F-16",
             "F-35B",
             "Hawk T1",
             "Sukhoi Su-27",
             "Back"
             ], MenuStyle.List, MenuLocation.FullScreen)
         } else if (option == "Old Military") {
-            game.splash("MCDU not available")
+            blockMenu.showMenu(["C130", "Back"], MenuStyle.List, MenuLocation.FullScreen)
         } else if (option == "Miscellaneous") {
             blockMenu.showMenu(["Paratrike", "Back"], MenuStyle.List, MenuLocation.FullScreen)
         } else if (option == "Airbus") {
@@ -1173,7 +1196,11 @@ blockMenu.onMenuOptionSelected(function (option, index) {
             txt1.setText("" + start + " RW " + chosenDeparture_RW)
             txt2.setText("" + end + " RW " + chosenArrival_RW)
             txt3.setText("" + heading + "°")
-            txt4.setText("" + crsalt + "ft")
+            if (unitFL) {
+                txt4.setText("FL" + crsalt)
+            } else {
+                txt4.setText("" + crsalt + "ft")
+            }
             txt5.setText("")
             timer.after(500, function () {
                 canresettimer = true
@@ -1196,7 +1223,7 @@ blockMenu.onMenuOptionSelected(function (option, index) {
             start = "I" + game.askForString("Set Departure Airport             I ? ? ?", 3)
             end = "I" + game.askForString("Set Arrival Airport               I ? ? ?", 3)
             heading = game.askForNumber("Set Heading", 3)
-            crsalt = game.askForNumber("Set Cruise Altitude", 5)
+            set_cruise_alt()
             RWstuff(false)
         } else if (option == "Preset Flight Paths") {
             blockMenu.showMenu([
@@ -1212,7 +1239,7 @@ blockMenu.onMenuOptionSelected(function (option, index) {
             if (currentPlane == "A330" || currentPlane == "757") {
                 crsalt = 12000
             } else {
-                crsalt = game.askForNumber("Set Cruise Altitude", 5)
+                set_cruise_alt()
             }
         } else if (option == "ITKO to IRFD (rev)") {
             RWstuff(true)
@@ -1222,7 +1249,7 @@ blockMenu.onMenuOptionSelected(function (option, index) {
             if (currentPlane == "A330" || currentPlane == "757") {
                 crsalt = 12000
             } else {
-                crsalt = game.askForNumber("Set Cruise Altitude", 5)
+                set_cruise_alt()
             }
         } else if (option == "ILAR to ITKO") {
             RWstuff(true)
@@ -1232,7 +1259,7 @@ blockMenu.onMenuOptionSelected(function (option, index) {
             if (currentPlane == "A330" || currentPlane == "757") {
                 crsalt = 12000
             } else {
-                crsalt = game.askForNumber("Set Cruise Altitude", 5)
+                set_cruise_alt()
             }
         } else if (option == "ITKO to ILAR (rev)") {
             RWstuff(true)
@@ -1242,7 +1269,7 @@ blockMenu.onMenuOptionSelected(function (option, index) {
             if (currentPlane == "A330" || currentPlane == "757") {
                 crsalt = 12000
             } else {
-                crsalt = game.askForNumber("Set Cruise Altitude", 5)
+                set_cruise_alt()
             }
         } else if (option == "IRFD to IPPH") {
             RWstuff(true)
@@ -1252,7 +1279,7 @@ blockMenu.onMenuOptionSelected(function (option, index) {
             if (currentPlane == "A330" || currentPlane == "757") {
                 crsalt = 12000
             } else {
-                crsalt = game.askForNumber("Set Cruise Altitude", 5)
+                set_cruise_alt()
             }
         } else if (option == "IPPH to IRFD (rev)") {
             RWstuff(true)
@@ -1262,7 +1289,7 @@ blockMenu.onMenuOptionSelected(function (option, index) {
             if (currentPlane == "A330" || currentPlane == "757") {
                 crsalt = 12000
             } else {
-                crsalt = game.askForNumber("Set Cruise Altitude", 5)
+                set_cruise_alt()
             }
         } else if (option == "Save Current Aircraft") {
             blockSettings.writeString("savedplane", currentPlane)
@@ -1274,7 +1301,7 @@ blockMenu.onMenuOptionSelected(function (option, index) {
             blockMenu.closeMenu()
             blockMenu.showMenu(menu1, MenuStyle.List, MenuLocation.FullScreen)
         } else if (option == "Change Cruise Alt") {
-            crsalt = game.askForNumber("Set Cruise Altitude", 5)
+            set_cruise_alt()
         } else if (option == "Airliner/Cargo") {
             blockMenu.showMenu([
             "IRFD to ITKO",
@@ -1305,73 +1332,73 @@ blockMenu.onMenuOptionSelected(function (option, index) {
             start = "IDCS"
             end = "ILKL"
             heading = 135
-            crsalt = game.askForNumber("Set Cruise Altitude", 5)
+            set_cruise_alt()
         } else if (option == "ILKL to IDCS (rev)") {
             RWstuff(true)
             start = "ILKL"
             end = "IDCS"
             heading = 0
-            crsalt = game.askForNumber("Set Cruise Altitude", 5)
+            set_cruise_alt()
         } else if (option == "ILKL to IJAF") {
             RWstuff(true)
             start = "ILKL"
             end = "IJAF"
             heading = 130
-            crsalt = game.askForNumber("Set Cruise Altitude", 5)
+            set_cruise_alt()
         } else if (option == "IJAF to ILKL (rev)") {
             RWstuff(true)
             start = "IJAF"
             end = "ILKL"
             heading = 0
-            crsalt = game.askForNumber("Set Cruise Altitude", 5)
+            set_cruise_alt()
         } else if (option == "IJAF to IHEN") {
             RWstuff(true)
             start = "IJAF"
             end = "IHEN"
             heading = 211
-            crsalt = game.askForNumber("Set Cruise Altitude", 5)
+            set_cruise_alt()
         } else if (option == "IHEN to IJAF (rev)") {
             RWstuff(true)
             start = "IHEN"
             end = "IJAF"
             heading = 0
-            crsalt = game.askForNumber("Set Cruise Altitude", 5)
+            set_cruise_alt()
         } else if (option == "IHEN to IMLR ") {
             RWstuff(true)
             start = "IHEN"
             end = "IMLR"
             heading = 305
-            crsalt = game.askForNumber("Set Cruise Altitude", 5)
+            set_cruise_alt()
         } else if (option == "IMLR to IHEN (rev)") {
             RWstuff(true)
             start = "IMLR"
             end = "IHEN"
             heading = 0
-            crsalt = game.askForNumber("Set Cruise Altitude", 5)
+            set_cruise_alt()
         } else if (option == "IMLR to IBTH") {
             RWstuff(true)
             start = "IMLR"
             end = "IBTH"
             heading = 32
-            crsalt = game.askForNumber("Set Cruise Altitude", 5)
+            set_cruise_alt()
         } else if (option == "IBTH to IMLR (rev)") {
             RWstuff(true)
             start = "IBTH"
             end = "IMLR"
             heading = 0
-            crsalt = game.askForNumber("Set Cruise Altitude", 5)
+            set_cruise_alt()
         } else if (option == "IBTH to IDCS") {
             RWstuff(true)
             start = "IBTH"
             end = "IDCS"
             heading = 340
-            crsalt = game.askForNumber("Set Cruise Altitude", 5)
+            set_cruise_alt()
         } else if (option == "IDCS to IBTH (rev)") {
             RWstuff(true)
             start = "IDCS"
             end = "IBTH"
             heading = 0
-            crsalt = game.askForNumber("Set Cruise Altitude", 5)
+            set_cruise_alt()
         } else if (option == "Choose Runways") {
             if (start != "") {
                 if (!(start.includes("i"))) {
@@ -1417,8 +1444,9 @@ blockMenu.onMenuOptionSelected(function (option, index) {
             blockMenu.showMenu([
             "Quick Startup",
             "Mobile Mode",
-            "Delete Saves",
             "Emergencies Settings",
+            "Cruise Alt Unit FL/ft",
+            "Delete Saves",
             "Credits",
             "MCDU Menu"
             ], MenuStyle.List, MenuLocation.FullScreen)
@@ -1535,7 +1563,7 @@ blockMenu.onMenuOptionSelected(function (option, index) {
             }
         } else if (option == "Wright Brothers") {
             game.splash("MCDU not available")
-        } else if (option == "Douglas MD11" || (option == "A-10 Warthog" || (option == "B2 Bomber" || (option == "Eurofighter Typhoon" || (option == "F/A-18 Super Hornet" || (option == "F-14 Tomcat" || (option == "F-15 Strike Eagle" || (option == "F-35B" || (option == "Hawk T1" || (option == "Sukhoi Su-27" || (option == "Paratrike" || (option == "Cub" || (option == "A220" || option == "A380"))))))))))))) {
+        } else if (option == "Douglas MD11" || (option == "A-10 Warthog" || (option == "B2 Bomber" || (option == "Eurofighter Typhoon" || (option == "F/A-18 Super Hornet" || (option == "F-14 Tomcat" || (option == "F-15 Strike Eagle" || (option == "F-35B" || (option == "Hawk T1" || (option == "Sukhoi Su-27" || (option == "Paratrike" || (option == "Cub" || (option == "A220" || (option == "C130" || option == "A380" || option == "F-16")))))))))))))) {
             currentPlane = option
             game.splash("Aircraft Selected:", currentPlane)
         } else if (option == "Choose Callsign") {
@@ -1548,19 +1576,25 @@ blockMenu.onMenuOptionSelected(function (option, index) {
         } else if (option == "Cirrus SF50") {
             currentPlane = option
             game.splash("Aircraft Selected:", currentPlane)
+        } else if (option == "Cruise Alt Unit FL/ft") {
+            if (unitFL) {
+                unitFL = false
+                game.splash("Cruise Alt Unit", "Feet ft")
+                blockSettings.writeString("unit", "ft")
+            } else {
+                unitFL = true
+                game.splash("Cruise Alt Unit", "Flight Level FL")
+                blockSettings.writeString("unit", "FL")
+            }
         } else {
         	
         }
     }
 })
-controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
-    flpthmenu()
-})
 let random = 0
 let volume = 0
 let choosingrw = 0
 let callsign = 0
-let crsalt = 0
 let heading = 0
 let textSprite: TextSprite = null
 let timerhasbeenreset = false
@@ -1569,6 +1603,7 @@ let seconds = 0
 let counterrunning = false
 let inviewmode = false
 let ACooldown = false
+let crsalt = 0
 let txt4: TextSprite = null
 let txt3: TextSprite = null
 let Landing_Throttle = 0
@@ -1582,6 +1617,7 @@ let end = ""
 let ARWS_Departure: string[] = []
 let start = ""
 let Chance = 0
+let unitFL = false
 let summingFail = false
 let MCDUfail = false
 let mobile_mode = false
@@ -2262,15 +2298,6 @@ if (blockSettings.exists("emergencies")) {
 } else {
     emergencies = false
 }
-if (blockSettings.exists("emergencies")) {
-    if (blockSettings.readString("emergencies") == "fls") {
-        emergencies = false
-    } else if (blockSettings.readString("emergencies") == "tru") {
-        emergencies = true
-    }
-} else {
-    emergencies = false
-}
 if (blockSettings.exists("MCDUfail")) {
     if (blockSettings.readString("MCDUfail") == "fls") {
         MCDUfail = false
@@ -2288,6 +2315,15 @@ if (blockSettings.exists("summingfail")) {
     }
 } else {
     summingFail = false
+}
+if (blockSettings.exists("unit")) {
+    if (blockSettings.readString("unit") == "ft") {
+        unitFL = false
+    } else if (blockSettings.readString("unit") == "FL") {
+        unitFL = true
+    }
+} else {
+    unitFL = false
 }
 if (blockSettings.exists("chance")) {
     Chance = blockSettings.readNumber("chance")
