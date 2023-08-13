@@ -492,6 +492,11 @@ function ShowInfo () {
         txt2.setText("139kts")
         txt3.setText("31%")
         Landing_Throttle = 31
+    } else if (currentPlane == "Learjet") {
+        txt1.setText("455kts")
+        txt2.setText("124kts")
+        txt3.setText("48%")
+        Landing_Throttle = 48
     } else {
     	
     }
@@ -1034,9 +1039,6 @@ controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
         }
     }
 })
-controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
-    flpthmenu()
-})
 blockMenu.onMenuOptionSelected(function (option, index) {
     if (!(ACooldown)) {
         if (option == "Current Aircraft") {
@@ -1146,6 +1148,7 @@ blockMenu.onMenuOptionSelected(function (option, index) {
             blockMenu.showMenu([
             "CRJ700",
             "Q400",
+            "Learjet",
             "Back"
             ], MenuStyle.List, MenuLocation.FullScreen)
         } else if (option == "Aérospatiale-BAC") {
@@ -1447,6 +1450,7 @@ blockMenu.onMenuOptionSelected(function (option, index) {
             "Emergencies Settings",
             "Cruise Alt Unit FL/ft",
             "Delete Saves",
+            "Debug",
             "Credits",
             "MCDU Menu"
             ], MenuStyle.List, MenuLocation.FullScreen)
@@ -1573,7 +1577,7 @@ blockMenu.onMenuOptionSelected(function (option, index) {
             chosenArrival_RW = game.askForString("Set Arrival RWY", 4)
         } else if (option == "Cirrus") {
             blockMenu.showMenu(["Cirrus SF50", "Back"], MenuStyle.List, MenuLocation.FullScreen)
-        } else if (option == "Cirrus SF50") {
+        } else if (option == "Cirrus SF50" || option == "Learjet") {
             currentPlane = option
             game.splash("Aircraft Selected:", currentPlane)
         } else if (option == "Cruise Alt Unit FL/ft") {
@@ -1586,12 +1590,73 @@ blockMenu.onMenuOptionSelected(function (option, index) {
                 game.splash("Cruise Alt Unit", "Flight Level FL")
                 blockSettings.writeString("unit", "FL")
             }
+        } else if (option == "Debug") {
+            if (blockSettings.exists("mode")) {
+                if (blockSettings.readString("mode") == "pc") {
+                    debug1 = "" + debug1 + "mpc"
+                } else if (blockSettings.readString("mode") == "mobile") {
+                    debug1 = "" + debug1 + "mmo"
+                }
+            } else {
+                mobile_mode = false
+            }
+            if (blockSettings.exists("emergencies")) {
+                if (blockSettings.readString("emergencies") == "fls") {
+                    debug1 = "" + debug1 + "emf"
+                } else if (blockSettings.readString("emergencies") == "tru") {
+                    debug1 = "" + debug1 + "emt"
+                }
+            } else {
+                debug1 = "" + debug1 + "emnf"
+            }
+            if (blockSettings.exists("MCDUfail")) {
+                if (blockSettings.readString("MCDUfail") == "fls") {
+                    debug1 = "" + debug1 + "mff"
+                } else if (blockSettings.readString("MCDUfail") == "tru") {
+                    debug1 = "" + debug1 + "mft"
+                }
+            } else {
+                debug1 = "" + debug1 + "mfnf"
+            }
+            if (blockSettings.exists("summingfail")) {
+                if (blockSettings.readString("summingfail") == "fls") {
+                    debug1 = "" + debug1 + "sff"
+                } else if (blockSettings.readString("summingfail") == "tru") {
+                    debug1 = "" + debug1 + "sft"
+                }
+            } else {
+                debug1 = "" + debug1 + "sfnf"
+            }
+            if (blockSettings.exists("unit")) {
+                if (blockSettings.readString("unit") == "ft") {
+                    debug1 = "" + debug1 + "uft"
+                } else if (blockSettings.readString("unit") == "FL") {
+                    debug1 = "" + debug1 + "ufl"
+                }
+            } else {
+                debug1 = "" + debug1 + "unft"
+            }
+            if (blockSettings.exists("chance")) {
+                debug1 = "" + debug1 + "c" + blockSettings.readNumber("chance")
+            } else {
+                debug1 = "" + debug1 + "cn" + "500"
+            }
+            if (blockSettings.exists("vol")) {
+                debug1 = "" + debug1 + "v" + blockSettings.readNumber("vol")
+            } else {
+                debug1 = "" + debug1 + "vn" + "70"
+            }
+            game.splash("" + debug1)
         } else {
         	
         }
     }
 })
+controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
+    flpthmenu()
+})
 let random = 0
+let debug1 = ""
 let volume = 0
 let choosingrw = 0
 let callsign = 0
